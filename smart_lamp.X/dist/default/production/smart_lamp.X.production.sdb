@@ -1,0 +1,1311 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"32 E:\Program Files\Microchip\xc8\v1.20\sources\common\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"34 E:\Program Files\Microchip\xc8\v1.20\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"37 E:\Program Files\Microchip\xc8\v1.20\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"43 E:\Program Files\Microchip\xc8\v1.20\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 E:\Program Files\Microchip\xc8\v1.20\sources\common\attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"38 E:\Program Files\Microchip\xc8\v1.20\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 E:\Program Files\Microchip\xc8\v1.20\sources\common\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"33 E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 E:\Program Files\Microchip\xc8\v1.20\sources\common\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"493 E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"64 E:\Program Files\Microchip\xc8\v1.20\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"89 E:\Program Files\Microchip\xc8\v1.20\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"50 E:\Program Files\Microchip\xc8\v1.20\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"51 E:\Program Files\Microchip\xc8\v1.20\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"16 E:\Program Files\Microchip\xc8\v1.20\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"63 E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"22 E:\Program Files\Microchip\xc8\v1.20\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"44 E:\Program Files\Microchip\xc8\v1.20\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"87 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"22 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 E:\Program Files\Microchip\xc8\v1.20\sources\common\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"28 E:\Program Files\Microchip\xc8\v1.20\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"31 E:\Program Files\Microchip\xc8\v1.20\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"36 E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 E:\Program Files\Microchip\xc8\v1.20\sources\common\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"31 E:\Program Files\Microchip\xc8\v1.20\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 E:\Program Files\Microchip\xc8\v1.20\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"29 E:\Program Files\Microchip\xc8\v1.20\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 E:\Program Files\Microchip\xc8\v1.20\sources\common\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"71 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c
+[v _OpenADC OpenADC `(v  1 e 0 0 ]
+"19 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+"8 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+"18 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c
+[v _OpenTimer2 OpenTimer2 `(v  1 e 0 0 ]
+"74 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+"15 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uputs.c
+[v _putsUSART putsUSART `(v  1 e 0 0 ]
+"14 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c
+[v _WriteUSART WriteUSART `(v  1 e 0 0 ]
+"79 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _CharToInt CharToInt `(i  1 e 2 0 ]
+"112
+[v _IntToChar IntToChar `(v  1 e 0 0 ]
+"135
+[v _Delay1Second Delay1Second `(v  1 e 0 0 ]
+"148
+[v _limpa_rx limpa_rx `(v  1 e 0 0 ]
+"162
+[v _enviadados enviadados `(v  1 e 0 0 ]
+"175
+[v _texto texto `(v  1 e 0 0 ]
+"188
+[v _comando comando `(v  1 e 0 0 ]
+"202
+[v _buscaOK buscaOK `(i  1 e 2 0 ]
+"219
+[v _buscaready buscaready `(i  1 e 2 0 ]
+"237
+[v _buscaCLOSED buscaCLOSED `(i  1 e 2 0 ]
+"254
+[v _buscabuilded buscabuilded `(i  1 e 2 0 ]
+"272
+[v _buscaCONNECT buscaCONNECT `(i  1 e 2 0 ]
+"291
+[v _buscaGET buscaGET `(i  1 e 2 0 ]
+"308
+[v _buscaIPD buscaIPD `(i  1 e 2 0 ]
+"325
+[v _buscaGEThttp buscaGEThttp `(i  1 e 2 0 ]
+"342
+[v _buscaB1 buscaB1 `(i  1 e 2 0 ]
+"361
+[v _buscaB0 buscaB0 `(i  1 e 2 0 ]
+"379
+[v _buscaB2 buscaB2 `(i  1 e 2 0 ]
+"397
+[v _buscaBotao buscaBotao `(i  1 e 2 0 ]
+"416
+[v _buscaDuty buscaDuty `(i  1 e 2 0 ]
+"457
+[v _buscaDutychar buscaDutychar `(v  1 e 0 0 ]
+"494
+[v _inicioUSART inicioUSART `(v  1 e 0 0 ]
+"504
+[v _inicioADC inicioADC `(v  1 e 0 0 ]
+"512
+[v _inicioInterrupcoes inicioInterrupcoes `(v  1 e 0 0 ]
+"528
+[v _inicioTIMER inicioTIMER `(v  1 e 0 0 ]
+"551
+[v _inicioPWM inicioPWM `(v  1 e 0 0 ]
+"560
+[v _inicioLCD inicioLCD `(v  1 e 0 0 ]
+"587
+[v _inicioInterp inicioInterp `(v  1 e 0 0 ]
+"602
+[v _interrupcaoLOW interrupcaoLOW `IIL(v  1 e 0 0 ]
+"620
+[v _interrupcaoHIGH interrupcaoHIGH `IIH(v  1 e 0 0 ]
+"639
+[v _VoltAcertado VoltAcertado `(l  1 e 4 0 ]
+"680
+[v _PorcentagemLux PorcentagemLux `(i  1 e 2 0 ]
+"702
+[v _trataAD trataAD `(ui  1 e 2 0 ]
+"719
+[v _DutyAcertado DutyAcertado `(l  1 e 4 0 ]
+"773
+[v _conf_ESP8266 conf_ESP8266 `(v  1 e 0 0 ]
+"999
+[v _paginahtml paginahtml `(v  1 e 0 0 ]
+"1017
+[v _main main `(i  1 e 2 0 ]
+[s S161 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2613 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+[s S415 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S423 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S429 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S432 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RA7 1 0 :1:7 
+]
+[s S435 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S438 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S440 . 1 `S161 1 . 1 0 `S415 1 . 1 0 `S423 1 . 1 0 `S429 1 . 1 0 `S432 1 . 1 0 `S435 1 . 1 0 `S438 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES440  1 e 1 @3968 ]
+[s S482 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2880
+[s S491 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S498 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S505 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+]
+[s S508 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S511 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[s S514 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RC3 1 0 :1:3 
+]
+[u S517 . 1 `S482 1 . 1 0 `S491 1 . 1 0 `S498 1 . 1 0 `S505 1 . 1 0 `S508 1 . 1 0 `S511 1 . 1 0 `S514 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES517  1 e 1 @3970 ]
+"2984
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"3737
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3869
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S27 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"3912
+[s S31 . 1 `uc 1 LE0 1 0 :1:0 
+]
+[s S33 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+]
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LE2 1 0 :1:2 
+]
+[s S39 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LE3 1 0 :1:3 
+]
+[s S42 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LE4 1 0 :1:4 
+]
+[s S45 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LE5 1 0 :1:5 
+]
+[s S48 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LE6 1 0 :1:6 
+]
+[s S51 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LE7 1 0 :1:7 
+]
+[u S54 . 1 `S27 1 . 1 0 `S31 1 . 1 0 `S33 1 . 1 0 `S36 1 . 1 0 `S39 1 . 1 0 `S42 1 . 1 0 `S45 1 . 1 0 `S48 1 . 1 0 `S51 1 . 1 0 ]
+[v _LATEbits LATEbits `VES54  1 e 1 @3981 ]
+"3971
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S153 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"4001
+[u S169 . 1 `S153 1 . 1 0 `S161 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES169  1 e 1 @3986 ]
+[s S1150 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4200
+[s S1159 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S1168 . 1 `S1150 1 . 1 0 `S1159 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1168  1 e 1 @3987 ]
+[s S92 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"4421
+[s S99 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S106 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TRISC3 1 0 :1:3 
+]
+[u S109 . 1 `S92 1 . 1 0 `S99 1 . 1 0 `S106 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES109  1 e 1 @3988 ]
+"4560
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4781
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S882 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4969
+[s S891 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[s S894 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S897 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S900 . 1 `S882 1 . 1 0 `S891 1 . 1 0 `S894 1 . 1 0 `S897 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES900  1 e 1 @3997 ]
+"5057
+[v _PIR1bits PIR1bits `VES900  1 e 1 @3998 ]
+"5497
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S1378 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"5527
+[s S1387 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1390 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S1393 . 1 `S1378 1 . 1 0 `S1387 1 . 1 0 `S1390 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1393  1 e 1 @4011 ]
+"5654
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S315 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5707
+[s S324 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S327 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S330 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S333 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S336 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S339 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S342 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S344 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S347 . 1 `S315 1 . 1 0 `S324 1 . 1 0 `S327 1 . 1 0 `S330 1 . 1 0 `S333 1 . 1 0 `S336 1 . 1 0 `S339 1 . 1 0 `S342 1 . 1 0 `S344 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES347  1 e 1 @4012 ]
+"5917
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5928
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5939
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"5950
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"6752
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+[s S561 . 1 `uc 1 CCP2M 1 0 :4:0 
+`uc 1 DC2B 1 0 :2:4 
+]
+"6771
+[s S564 . 1 `uc 1 CCP2M0 1 0 :1:0 
+`uc 1 CCP2M1 1 0 :1:1 
+`uc 1 CCP2M2 1 0 :1:2 
+`uc 1 CCP2M3 1 0 :1:3 
+`uc 1 DC2B0 1 0 :1:4 
+`uc 1 DC2B1 1 0 :1:5 
+]
+[u S571 . 1 `S561 1 . 1 0 `S564 1 . 1 0 ]
+[v _CCP2CONbits CCP2CONbits `VES571  1 e 1 @4026 ]
+"6821
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"7012
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"7082
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"7172
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S238 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"7220
+[s S241 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S248 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S255 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S258 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S261 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S264 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S267 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S270 . 1 `S238 1 . 1 0 `S241 1 . 1 0 `S238 1 . 1 0 `S248 1 . 1 0 `S255 1 . 1 0 `S258 1 . 1 0 `S261 1 . 1 0 `S264 1 . 1 0 `S267 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES270  1 e 1 @4034 ]
+"7294
+[v _ADRES ADRES `VEus  1 e 2 @4035 ]
+"7720
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S1190 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"7748
+[s S1194 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[s S1202 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S1208 . 1 `S1190 1 . 1 0 `S1194 1 . 1 0 `S1202 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1208  1 e 1 @4042 ]
+"7817
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"7828
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+[s S194 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"8502
+[s S201 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S205 . 1 `S194 1 . 1 0 `S201 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES205  1 e 1 @4053 ]
+"8557
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S966 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"9022
+[s S975 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S984 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S993 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1002 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1006 . 1 `S966 1 . 1 0 `S975 1 . 1 0 `S984 1 . 1 0 `S993 1 . 1 0 `S1002 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1006  1 e 1 @4082 ]
+"9340
+[v _ADIE ADIE `VEb  1 e 0 @31982 ]
+"9342
+[v _ADIF ADIF `VEb  1 e 0 @31990 ]
+"9344
+[v _ADIP ADIP `VEb  1 e 0 @31998 ]
+"9858
+[v _GIEH GIEH `VEb  1 e 0 @32663 ]
+"9860
+[v _GIEL GIEL `VEb  1 e 0 @32662 ]
+"9954
+[v _IPEN IPEN `VEb  1 e 0 @32391 ]
+"10264
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"10346
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"10348
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"10350
+[v _RCIP RCIP `VEb  1 e 0 @31997 ]
+"10538
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"10542
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"10602
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"10604
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"10606
+[v _TMR0IP TMR0IP `VEb  1 e 0 @32650 ]
+"10608
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"354 E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+[s S1587 . 1 `uc 1 RX_NINE 1 0 :1:0 
+`uc 1 TX_NINE 1 0 :1:1 
+`uc 1 FRAME_ERROR 1 0 :1:2 
+`uc 1 OVERRUN_ERROR 1 0 :1:3 
+`uc 1 fill 1 0 :4:4 
+]
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\udefs.c
+[u S1593 USART 1 `uc 1 val 1 0 `S1587 1 . 1 0 ]
+[v _USART_Status USART_Status `S1593  1 e 1 0 ]
+"16 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _Rxdata Rxdata `[60]uc  1 e 60 0 ]
+"17
+[v _PONTOS PONTOS `i  1 e 2 0 ]
+"18
+[v _ValorPORCatua ValorPORCatua `i  1 e 2 0 ]
+[v _Volt Volt `i  1 e 2 0 ]
+[v _Valor_convAD Valor_convAD `i  1 e 2 0 ]
+[v _Valor_convAD11 Valor_convAD11 `i  1 e 2 0 ]
+"19
+[v _ValorPORCatual ValorPORCatual `ui  1 e 2 0 ]
+"20
+[v _contador contador `uc  1 e 1 0 ]
+"21
+[v _PERIODO PERIODO `i  1 e 2 0 ]
+"22
+[v _querolux querolux `ul  1 e 4 0 ]
+"23
+[v _Duty Duty `ui  1 e 2 0 ]
+[v _Duty_ac Duty_ac `ui  1 e 2 0 ]
+[v _PorceDesejada PorceDesejada `ui  1 e 2 0 ]
+"24
+[v _LUX_A LUX_A `i  1 e 2 0 ]
+"25
+[v _DUTY_A DUTY_A `i  1 e 2 0 ]
+"26
+[v _confB2 confB2 `uc  1 e 1 0 ]
+[v _confB1 confB1 `uc  1 e 1 0 ]
+[v _confB0 confB0 `uc  1 e 1 0 ]
+[v _Dut Dut `uc  1 e 1 0 ]
+"27
+[v _Desejado Desejado `uc  1 e 1 0 ]
+"28
+[v _confCONNECT confCONNECT `i  1 e 2 0 ]
+[v _confCLOSED confCLOSED `i  1 e 2 0 ]
+[v _confpagina confpagina `i  1 e 2 0 ]
+[v _confGET confGET `i  1 e 2 0 ]
+[v _confGETBotao confGETBotao `i  1 e 2 0 ]
+[v _confIPD confIPD `i  1 e 2 0 ]
+[v _confGEThttp confGEThttp `i  1 e 2 0 ]
+"31
+[v _lux lux `[44]l  1 e 176 0 ]
+"32
+[v _vtens vtens `[44]l  1 e 176 0 ]
+"33
+[v _dutymed dutymed `[44]l  1 e 176 0 ]
+"35
+[v _MsgFromPIC1 MsgFromPIC1 `[5]uc  1 e 5 0 ]
+"36
+[v _MsgFromPIC2 MsgFromPIC2 `[9]uc  1 e 9 0 ]
+"37
+[v _MsgFromPIC3 MsgFromPIC3 `[7]uc  1 e 7 0 ]
+"38
+[v _MsgFromPIC4 MsgFromPIC4 `[14]uc  1 e 14 0 ]
+"39
+[v _MsgFromPIC5 MsgFromPIC5 `[14]uc  1 e 14 0 ]
+"40
+[v _MsgFromPIC6 MsgFromPIC6 `[16]uc  1 e 16 0 ]
+"41
+[v _MsgFromPIC7 MsgFromPIC7 `[39]uc  1 e 39 0 ]
+"42
+[v _MsgFromPIC8 MsgFromPIC8 `[20]uc  1 e 20 0 ]
+"43
+[v _MsgFromPIC9 MsgFromPIC9 `[25]uc  1 e 25 0 ]
+"44
+[v _MsgFromPIC10 MsgFromPIC10 `[17]uc  1 e 17 0 ]
+"47
+[v _MsgFromPIC11 MsgFromPIC11 `[19]uc  1 e 19 0 ]
+"49
+[v _paginaHTML1 paginaHTML1 `[305]uc  1 e 305 0 ]
+"50
+[v _paginaHTML2 paginaHTML2 `[53]uc  1 e 53 0 ]
+"51
+[v _paginaHTML3 paginaHTML3 `[82]uc  1 e 82 0 ]
+"52
+[v _stra stra `[310]uc  1 e 310 0 ]
+"54
+[v _Linha1 Linha1 `[9]uc  1 e 9 0 ]
+"55
+[v _Linha2 Linha2 `[12]uc  1 e 12 0 ]
+"56
+[v _Erro Erro `[16]uc  1 e 16 0 ]
+"57
+[v _OKConf OKConf `[16]uc  1 e 16 0 ]
+"58
+[v _Aguard Aguard `[14]uc  1 e 14 0 ]
+"59
+[v _Connect Connect `[11]uc  1 e 11 0 ]
+"60
+[v _Tnova Tnova `[9]uc  1 e 9 0 ]
+"61
+[v _Pag Pag `[16]uc  1 e 16 0 ]
+"62
+[v _Lamp0 Lamp0 `[10]uc  1 e 10 0 ]
+"63
+[v _Lamp1 Lamp1 `[11]uc  1 e 11 0 ]
+"64
+[v _Lamp Lamp `[13]uc  1 e 13 0 ]
+"66
+[v _buffer buffer `[3]uc  1 e 3 0 ]
+[v _buffera buffera `[5]uc  1 e 5 0 ]
+"68
+[v _modconf modconf `uc  1 e 1 0 ]
+"69
+[v _FIM FIM `uc  1 e 1 0 ]
+"1017
+[v _main main `(i  1 e 2 0 ]
+{
+"1140
+[v main@saida saida `l  1 a 4 40 ]
+"1139
+[v main@saidaP2 saidaP2 `l  1 a 4 32 ]
+[v main@saidaP1 saidaP1 `l  1 a 4 28 ]
+"1143
+[v main@B1 B1 `l  1 a 4 12 ]
+"1139
+[v main@saidaI2 saidaI2 `l  1 a 4 8 ]
+[v main@saidaI1 saidaI1 `l  1 a 4 4 ]
+"1136
+[v main@lux___1 lux___1 `ul  1 a 4 0 ]
+"1141
+[v main@erro erro `ui  1 a 2 38 ]
+"1137
+[v main@a a `i  1 a 2 36 ]
+"1141
+[v main@erro_anterior erro_anterior `ui  1 a 2 26 ]
+[v main@eabs eabs `ui  1 a 2 24 ]
+"1144
+[v main@B0 B0 `i  1 a 2 20 ]
+"1141
+[v main@atual atual `ui  1 a 2 18 ]
+"1138
+[v main@digital digital `i  1 a 2 16 ]
+"1018
+[v main@d d `i  1 a 2 22 ]
+"1249
+} 0
+"8 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+{
+[u S1248 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+"9
+[v SetDCPWM2@DCycle DCycle `S1248  1 a 2 2 ]
+"8
+[v SetDCPWM2@dutycycle dutycycle `ui  1 p 2 32 ]
+"19
+} 0
+"999 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _paginahtml paginahtml `(v  1 e 0 0 ]
+{
+"1014
+} 0
+"493 E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S868 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+"533
+[u S871 . 5 `ui 1 _val 2 0 `S868 1 _str 5 0 ]
+[v sprintf@_val _val `S871  1 a 5 25 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 21 ]
+"499
+[v sprintf@c c `c  1 a 1 30 ]
+"506
+[v sprintf@prec prec `c  1 a 1 24 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 23 ]
+"493
+[v sprintf@sp sp `*.39uc  1 p 2 11 ]
+[v sprintf@f f `*.32Cuc  1 p 2 13 ]
+"1548
+} 0
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 34 ]
+"10
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"26
+} 0
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"10
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0
+"773 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _conf_ESP8266 conf_ESP8266 `(v  1 e 0 0 ]
+{
+"993
+} 0
+"15 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uputs.c
+[v _putsUSART putsUSART `(v  1 e 0 0 ]
+{
+[v putsUSART@data data `*.39uc  1 p 2 33 ]
+"21
+} 0
+"14 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c
+[v _WriteUSART WriteUSART `(v  1 e 0 0 ]
+{
+[v WriteUSART@data data `uc  1 p 1 32 ]
+"23
+} 0
+"254 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _buscabuilded buscabuilded `(i  1 e 2 0 ]
+{
+"255
+[v buscabuilded@i i `i  1 a 2 2 ]
+"254
+[v buscabuilded@data data `*.39uc  1 p 2 32 ]
+"266
+} 0
+"219
+[v _buscaready buscaready `(i  1 e 2 0 ]
+{
+"220
+[v buscaready@i i `i  1 a 2 2 ]
+"219
+[v buscaready@data data `*.39uc  1 p 2 32 ]
+"230
+} 0
+"202
+[v _buscaOK buscaOK `(i  1 e 2 0 ]
+{
+"203
+[v buscaOK@i i `i  1 a 2 2 ]
+"202
+[v buscaOK@data data `*.39uc  1 p 2 32 ]
+"213
+} 0
+"148
+[v _limpa_rx limpa_rx `(v  1 e 0 0 ]
+{
+"149
+[v limpa_rx@i i `i  1 a 2 32 ]
+"155
+} 0
+"719
+[v _DutyAcertado DutyAcertado `(l  1 e 4 0 ]
+{
+"721
+[v DutyAcertado@ajuste ajuste `ul  1 a 4 79 ]
+[v DutyAcertado@ajuste8 ajuste8 `ul  1 a 4 75 ]
+[v DutyAcertado@ajuste7 ajuste7 `ul  1 a 4 71 ]
+[v DutyAcertado@ajusteextra ajusteextra `ul  1 a 4 67 ]
+[v DutyAcertado@ajuste6 ajuste6 `ul  1 a 4 63 ]
+[v DutyAcertado@ajuste5 ajuste5 `ul  1 a 4 59 ]
+[v DutyAcertado@ajuste4 ajuste4 `ul  1 a 4 55 ]
+[v DutyAcertado@ajuste3 ajuste3 `ul  1 a 4 51 ]
+[v DutyAcertado@ajuste2 ajuste2 `ul  1 a 4 47 ]
+[v DutyAcertado@ajuste1 ajuste1 `ul  1 a 4 43 ]
+[v DutyAcertado@ajusteTotal ajusteTotal `ul  1 a 4 39 ]
+"720
+[v DutyAcertado@abacate abacate `uc  1 a 1 83 ]
+"719
+[v DutyAcertado@querolux querolux `l  1 p 4 25 ]
+"765
+} 0
+"702
+[v _trataAD trataAD `(ui  1 e 2 0 ]
+{
+"705
+[v trataAD@Vatual Vatual `l  1 a 4 18 ]
+"706
+[v trataAD@Valoratual Valoratual `ui  1 a 2 16 ]
+"704
+[v trataAD@a a `i  1 a 2 14 ]
+"702
+[v trataAD@ValorAD ValorAD `i  1 p 2 32 ]
+"712
+} 0
+"680
+[v _PorcentagemLux PorcentagemLux `(i  1 e 2 0 ]
+{
+"682
+[v PorcentagemLux@lux_porc3 lux_porc3 `l  1 a 4 34 ]
+[v PorcentagemLux@lux_porc2 lux_porc2 `l  1 a 4 30 ]
+[v PorcentagemLux@lux_porc1 lux_porc1 `l  1 a 4 26 ]
+[v PorcentagemLux@Lux Lux `l  1 a 4 22 ]
+"681
+[v PorcentagemLux@lux_porc lux_porc `i  1 a 2 38 ]
+"680
+[v PorcentagemLux@Luxaa Luxaa `l  1 p 4 14 ]
+"696
+} 0
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"10
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"42
+} 0
+"639 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _VoltAcertado VoltAcertado `(l  1 e 4 0 ]
+{
+"642
+[v VoltAcertado@luxTotal luxTotal `ul  1 a 4 60 ]
+[v VoltAcertado@lux6 lux6 `ul  1 a 4 50 ]
+[v VoltAcertado@lux5 lux5 `ul  1 a 4 46 ]
+[v VoltAcertado@lux2 lux2 `ul  1 a 4 42 ]
+"641
+[v VoltAcertado@lux7 lux7 `ui  1 a 2 58 ]
+[v VoltAcertado@lux3 lux3 `ui  1 a 2 56 ]
+[v VoltAcertado@lux1 lux1 `ui  1 a 2 54 ]
+"640
+[v VoltAcertado@ia ia `uc  1 a 1 64 ]
+"639
+[v VoltAcertado@Volt Volt `ui  1 p 2 25 ]
+"674
+} 0
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 20 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 24 ]
+"10
+[v ___lldiv@dividend dividend `ul  1 p 4 12 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 16 ]
+"31
+} 0
+"3 E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"4
+[v ___lmul@product product `ul  1 a 4 8 ]
+"3
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"13
+} 0
+"587 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _inicioInterp inicioInterp `(v  1 e 0 0 ]
+{
+"588
+[v inicioInterp@dan dan `i  1 a 2 32 ]
+"594
+} 0
+"560
+[v _inicioLCD inicioLCD `(v  1 e 0 0 ]
+{
+"579
+} 0
+"188
+[v _comando comando `(v  1 e 0 0 ]
+{
+[v comando@dado dado `uc  1 p 1 28 ]
+"195
+} 0
+"175
+[v _texto texto `(v  1 e 0 0 ]
+{
+"176
+[v texto@i i `i  1 a 2 35 ]
+"175
+[v texto@apontador apontador `*.39uc  1 p 2 29 ]
+[v texto@tamanho tamanho `uc  1 p 1 31 ]
+"182
+} 0
+"162
+[v _enviadados enviadados `(v  1 e 0 0 ]
+{
+[v enviadados@dado dado `uc  1 p 1 28 ]
+"169
+} 0
+"135
+[v _Delay1Second Delay1Second `(v  1 e 0 0 ]
+{
+"136
+[v Delay1Second@i i `i  1 a 2 26 ]
+"135
+[v Delay1Second@time time `f  1 p 3 22 ]
+"142
+} 0
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 10 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 13 ]
+"13
+} 0
+"33 E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 9 ]
+"33
+[v ___awtoft@c c `i  1 p 2 5 ]
+"42
+} 0
+"52 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"54
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 17 ]
+"53
+[v ___ftmul@sign sign `uc  1 a 1 21 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 20 ]
+[v ___ftmul@exp exp `uc  1 a 1 16 ]
+"52
+[v ___ftmul@f1 f1 `f  1 p 3 5 ]
+[v ___ftmul@f2 f2 `f  1 p 3 8 ]
+"84
+} 0
+"63 E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"551 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _inicioPWM inicioPWM `(v  1 e 0 0 ]
+{
+"554
+} 0
+"19 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+{
+"23
+[v OpenPWM2@ccp2mx ccp2mx `uc  1 a 1 34 ]
+"19
+[v OpenPWM2@period period `uc  1 p 1 32 ]
+"80
+} 0
+"528 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _inicioTIMER inicioTIMER `(v  1 e 0 0 ]
+{
+"545
+} 0
+"18 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c
+[v _OpenTimer2 OpenTimer2 `(v  1 e 0 0 ]
+{
+[v OpenTimer2@config config `uc  1 p 1 32 ]
+"31
+} 0
+"512 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _inicioInterrupcoes inicioInterrupcoes `(v  1 e 0 0 ]
+{
+"522
+} 0
+"504
+[v _inicioADC inicioADC `(v  1 e 0 0 ]
+{
+"506
+} 0
+"71 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c
+[v _OpenADC OpenADC `(v  1 e 0 0 ]
+{
+[v OpenADC@config config `uc  1 p 1 32 ]
+[v OpenADC@config2 config2 `uc  1 p 1 33 ]
+[v OpenADC@portconfig portconfig `uc  1 p 1 34 ]
+"89
+} 0
+"494 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _inicioUSART inicioUSART `(v  1 e 0 0 ]
+{
+"498
+} 0
+"74 E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+{
+[v OpenUSART@config config `uc  1 p 1 32 ]
+[v OpenUSART@spbrg spbrg `ui  1 p 2 33 ]
+"143
+} 0
+"457 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _buscaDutychar buscaDutychar `(v  1 e 0 0 ]
+{
+"458
+[v buscaDutychar@j j `ui  1 a 2 2 ]
+"457
+[v buscaDutychar@data data `*.39uc  1 p 2 32 ]
+"487
+} 0
+"416
+[v _buscaDuty buscaDuty `(i  1 e 2 0 ]
+{
+"417
+[v buscaDuty@j j `ui  1 a 2 18 ]
+"418
+[v buscaDuty@Dut Dut `i  1 a 2 16 ]
+[v buscaDuty@unidade unidade `i  1 a 2 14 ]
+[v buscaDuty@dezena dezena `i  1 a 2 12 ]
+[v buscaDuty@centena centena `i  1 a 2 10 ]
+"416
+[v buscaDuty@data data `*.39uc  1 p 2 4 ]
+"448
+} 0
+"5 E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"6
+[v ___wmul@product product `ui  1 a 2 32 ]
+"5
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"31
+} 0
+"79 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _CharToInt CharToInt `(i  1 e 2 0 ]
+{
+[v CharToInt@conv_char conv_char `uc  1 p 1 32 ]
+"107
+} 0
+"397
+[v _buscaBotao buscaBotao `(i  1 e 2 0 ]
+{
+"398
+[v buscaBotao@i i `i  1 a 2 2 ]
+"397
+[v buscaBotao@data data `*.39uc  1 p 2 32 ]
+"409
+} 0
+"379
+[v _buscaB2 buscaB2 `(i  1 e 2 0 ]
+{
+"380
+[v buscaB2@i i `i  1 a 2 2 ]
+"379
+[v buscaB2@data data `*.39uc  1 p 2 32 ]
+"391
+} 0
+"361
+[v _buscaB0 buscaB0 `(i  1 e 2 0 ]
+{
+"362
+[v buscaB0@i i `i  1 a 2 2 ]
+"361
+[v buscaB0@data data `*.39uc  1 p 2 32 ]
+"373
+} 0
+"342
+[v _buscaB1 buscaB1 `(i  1 e 2 0 ]
+{
+"343
+[v buscaB1@i i `i  1 a 2 2 ]
+"342
+[v buscaB1@data data `*.39uc  1 p 2 32 ]
+"355
+} 0
+"325
+[v _buscaGEThttp buscaGEThttp `(i  1 e 2 0 ]
+{
+"326
+[v buscaGEThttp@i i `i  1 a 2 2 ]
+"325
+[v buscaGEThttp@data data `*.39uc  1 p 2 32 ]
+"336
+} 0
+"308
+[v _buscaIPD buscaIPD `(i  1 e 2 0 ]
+{
+"309
+[v buscaIPD@i i `i  1 a 2 2 ]
+"308
+[v buscaIPD@data data `*.39uc  1 p 2 32 ]
+"319
+} 0
+"291
+[v _buscaGET buscaGET `(i  1 e 2 0 ]
+{
+"292
+[v buscaGET@i i `i  1 a 2 2 ]
+"291
+[v buscaGET@data data `*.39uc  1 p 2 32 ]
+"302
+} 0
+"272
+[v _buscaCONNECT buscaCONNECT `(i  1 e 2 0 ]
+{
+"273
+[v buscaCONNECT@i i `i  1 a 2 2 ]
+"272
+[v buscaCONNECT@data data `*.39uc  1 p 2 32 ]
+"284
+} 0
+"237
+[v _buscaCLOSED buscaCLOSED `(i  1 e 2 0 ]
+{
+"238
+[v buscaCLOSED@i i `i  1 a 2 2 ]
+"237
+[v buscaCLOSED@data data `*.39uc  1 p 2 32 ]
+"248
+} 0
+"112
+[v _IntToChar IntToChar `(v  1 e 0 0 ]
+{
+"114
+[v IntToChar@rest3 rest3 `i  1 a 2 24 ]
+[v IntToChar@rest2 rest2 `i  1 a 2 22 ]
+[v IntToChar@rest1 rest1 `i  1 a 2 20 ]
+[v IntToChar@rest4 rest4 `i  1 a 2 18 ]
+"113
+[v IntToChar@div4 div4 `i  1 a 2 16 ]
+[v IntToChar@div3 div3 `i  1 a 2 14 ]
+[v IntToChar@div2 div2 `i  1 a 2 12 ]
+[v IntToChar@div1 div1 `i  1 a 2 10 ]
+"112
+[v IntToChar@aduty aduty `i  1 p 2 8 ]
+"129
+} 0
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 34 ]
+[v ___awmod@counter counter `uc  1 a 1 33 ]
+"10
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"35
+} 0
+"10 E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"10
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"42
+} 0
+"602 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+[v _interrupcaoLOW interrupcaoLOW `IIL(v  1 e 0 0 ]
+{
+"613
+} 0
+"620
+[v _interrupcaoHIGH interrupcaoHIGH `IIH(v  1 e 0 0 ]
+{
+"631
+} 0
