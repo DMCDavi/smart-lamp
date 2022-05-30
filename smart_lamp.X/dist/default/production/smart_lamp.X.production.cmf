@@ -11,145 +11,55 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-end_init CODE 0 C2 C2 4 1
-reset_vec CODE 0 0 0 4 1
+$C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
+end_init CODE 0 0 0 4 1
 idloc IDLOC 0 200000 200000 8 1
 config CONFIG 0 300000 300000 E 1
 $dist/default/production\smart_lamp.X.production.obj
-intcodelo CODE 0 18 18 AA 1
-intcode CODE 0 8 8 10 1
-mediumconst MEDIUMCONST 0 7ED4 7ED4 12C 1
-intcode_body CODE 0 4A72 4A72 A4 1
-text54 CODE 0 3E5C 3E5C 10A 1
-text53 CODE 0 46DA 46DA CA 1
-text52 CODE 0 334C 334C 164 1
-text51 CODE 0 3896 3896 13E 1
-text50 CODE 0 31E0 31E0 16C 1
-text49 CODE 0 4918 4918 B4 1
-text48 CODE 0 45F8 45F8 E2 1
-text47 CODE 0 4516 4516 E2 1
-text46 CODE 0 3074 3074 16C 1
-text45 CODE 0 2F08 2F08 16C 1
-text44 CODE 0 2D9C 2D9C 16C 1
-text43 CODE 0 3D4C 3D4C 110 1
-text42 CODE 0 4B16 4B16 9E 1
-text41 CODE 0 5080 5080 52 1
-text40 CODE 0 1FEA 1FEA 41C 1
-text39 CODE 0 2406 2406 282 1
-text38 CODE 0 4FD2 4FD2 5C 1
-text37 CODE 0 5288 5288 1E 1
-text36 CODE 0 4F62 4F62 70 1
-text35 CODE 0 520E 520E 2A 1
-text34 CODE 0 52D6 52D6 14 1
-text33 CODE 0 52A6 52A6 1A 1
-text32 CODE 0 5260 5260 28 1
-text31 CODE 0 519E 519E 3C 1
-text30 CODE 0 52FA 52FA C 1
-text29 CODE 0 3754 3754 142 1
-text28 CODE 0 28A2 28A2 1EE 1
-text27 CODE 0 4EF0 4EF0 72 1
-text26 CODE 0 4164 4164 F4 1
-text25 CODE 0 4C50 4C50 9A 1
-text24 CODE 0 515A 515A 44 1
-text23 CODE 0 4E76 4E76 7A 1
-text22 CODE 0 5116 5116 44 1
-text21 CODE 0 406C 406C F8 1
-text20 CODE 0 47A4 47A4 BE 1
-text19 CODE 0 4BB4 4BB4 9C 1
-text18 CODE 0 3F66 3F66 106 1
-text17 CODE 0 14D8 14D8 5D0 1
-text16 CODE 0 2A90 2A90 1A0 1
-text15 CODE 0 39D4 39D4 136 1
-text14 CODE 0 4CEA 4CEA 8C 1
-text13 CODE 0 DF6 DF6 6E2 1
-text12 CODE 0 51DA 51DA 34 1
-text11 CODE 0 4D76 4D76 86 1
-text10 CODE 0 3C3C 3C3C 110 1
-text9 CODE 0 2C30 2C30 16C 1
-text8 CODE 0 52EA 52EA 10 1
-text7 CODE 0 5238 5238 28 1
-text6 CODE 0 1AA8 1AA8 542 1
-text5 CODE 0 49CC 49CC A6 1
-text4 CODE 0 4DFC 4DFC 7A 1
-text3 CODE 0 2688 2688 21A 1
-text2 CODE 0 34B0 34B0 162 1
-text1 CODE 0 50D2 50D2 44 1
-text0 CODE 0 C6 C6 D30 1
-cstackCOMRAM COMRAM 1 1 1 23 1
-cstackBANK0 BANK0 1 60 60 58 1
-cstackBANK5 BANK5 1 552 552 2C 1
-dataBIGRAM BIGRAM 1 6B4 6B4 131 1
-bssBIGRAM BIGRAM 1 57E 57E 136 1
-dataBANK5 BANK5 1 500 500 52 1
-dataBANK4 BANK4 1 400 400 E5 1
-dataBANK3 BANK3 1 300 300 F0 1
-dataBANK2 BANK2 1 200 200 E8 1
-dataBANK1 BANK1 1 100 100 B5 1
-bssBANK1 BANK1 1 1B5 1B5 3C 1
-dataBANK0 BANK0 1 D7 D7 15 1
-bssBANK0 BANK0 1 B8 B8 1F 1
-dataCOMRAM COMRAM 1 36 36 A 1
-bssCOMRAM COMRAM 1 24 24 12 1
-cinit CODE 0 3612 3612 142 1
-idataBANK5 CODE 0 502E 502E 52 1
-idataBANK4 CODE 0 4430 4430 E5 1
-idataBANK3 CODE 0 4258 4258 F0 1
-idataBANK2 CODE 0 4348 4348 E8 1
-idataBANK1 CODE 0 4862 4862 B5 1
-idataBANK0 CODE 0 52C0 52C0 15 1
-idataBIGRAM CODE 0 3B0A 3B0A 131 1
-idataCOMRAM CODE 0 5306 5306 A 1
+text11 CODE 0 7C82 7C82 110 1
+text10 CODE 0 7BCA 7BCA B8 1
+text9 CODE 0 799E 799E 44 1
+text8 CODE 0 7AA2 7AA2 90 1
+text7 CODE 0 7A26 7A26 7C 1
+text6 CODE 0 791A 791A 2C 1
+text5 CODE 0 79E2 79E2 44 1
+text4 CODE 0 7946 7946 2C 1
+text3 CODE 0 7B32 7B32 98 1
+text2 CODE 0 7904 7904 16 1
+text1 CODE 0 78E2 78E2 C 1
+text0 CODE 0 7D92 7D92 26E 1
+cstackCOMRAM COMRAM 1 1 1 2D 1
+dataCOMRAM COMRAM 1 2E 2E 15 1
+bssCOMRAM COMRAM 1 43 43 3 1
+cinit CODE 0 7972 7972 2C 1
+idataCOMRAM CODE 0 78EF 78EF 15 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-BANK0 0000EC-0000FF 1
-BANK1 0001F1-0001FF 1
-BANK2 0002E8-0002FF 1
-BANK3 0003F0-0003FF 1
-BANK4 0004E5-0004FF 1
-BANK7 0007E5-0007FF 1
-BIGRAM 000040-00005F 1
-BIGRAM 0000EC-0000FF 1
-BIGRAM 0001F1-0001FF 1
-BIGRAM 0002E8-0002FF 1
-BIGRAM 0003F0-0003FF 1
-BIGRAM 0004E5-0004FF 1
-BIGRAM 0007E5-0007FF 1
-CODE 000004-000007 1
-CODE 003C3B-003C3B 1
-CODE 004515-004515 1
-CODE 004917-004917 1
-CODE 0052D5-0052D5 1
-CODE 005310-007ED3 1
-COMRAM 000040-00005F 1
-CONST 000004-000007 1
-CONST 003C3B-003C3B 1
-CONST 004515-004515 1
-CONST 004917-004917 1
-CONST 0052D5-0052D5 1
-CONST 005310-007ED3 1
+BANK0 000060-0000FF 1
+BANK1 000100-0001FF 1
+BANK2 000200-0002FF 1
+BANK3 000300-0003FF 1
+BANK4 000400-0004FF 1
+BANK5 000500-0005FF 1
+BANK6 000600-0006FF 1
+BANK7 000700-0007FF 1
+BIGRAM 000046-0007FF 1
+CODE 000004-0078E1 1
+CODE 0078EE-0078EE 1
+COMRAM 000046-00005F 1
+CONST 000004-0078E1 1
+CONST 0078EE-0078EE 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 003C3B-003C3B 1
-MEDIUMCONST 004515-004515 1
-MEDIUMCONST 004917-004917 1
-MEDIUMCONST 0052D5-0052D5 1
-MEDIUMCONST 005310-007ED3 1
-RAM 0000EC-0000FF 1
-RAM 0001F1-0001FF 1
-RAM 0002E8-0002FF 1
-RAM 0003F0-0003FF 1
-RAM 0004E5-0004FF 1
-RAM 0007E5-0007FF 1
+MEDIUMCONST 000800-0078E1 1
+MEDIUMCONST 0078EE-0078EE 1
+RAM 000060-0007FF 1
 SFR 000F60-000FFF 1
-SMALLCONST 003C3B-003C3B 1
-SMALLCONST 004515-004515 1
-SMALLCONST 004917-004917 1
-SMALLCONST 0052D5-0052D5 1
-SMALLCONST 005310-007ED3 1
+SMALLCONST 000800-0078E1 1
+SMALLCONST 0078EE-0078EE 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -164,893 +74,145 @@ SMALLCONST 005310-007ED3 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\smart_lamp.X.production.obj
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":603 5C intcodelo CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":605 64 intcodelo CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":606 6C intcodelo CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":608 6E intcodelo CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":610 76 intcodelo CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":611 78 intcodelo CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":613 7C intcodelo CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1018 C6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1019 D4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1020 D6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1021 D8 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1022 DA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1023 DC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1024 DE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1025 E0 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1026 E2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1027 E4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1028 E8 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1029 EC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1030 F0 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1031 F4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1032 F8 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1033 FC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1034 100 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1035 102 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1036 104 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1037 106 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1039 108 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1040 110 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1041 11E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1042 12C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1049 13C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1050 140 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1051 148 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1053 15C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1054 170 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1055 184 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1056 1AA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1057 1C6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1047 1D4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1060 1DA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1061 1E2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1063 1E4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1064 1FC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1065 214 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1066 22C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1067 244 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1068 25C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1069 274 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1070 28C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1071 2A4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1072 2BC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1073 2DE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1074 2EE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1076 2F8 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1078 2FC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1080 314 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1081 328 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1082 34E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1083 36A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1085 37E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1087 3AE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1088 3C2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1089 3D6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1091 3FC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1093 40A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1095 418 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1097 424 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1098 438 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1099 43C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1100 450 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1101 476 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1102 492 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1103 4A6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1104 4BA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1106 4E0 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1108 4EE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1110 504 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1111 508 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1112 518 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1113 524 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1114 538 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1115 54C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1116 572 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1117 57A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1118 582 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1119 5BE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1120 5FA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1121 638 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1122 654 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1123 660 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1124 662 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1125 664 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1126 666 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1127 668 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1128 674 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1129 688 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1130 6AE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1131 6B6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1132 6BE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1133 6C6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1137 6CE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1140 6DC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1141 6F6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1142 712 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1143 720 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1144 73A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1145 748 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1147 74A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1148 752 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1149 766 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1150 782 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1151 7A2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1154 7D6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1161 7DE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1162 81C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1163 85A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1164 87C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1165 8BA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1166 8F8 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1167 936 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1168 9B0 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1169 9B8 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1171 9E6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1173 A00 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1174 A1A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1176 A2E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1178 A3C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1179 A76 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1180 AB2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1181 AEE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1182 B2C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1183 B48 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1184 B54 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1185 B68 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1186 B7C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1187 B84 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1188 B8C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1189 B94 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1190 B9C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1191 B9E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1192 BA0 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1193 BA2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1194 BA4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1145 BB0 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1196 BC2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1197 BDE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1199 BE2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1202 C02 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1203 C04 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1204 C18 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1205 C2C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1206 C52 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1207 C66 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1208 C7A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1209 C8E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1210 CA2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1211 CBE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1213 CC2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1216 CDE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1217 CE0 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1218 CE2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1219 CE4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1220 CE6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1221 CE8 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1222 CFC text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1223 D10 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1224 D36 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1225 D4A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1226 D5E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1227 D7A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1230 D7E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1239 D82 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1240 D8E text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1241 D9C text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1242 DAA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1244 DBA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1245 DC6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1246 DD4 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1247 DE2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1248 DF2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":720 DF6 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":722 E06 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":724 E08 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":727 EEA text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":729 FA2 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":731 1018 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":733 10D0 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":735 110E text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":737 1142 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":739 11A4 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":740 11D4 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":742 1212 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":744 1254 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":746 1292 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":748 12A4 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":750 12FE text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":753 134E text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":755 13C2 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":758 1436 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":760 1476 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":761 1490 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":763 14A2 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":722 14AE text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":765 14D6 text13 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":640 14D8 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":643 14E8 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":645 14EA text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":648 15F4 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":649 167A text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":650 170E text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":651 1794 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":652 17D2 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":653 183E text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":654 1862 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":657 189A text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":659 1936 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":662 1952 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":664 19C0 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":667 19F2 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":669 1A46 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":670 1A60 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":672 1A72 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":643 1A7E text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":674 1AA6 text17 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":774 1AA8 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":778 1AAA text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":779 1AAE text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":780 1AB2 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":781 1AC2 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":782 1ADE text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":784 1AF6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":789 1B04 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":790 1B10 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":795 1B18 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":796 1B1C text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":797 1B20 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":798 1B30 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":799 1B4C text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":801 1B7C text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":802 1B88 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":806 1B92 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":807 1B9E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":812 1BA6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":813 1BAA text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":814 1BAE text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":815 1BBE text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":816 1BDA text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":823 1BF2 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":824 1BFE text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":832 1C06 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":833 1C0A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":834 1C0E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":835 1C1E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":836 1C3A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":846 1C52 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":847 1C5E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":854 1C66 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":855 1C6A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":856 1C6E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":857 1C7E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":858 1C9A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":868 1CCA text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":869 1CD6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":876 1CDE text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":877 1CE2 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":878 1CE6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":879 1CF6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":880 1D12 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":890 1D2A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":891 1D36 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":898 1D3E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":899 1D42 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":900 1D46 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":901 1D56 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":902 1D72 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":912 1D8A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":913 1D96 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":920 1D9E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":921 1DA2 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":922 1DA6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":923 1DB6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":924 1DD2 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":927 1DEA text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":935 1E08 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":936 1E14 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":943 1E1C text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":944 1E20 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":945 1E24 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":946 1E34 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":947 1E50 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":957 1E68 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":958 1E74 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":965 1E7C text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":966 1E80 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":967 1E84 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":968 1E94 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":969 1EB0 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":977 1EC8 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":978 1EE4 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":979 1EF0 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":980 1EF4 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":981 1F08 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":982 1F2E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":983 1F4A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":984 1F5E text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":985 1F72 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":990 1F9A text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":992 1FA6 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":774 1FA8 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":993 1FE8 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":417 1FEA text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":419 1FF8 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":421 1FFA text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":423 20F4 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":425 212A text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":426 216A text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":429 2174 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":431 21AA text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":432 21EA text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":433 222A text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":434 2264 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":436 226E text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":438 22A4 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":439 22E4 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":440 2324 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":441 2364 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":445 23DC text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":419 23E4 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":447 23F6 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":448 2404 text40 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":458 2406 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":459 2414 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":461 2416 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":463 24E8 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":465 2516 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":466 2542 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":468 254E text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":470 257C text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":471 25A8 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":473 25D4 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":475 2602 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":476 260E text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":477 261A text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":479 2626 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":481 2654 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":482 2660 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":485 266C text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":459 2674 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":487 2684 text39 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":459 2686 text39 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":542 2688 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":545 269A text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":547 269C text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":550 26A8 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":551 26BE text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":557 26C0 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":644 26D0 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1266 2712 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1268 2734 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1269 273C text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1270 2744 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1312 2752 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1313 276E text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1312 27AC text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1445 27B4 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1446 27C0 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1479 27D4 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1481 27D8 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1496 27DA text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1531 283C text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1481 2852 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":545 2860 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1545 2894 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1548 28A0 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":56 28A2 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":58 28E6 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":59 2928 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":60 2942 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":61 2950 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":62 2954 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":63 295E text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":64 2966 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":66 296C text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":67 2972 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":68 298A text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":69 29A2 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":71 29B2 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":72 29BA text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":73 29DE text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":74 29EE text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":75 29FE text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":76 2A06 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":78 2A16 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":79 2A1E text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":80 2A42 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":81 2A52 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":82 2A62 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":83 2A6A text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":84 2A8E text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":14 2A90 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":15 2A9C text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":16 2AA4 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":17 2AC4 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":19 2AD0 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":20 2AD8 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":21 2AF8 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":23 2B00 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":24 2B1A text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":25 2B2A text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":26 2B36 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":27 2B38 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":28 2B4C text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":26 2B52 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":31 2B5A text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":32 2B6E text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":33 2BA2 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":34 2BD2 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":36 2BD8 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":37 2BEC text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":39 2BF4 text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":40 2BFE text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":41 2C1E text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\aldiv.c":42 2C2E text16 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":255 2C30 text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":256 2C3E text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":259 2C40 text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":261 2D6E text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":263 2D76 text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":256 2D7E text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":265 2D92 text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":266 2D9A text9 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":380 2D9C text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":381 2DAA text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":384 2DAC text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":386 2EDA text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":388 2EE2 text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":381 2EEA text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":390 2EFE text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":391 2F06 text44 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":362 2F08 text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":363 2F16 text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":366 2F18 text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":368 3046 text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":370 304E text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":363 3056 text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":372 306A text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":373 3072 text45 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":343 3074 text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":344 3082 text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":348 3084 text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":350 31B2 text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":352 31BA text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":344 31C2 text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":354 31D6 text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":355 31DE text46 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":273 31E0 text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":274 31EE text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":277 31F0 text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":279 331E text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":281 3326 text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":274 332E text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":283 3342 text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":284 334A text50 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":116 334C text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":117 3372 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":118 3398 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":119 33BE text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":120 33E4 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":121 340A text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":122 3430 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":123 3456 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":124 347C text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":125 3486 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":126 3490 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":127 349A text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":128 34A4 text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":129 34AE text52 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1000 34B0 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1001 34C0 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1002 34DC text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1003 34E8 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1004 3504 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1005 3514 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1006 3590 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1007 359C text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1008 35C4 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1009 35D0 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1010 35E0 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1011 35F0 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1012 3600 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1013 360C text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":1014 3610 text2 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":49 3612 cinit CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":64 3754 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":65 3770 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":67 378A text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":68 3790 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":66 37A0 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":71 37CA text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":72 37D0 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":73 37E8 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":70 37F8 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":76 3822 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":77 3828 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":75 3838 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":79 3840 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":80 3848 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":81 384E text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":82 3854 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":83 3878 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":84 3882 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":85 3888 text29 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":86 3894 text29 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":238 3896 text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":239 38A4 text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":241 38A6 text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":243 39A6 text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":245 39AE text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":239 39B6 text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":247 39CA text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":248 39D2 text51 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":683 39D4 text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":685 3A1A text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":688 3A2A text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":691 3A3A text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":692 3A78 text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":693 3AB6 text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":694 3AF8 text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":695 3B00 text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":696 3B08 text15 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":220 3C3C text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":221 3C4A text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":223 3C4C text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":225 3D1E text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":227 3D26 text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":221 3D2E text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":229 3D42 text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":230 3D4A text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":398 3D4C text43 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":399 3D5A text43 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":402 3D5C text43 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":404 3E2E text43 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":406 3E36 text43 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":399 3E3E text43 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":408 3E52 text43 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":409 3E5A text43 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":14 3E5C text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":15 3E68 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":16 3E70 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":17 3E7E text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":19 3E8A text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":20 3E92 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":21 3EA0 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":23 3EA8 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":24 3EB6 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":25 3EC2 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":26 3ECE text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":27 3ED0 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":28 3EDC text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":26 3EE2 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":31 3EEA text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":32 3EF6 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":33 3F12 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":34 3F2A text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":36 3F30 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":37 3F3C text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":39 3F44 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":40 3F4E text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":41 3F5C text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":42 3F64 text54 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":14 3F66 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":15 3F80 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":16 3F90 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":17 3F9C text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":18 3F9E text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":19 3FB2 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":17 3FB8 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":22 3FC0 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":23 3FD4 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":24 4008 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":25 4038 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":27 403E text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":28 4052 text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":30 405A text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":31 406A text18 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":561 406C text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":562 4070 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":563 4074 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":564 4078 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":565 407C text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":566 407E text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":567 4080 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":569 4082 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":570 4096 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":571 40AA text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":573 40BE text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":574 40D2 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":575 40E6 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":576 410C text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":577 4120 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":578 4146 text21 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":579 4162 text21 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":6 4164 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":7 416C text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":8 41AE text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":9 41B6 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":10 41F8 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":11 4210 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":12 4228 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":13 4256 text26 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":326 4516 text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":327 4524 text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":329 4526 text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":331 45CA text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":333 45D2 text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":327 45DA text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":335 45EE text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":336 45F6 text47 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":309 45F8 text48 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":310 4606 text48 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":312 4608 text48 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":314 46AC text48 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":316 46B4 text48 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":310 46BC text48 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":318 46D0 text48 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":319 46D8 text48 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":13 46DA text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":14 46E2 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":15 46EA text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":16 46F8 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":18 4700 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":19 4708 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":20 4716 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":21 4722 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":22 472A text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":23 472C text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":24 4738 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":22 473A text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":27 4742 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":28 475E text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":29 4776 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":30 4782 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":32 4786 text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":33 478C text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":34 479A text53 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":35 47A2 text53 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":588 47A4 text20 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":589 47AC text20 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":591 47AE text20 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":592 483C text20 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":589 4848 text20 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":594 485E text20 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":589 4860 text20 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":292 4918 text49 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":293 4926 text49 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":295 4928 text49 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":297 499E text49 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":299 49A6 text49 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":293 49AE text49 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":301 49C2 text49 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":302 49CA text49 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":14 49CC text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":15 49DA text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":16 49E6 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":17 49F2 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":18 49F4 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":19 4A00 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":17 4A06 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":22 4A0E text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":23 4A1A text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":24 4A36 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":25 4A4E text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":27 4A54 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":28 4A60 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":30 4A68 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":31 4A70 text5 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":620 4A72 intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":621 4AA0 intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":623 4AA8 intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":624 4AC0 intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":625 4AC2 intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":627 4ACE intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":629 4AD8 intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":631 4ADC intcode_body CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":80 4B16 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":84 4B18 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":86 4B20 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":88 4B28 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":90 4B30 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":92 4B38 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":94 4B40 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":96 4B48 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":98 4B50 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":100 4B58 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":102 4B60 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":104 4B68 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":80 4B72 text42 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":107 4BB2 text42 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":4 4BB4 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":7 4BCE text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":8 4BD6 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":9 4C06 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":10 4C1A text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":11 4C2E text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":12 4C3E text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lmul.c":13 4C4E text19 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":136 4C50 text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":137 4C5E text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":138 4C92 text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":140 4CA2 text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":138 4CB4 text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":142 4CE6 text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":138 4CE8 text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":707 4CEA text14 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":708 4CF2 text14 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":709 4D26 text14 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":710 4D64 text14 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":711 4D6C text14 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":712 4D74 text14 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":203 4D76 text11 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":204 4D84 text11 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":206 4D86 text11 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":208 4DCE text11 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":210 4DD6 text11 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":204 4DDE text11 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":212 4DF2 text11 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":213 4DFA text11 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":13 4DFC text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":14 4E08 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":15 4E10 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":16 4E12 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":17 4E1E text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":15 4E20 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":20 4E28 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":21 4E44 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":22 4E5C text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":23 4E68 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":25 4E6C text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":26 4E74 text4 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":176 4E76 text23 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":177 4E84 text23 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":179 4E86 text23 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":180 4EAE text23 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":177 4EB6 text23 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":182 4EEC text23 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":177 4EEE text23 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":36 4EF0 text27 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":37 4F00 text27 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":38 4F08 text27 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":39 4F16 text27 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":41 4F26 text27 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":42 4F60 text27 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":72 4F62 text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":73 4F66 text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":75 4F6A text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":77 4F72 text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":80 4F8E text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":82 4FC4 text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":84 4FC8 text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":85 4FCA text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":86 4FCC text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":88 4FCE text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\ADC\adcopen.c":89 4FD0 text36 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":75 4FD2 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":76 4FD6 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":78 4FDA text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":79 4FDC text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":81 4FDE text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":83 4FE2 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":84 4FE4 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":87 4FE6 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":88 4FE8 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":90 4FEA text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":91 4FEE text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":93 4FF2 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":95 4FF4 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":96 4FF6 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":98 4FF8 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":100 4FFA text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":101 4FFC text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":103 4FFE text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":104 5002 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":106 5006 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":108 5008 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":110 500A text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":111 500E text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":113 5012 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":115 5014 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":116 5018 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":118 501C text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":119 501E text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":137 5020 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":138 5024 text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":139 502A text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uopen.c":143 502C text38 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":14 5080 text41 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":15 5094 text41 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":16 50AE text41 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":30 50C8 text41 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":31 50D0 text41 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2setdc.c":12 50D2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2setdc.c":15 50F0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2setdc.c":18 50F4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2setdc.c":19 5114 text1 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":189 5116 text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":190 511A text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":191 511C text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":192 511E text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":193 513A text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":194 513C text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":195 5158 text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":163 515A text24 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":164 515E text24 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":165 5160 text24 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":166 5162 text24 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":167 517E text24 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":168 5180 text24 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":169 519C text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":33 519E text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":35 51A2 text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":36 51B8 text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":38 51BC text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":55 51C4 text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":56 51CE text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":70 51D0 text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":71 51D2 text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":72 51D6 text31 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\PWM\pw2open.c":80 51D8 text31 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":149 51DA text12 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":150 51E2 text12 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":152 51E4 text12 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":153 51F8 text12 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":150 51FC text12 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":155 520A text12 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":150 520C text12 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":505 520E text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":506 5236 text35 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uputs.c":18 5238 text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uputs.c":19 523C text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uputs.c":20 524C text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uputs.c":21 525C text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uputs.c":20 525E text7 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":530 5260 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":531 5262 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":532 5264 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":533 5266 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":534 5268 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":535 526A text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":536 526C text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":537 526E text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":538 5270 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":539 5272 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":543 5276 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":544 5282 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":545 5286 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":495 5288 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":496 528A text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":497 528C text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":498 52A4 text37 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":19 52A6 text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":22 52AC text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":23 52B0 text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":25 52B2 text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":26 52B6 text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":28 52BA text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":30 52BC text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\Timers\t2open.c":31 52BE text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":513 52D6 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":514 52D8 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":515 52DA text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":516 52DC text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":517 52DE text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":518 52E0 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":519 52E2 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":520 52E4 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":521 52E6 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":522 52E8 text34 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c":15 52EA text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c":17 52EE text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c":18 52F0 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c":19 52F2 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c":22 52F4 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\plib\USART\uwrite.c":23 52F8 text8 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":552 52FA text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":553 52FC text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":554 5304 text30 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":100 78E2 text1 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":101 78E4 text1 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":102 78E8 text1 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":103 78EC text1 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":92 7904 text2 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":93 7908 text2 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":94 790C text2 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":95 7910 text2 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":96 7914 text2 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":97 7918 text2 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":33 791A text6 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":34 791E text6 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":35 7920 text6 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":36 7922 text6 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":37 7932 text6 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":38 7934 text6 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":39 7944 text6 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":59 7946 text4 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":60 794A text4 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":61 794C text4 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":62 794E text4 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":63 795E text4 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":64 7960 text4 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":65 7970 text4 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":9 7972 cinit CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":36 799E text9 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":37 79A6 text9 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":38 79AA text9 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":39 79B2 text9 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":41 79BA text9 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":42 79E0 text9 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":46 79E2 text5 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":47 79EA text5 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":49 79EC text5 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":50 7A00 text5 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":47 7A04 text5 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":52 7A22 text5 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":47 7A24 text5 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":18 7A26 text7 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":19 7A2E text7 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":20 7A56 text7 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":22 7A60 text7 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":20 7A70 text7 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":24 7A9E text7 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":20 7AA0 text7 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":6 7AA2 text8 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":7 7AA6 text8 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":8 7AD2 text8 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":9 7AD6 text8 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":10 7B02 text8 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":11 7B0E text8 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":12 7B1A text8 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":13 7B30 text8 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":69 7B32 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":70 7B36 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":71 7B3A text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":72 7B3E text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":73 7B42 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":74 7B44 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":75 7B46 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":77 7B48 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":78 7B54 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":79 7B60 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":81 7B6C text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":82 7B78 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":83 7B84 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":84 7B98 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":85 7BA4 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":86 7BB8 text3 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":87 7BC8 text3 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":64 7BCA text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":65 7BDA text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":67 7BE8 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":68 7BEA text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":66 7BF2 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":71 7C10 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":72 7C12 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":73 7C1E text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":70 7C26 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":76 7C44 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":77 7C46 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":75 7C4E text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":79 7C52 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":80 7C54 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":81 7C56 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":82 7C5A text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":83 7C6E text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":84 7C72 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":85 7C74 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":86 7C80 text10 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":56 7C82 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":58 7CAE text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":59 7CD8 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":60 7CE6 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":61 7CEC text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":62 7CF0 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":63 7CF4 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":64 7CF8 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":66 7CFA text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":67 7CFC text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":68 7D08 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":69 7D14 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":71 7D1C text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":72 7D20 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":73 7D2C text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":74 7D34 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":75 7D3C text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":76 7D40 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":78 7D48 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":79 7D4C text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":80 7D58 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":81 7D60 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":82 7D68 text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":83 7D6C text11 CODE
+"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":84 7D90 text11 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":106 7D92 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":107 7D96 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":108 7D9A text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":110 7D9E text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":111 7DD4 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":112 7DD8 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":114 7DFA text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":115 7E3A text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":116 7E3E text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":117 7E7E text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":118 7E82 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":119 7EC2 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":120 7EC6 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":121 7F06 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":122 7F0A text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":123 7F4A text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":124 7F4E text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":125 7F8E text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":126 7F92 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":127 7FD2 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":128 7FD6 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":129 7FF6 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":130 7FF8 text0 CODE
+"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":131 7FFA text0 CODE
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -1063,180 +225,67 @@ $dist/default/production\smart_lamp.X.production.obj
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-___lwdiv@dividend 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaBotao 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___aldiv@counter 68 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lldiv@counter 78 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awdiv@counter 64 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-sprintf@f 6D 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lwdiv@counter 64 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awtoft@c 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_buscaDutychar 2406 0 CODE 0 text39 dist/default/production\smart_lamp.X.production.obj
-__end_of_OpenUSART 502E 0 CODE 0 text38 dist/default/production\smart_lamp.X.production.obj
-_PorcentagemLux 39D4 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
-_PR2 FCB 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_analog_reading 43 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
+___awtoft@c 12 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_GO 7E11 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __S0 30000E 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__S1 7E5 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_PSA 7EAB 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_FIM 3E 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaready 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_inicioInterp 47A4 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
+__S1 46 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hintentry 0 0 ABS 0 intentry dist/default/production\smart_lamp.X.production.obj
 __Lintentry 0 0 ABS 0 intentry dist/default/production\smart_lamp.X.production.obj
-?_buscaDutychar 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__size_of_DutyAcertado 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?_WriteUSART 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_Pag 130 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-__size_of_SetDCPWM2 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of___awdiv 3F66 0 CODE 0 text54 dist/default/production\smart_lamp.X.production.obj
-_Dut D3 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-_inicioUSART 5288 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
-OpenPWM2@ccp2mx 23 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_lux 200 0 BANK2 1 dataBANK2 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@lux1 96 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@lux2 8A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@lux3 98 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@lux5 8E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@lux6 92 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@lux7 9A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-?_PorcentagemLux 6E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_PorcentagemLux 3B0A 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
-_TMR2 FCC 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_ADIE 7CEE 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_ADIF 7CF6 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_RCIE 7CED 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of_buscabuilded 2D9C 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
-_RCIF 7CF5 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_GIEH 7F97 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_LATB F8A 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _LATD F8C 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _LATE F8D 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_GIEL 7F96 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_T0CS 7EAD 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_ADIP 7CFE 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_IPEN 7E87 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_RCIP 7CFD 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-IntToChar@div1 6A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__HidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\smart_lamp.X.production.obj
-__LidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\smart_lamp.X.production.obj
-__pidataBANK5 502E 0 CODE 0 idataBANK5 dist/default/production\smart_lamp.X.production.obj
-_stra 57E 0 BIGRAM 1 bssBIGRAM dist/default/production\smart_lamp.X.production.obj
-_Lamp 16A 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-_main C6 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
-_Erro 100 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-_Volt 30 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-start C2 0 CODE 0 init C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-_Duty BC 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-_confCLOSED C6 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-limpa_rx@i 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-main@digital 562 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-___ftmul@f1 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@ia A0 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of___aldiv 2C30 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
-_paginahtml$2262 80 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-WriteUSART@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_TMR0L FD6 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_RCREG FAE 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_ADON 7E10 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_main 7D92 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
+start 0 0 CODE 0 init C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
+___ftmul@f1 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _TRISA F92 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_RCSTA FAB 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_TXREG FAD 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_buscaGEThttp 4516 0 CODE 0 text47 dist/default/production\smart_lamp.X.production.obj
+_TRISB F93 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _TRISD F95 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_SPBRG FAF 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_PORTB F81 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hirdata 0 0 CODE 0 irdata dist/default/production\smart_lamp.X.production.obj
-_TXSTA FAC 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _TRISE F96 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Lirdata 0 0 CODE 0 irdata dist/default/production\smart_lamp.X.production.obj
 __HRAM 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _PORTD F83 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __LRAM 1 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_T2CON FCA 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_Lamp0 199 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-_Lamp1 18E 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-_LUX_A 38 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
-_ADRES FC3 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___ftmul@f2 68 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@luxTotal 9C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-PorcentagemLux@lux_porc 86 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-buscaGEThttp@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___ftmul@f2 C 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hconfig 30000E 0 CONFIG 0 config dist/default/production\smart_lamp.X.production.obj
 __Lconfig 300000 0 CONFIG 0 config dist/default/production\smart_lamp.X.production.obj
-__size_of_inicioInterrupcoes 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__size_of_buscabuilded 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___ftpack 3754 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
-main@a 576 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-__end_of_inicioLCD 4164 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
-__end_of_IntToChar 34B0 0 CODE 0 text52 dist/default/production\smart_lamp.X.production.obj
-main@d 568 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-?___awmod 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_inicioInterp 4862 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
-main@saida 57A 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-OpenTimer2@config 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-?___lwmod 67 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaCLOSED 39D4 0 CODE 0 text51 dist/default/production\smart_lamp.X.production.obj
+___ftpack 7BCA 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
+__end_of_inicioLCD 7BCA 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
 __Hbigram 0 0 ABS 0 bigram dist/default/production\smart_lamp.X.production.obj
 __Lbigram 0 0 ABS 0 bigram dist/default/production\smart_lamp.X.production.obj
-_Desejado D2 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 __Hrparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
 __Lrparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
-main@eabs 56A 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
 __Hram 0 0 ABS 0 ram dist/default/production\smart_lamp.X.production.obj
 __Lram 0 0 ABS 0 ram dist/default/production\smart_lamp.X.production.obj
-_Tnova 1AC 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-__size_of_WriteUSART 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hcomram 0 0 ABS 0 comram dist/default/production\smart_lamp.X.production.obj
 __Lcomram 0 0 ABS 0 comram dist/default/production\smart_lamp.X.production.obj
 __Hsfr 0 0 ABS 0 sfr dist/default/production\smart_lamp.X.production.obj
 __Lsfr 0 0 ABS 0 sfr dist/default/production\smart_lamp.X.production.obj
-__end_of__stringdata 7FFE 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
-__HcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-__LcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
 __Hbss 0 0 RAM 1 bss dist/default/production\smart_lamp.X.production.obj
 __Lbss 0 0 RAM 1 bss dist/default/production\smart_lamp.X.production.obj
-___ftge@ff1 6A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___ftge@ff1 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\smart_lamp.X.production.obj
-__pcstackBANK5 552 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\smart_lamp.X.production.obj
-?_comando 7C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_vtens 300 0 BANK3 1 dataBANK3 dist/default/production\smart_lamp.X.production.obj
-?_buscaBotao 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_texto 4E76 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
-?_sprintf 6B 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_buscaCLOSED 3896 0 CODE 0 text51 dist/default/production\smart_lamp.X.production.obj
-__size_of_IntToChar 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___ftmul@cntr 74 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-main@B0 566 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
+?_comando 20 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_texto 79E2 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
+___ftmul@cntr 18 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _ADCON0 FC2 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-main@B1 55E 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
 _ADCON1 FC1 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___ftge@ff2 6D 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___ftge@ff2 C 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _ADCON2 FC0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_PIE1bits F9D 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-buscaBotao@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\smart_lamp.X.production.obj
-_confB0 D4 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\smart_lamp.X.production.obj
-_confB1 D5 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-_PIR1bits F9E 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-main@erro 578 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-_confB2 D6 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-?___ftmul 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_contador 35 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-sprintf@ap 75 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_TMR0IE 7F95 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+?___ftmul 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\smart_lamp.X.production.obj
 _LATEbits F8D 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\smart_lamp.X.production.obj
-_TMR0IF 7F92 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?___aldiv 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_CCPR2L FBB 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_interrupcaoLOW 18 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
-?___lldiv 6C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaB1 31E0 0 CODE 0 text46 dist/default/production\smart_lamp.X.production.obj
+__end_of_Init_AD 791A 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\smart_lamp.X.production.obj
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\smart_lamp.X.production.obj
-?___awdiv 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __Hintret 0 0 ABS 0 intret dist/default/production\smart_lamp.X.production.obj
-_confGETBotao CC 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production\smart_lamp.X.production.obj
 __Hramtop 800 0 RAM 0 ramtop dist/default/production\smart_lamp.X.production.obj
 __Lramtop 800 0 RAM 0 ramtop dist/default/production\smart_lamp.X.production.obj
@@ -1244,685 +293,196 @@ __Hstruct 0 0 COMRAM 1 struct dist/default/production\smart_lamp.X.production.ob
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\smart_lamp.X.production.obj
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\smart_lamp.X.production.obj
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\smart_lamp.X.production.obj
-__Hmediumconst 8000 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
-___awtoft 4EF0 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
-__Lmediumconst 7ED4 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
-_SPBRGH FB0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?___lwdiv 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-?_buscaGEThttp 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
+___awtoft 799E 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\smart_lamp.X.production.obj
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\smart_lamp.X.production.obj
-buscaDuty@j 72 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__pmediumconst 7ED4 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
-_TMR0IP 7F8A 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_Linha1 1A3 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-__Hintcode 18 0 CODE 0 intcode dist/default/production\smart_lamp.X.production.obj
-__Lintcode 8 0 CODE 0 intcode dist/default/production\smart_lamp.X.production.obj
+_Linha1 3A 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
+__Hintcode 0 0 CODE 0 intcode dist/default/production\smart_lamp.X.production.obj
+__Lintcode 0 0 CODE 0 intcode dist/default/production\smart_lamp.X.production.obj
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\smart_lamp.X.production.obj
-_TMR0ON 7EAF 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_Linha2 177 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
+_Linha2 2E 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
+_ADRESH FC4 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\smart_lamp.X.production.obj
-__pintcode 8 0 CODE 0 intcode dist/default/production\smart_lamp.X.production.obj
-_T08BIT 7EAE 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-buscaCONNECT@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __Habs1 0 0 ABS 0 abs1 dist/default/production\smart_lamp.X.production.obj
 __Labs1 0 0 ABS 0 abs1 dist/default/production\smart_lamp.X.production.obj
-_DUTY_A 36 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
-___ftmul@f3_as_product 71 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_limpa_rx 51DA 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
-_PONTOS 3C 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
+_ADRESL FC3 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+___ftmul@f3_as_product 14 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\smart_lamp.X.production.obj
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\smart_lamp.X.production.obj
-OpenADC@portconfig 23 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaCONNECT 334C 0 CODE 0 text50 dist/default/production\smart_lamp.X.production.obj
-buscaDuty@centena 6A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-IntToChar@div2 6C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_comando 515A 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
-__end_of_conf_ESP8266 1FEA 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
-__end_of___ftpack 3896 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
-?___ftpack 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-buscaIPD@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-PorcentagemLux@lux_porc1 7A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_paginahtml 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-PorcentagemLux@lux_porc2 7E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-PorcentagemLux@lux_porc3 82 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_querolux B8 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-_IntToChar 334C 0 CODE 0 text52 dist/default/production\smart_lamp.X.production.obj
+__end_of_comando 7972 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
+__end_of___ftpack 7C82 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
+?___ftpack 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___ftpack 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-texto@i 83 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_dpowers 7EDE 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
-inicioInterp@dan 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-buscabuilded@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of___awmod 47A4 0 CODE 0 text53 dist/default/production\smart_lamp.X.production.obj
-__size_of_conf_ESP8266 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-buscaGET@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-buscaready@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+texto@i 27 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hdata 0 0 ABS 0 data dist/default/production\smart_lamp.X.production.obj
 __Ldata 0 0 ABS 0 data dist/default/production\smart_lamp.X.production.obj
-_OKConf 120 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-main@atual 564 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-_Rxdata 1B5 0 BANK1 1 bssBANK1 dist/default/production\smart_lamp.X.production.obj
-___ftge 4164 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
-_Aguard 140 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-__size_of_CharToInt 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-sprintf@sp 6B 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_buscaCONNECT 31E0 0 CODE 0 text50 dist/default/production\smart_lamp.X.production.obj
-__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awmod@sign 23 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_buffer 29 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-main@lux___1 552 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
+___ftge 7AA2 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
 __Htemp 0 0 COMRAM 1 temp dist/default/production\smart_lamp.X.production.obj
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\smart_lamp.X.production.obj
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\smart_lamp.X.production.obj
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\smart_lamp.X.production.obj
-___lmul 4BB4 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
-__Hinit C2 0 CODE 0 init dist/default/production\smart_lamp.X.production.obj
-__Linit C2 0 CODE 0 init dist/default/production\smart_lamp.X.production.obj
-__Hintcodelo C2 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
-__Lintcodelo 18 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
-___wmul 5080 0 CODE 0 text41 dist/default/production\smart_lamp.X.production.obj
+__Hinit 0 0 CODE 0 init dist/default/production\smart_lamp.X.production.obj
+__Linit 0 0 CODE 0 init dist/default/production\smart_lamp.X.production.obj
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\smart_lamp.X.production.obj
-__end_of_main DF6 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
+__end_of_main 8000 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\smart_lamp.X.production.obj
-__pintcodelo 18 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
-?_texto 7D 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+?_texto 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext 0 0 ABS 0 text dist/default/production\smart_lamp.X.production.obj
 __Ltext 0 0 ABS 0 text dist/default/production\smart_lamp.X.production.obj
-CharToInt@conv_char 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-IntToChar@rest1 74 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-?_buscaCLOSED 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___lmul@multiplier 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_CharToInt 4B16 0 CODE 0 text42 dist/default/production\smart_lamp.X.production.obj
-___wmul@multiplier 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_VoltAcertado 14D8 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
-__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\smart_lamp.X.production.obj
-__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\smart_lamp.X.production.obj
-_DutyAcertado DF6 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
-__pdataBANK0 D7 0 BANK0 1 dataBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste AF 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___ftmul@sign 75 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-end_of_initialization 374E 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-___aldiv@sign 69 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-OpenUSART@spbrg 22 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-trataAD@Vatual 72 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awdiv@sign 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste1 8B 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste2 8F 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste3 93 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste4 97 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste5 9B 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste6 9F 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste7 A7 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajuste8 AB 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lmul@multiplicand 64 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_inicioUSART 52A6 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
-___wmul@multiplicand 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-IntToChar@rest4 72 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC1 E7 0 BANK0 1 dataBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_limpa_rx 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-trataAD@ValorAD 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___ftmul@sign 19 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+end_of_initialization 7998 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
 __size_of___awtoft 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_buscaB0 2F08 0 CODE 0 text45 dist/default/production\smart_lamp.X.production.obj
-_buscaB1 3074 0 CODE 0 text46 dist/default/production\smart_lamp.X.production.obj
-__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-_buscaB2 2D9C 0 CODE 0 text44 dist/default/production\smart_lamp.X.production.obj
-__pdataBANK1 100 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaDuty 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_TRISAbits F92 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_RCSTAbits FAB 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_TRISBbits F93 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_TRISCbits F94 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_PORTAbits F80 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_TXSTAbits FAC 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_PORTCbits F82 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_T0CONbits FD5 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_T2CONbits FCA 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC2 D7 0 BANK0 1 dataBANK0 dist/default/production\smart_lamp.X.production.obj
-_confpagina 32 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-_OpenADC 4F62 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
 __size_of_Delay1Second 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-buscaDuty@Dut 70 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-?___awtoft 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_SetDCPWM2 50D2 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
+?___awtoft 12 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\smart_lamp.X.production.obj
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\smart_lamp.X.production.obj
-__HdataBANK2 0 0 ABS 0 dataBANK2 dist/default/production\smart_lamp.X.production.obj
-__LdataBANK2 0 0 ABS 0 dataBANK2 dist/default/production\smart_lamp.X.production.obj
-_buscabuilded 2C30 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
-IntToChar@div3 6E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__pdataBANK2 200 0 BANK2 1 dataBANK2 dist/default/production\smart_lamp.X.production.obj
-__HbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\smart_lamp.X.production.obj
-__size_of_OpenADC 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__LbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\smart_lamp.X.production.obj
-_CCP2CON FBA 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_OpenTimer2 52A6 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
-__pbssBIGRAM 57E 0 BIGRAM 1 bssBIGRAM dist/default/production\smart_lamp.X.production.obj
+_Init_AD 7904 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\smart_lamp.X.production.obj
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\smart_lamp.X.production.obj
-_PERIODO 3A 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
-_trataAD 4CEA 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
-_confIPD D0 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\smart_lamp.X.production.obj
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\smart_lamp.X.production.obj
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\smart_lamp.X.production.obj
 __Lbank1 0 0 ABS 0 bank1 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaGET 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\smart_lamp.X.production.obj
 __Lbank2 0 0 ABS 0 bank2 dist/default/production\smart_lamp.X.production.obj
-__size_of_OpenTimer2 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hbank3 0 0 ABS 0 bank3 dist/default/production\smart_lamp.X.production.obj
 __Lbank3 0 0 ABS 0 bank3 dist/default/production\smart_lamp.X.production.obj
-___ftmul@exp 70 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___ftmul@exp 17 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hbank4 0 0 ABS 0 bank4 dist/default/production\smart_lamp.X.production.obj
 __Lbank4 0 0 ABS 0 bank4 dist/default/production\smart_lamp.X.production.obj
-__end_of___lmul 4C50 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
 __Hbank5 0 0 ABS 0 bank5 dist/default/production\smart_lamp.X.production.obj
 __Lbank5 0 0 ABS 0 bank5 dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC3 E0 0 BANK0 1 dataBANK0 dist/default/production\smart_lamp.X.production.obj
-__Hpowerup C2 0 CODE 0 powerup dist/default/production\smart_lamp.X.production.obj
-__Lpowerup C2 0 CODE 0 powerup dist/default/production\smart_lamp.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\smart_lamp.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\smart_lamp.X.production.obj
 __Hbank6 0 0 ABS 0 bank6 dist/default/production\smart_lamp.X.production.obj
 __Lbank6 0 0 ABS 0 bank6 dist/default/production\smart_lamp.X.production.obj
 __Hbank7 0 0 ABS 0 bank7 dist/default/production\smart_lamp.X.production.obj
-buscaGEThttp@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Lbank7 0 0 ABS 0 bank7 dist/default/production\smart_lamp.X.production.obj
 __size_of_texto 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Htext0 0 0 ABS 0 text0 dist/default/production\smart_lamp.X.production.obj
-?_OpenPWM2 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Ltext0 0 0 ABS 0 text0 dist/default/production\smart_lamp.X.production.obj
 __Htext1 0 0 ABS 0 text1 dist/default/production\smart_lamp.X.production.obj
 __Ltext1 0 0 ABS 0 text1 dist/default/production\smart_lamp.X.production.obj
-__ptext0 C6 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
-_confGET CA 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
+__ptext0 7D92 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
 __Htext2 0 0 ABS 0 text2 dist/default/production\smart_lamp.X.production.obj
 __Ltext2 0 0 ABS 0 text2 dist/default/production\smart_lamp.X.production.obj
-__ptext1 50D2 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
+__ptext1 78E2 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
 __Htext3 0 0 ABS 0 text3 dist/default/production\smart_lamp.X.production.obj
 __Ltext3 0 0 ABS 0 text3 dist/default/production\smart_lamp.X.production.obj
-__ptext2 34B0 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
-__HdataBANK3 0 0 ABS 0 dataBANK3 dist/default/production\smart_lamp.X.production.obj
-__LdataBANK3 0 0 ABS 0 dataBANK3 dist/default/production\smart_lamp.X.production.obj
-Delay1Second@i 7A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_buscaOK 4D76 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
+__ptext2 7904 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
+Delay1Second@i 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext4 0 0 ABS 0 text4 dist/default/production\smart_lamp.X.production.obj
 __Ltext4 0 0 ABS 0 text4 dist/default/production\smart_lamp.X.production.obj
-__ptext3 2688 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
-__pdataBANK3 300 0 BANK3 1 dataBANK3 dist/default/production\smart_lamp.X.production.obj
+__ptext3 7B32 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
 __Htext5 0 0 ABS 0 text5 dist/default/production\smart_lamp.X.production.obj
 __Ltext5 0 0 ABS 0 text5 dist/default/production\smart_lamp.X.production.obj
-Delay1Second@time 76 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__ptext4 4DFC 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
-_ValorPORCatua 2C 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
+Delay1Second@time 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__ptext4 7946 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
 __size_of_enviadados 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Htext6 0 0 ABS 0 text6 dist/default/production\smart_lamp.X.production.obj
 __Ltext6 0 0 ABS 0 text6 dist/default/production\smart_lamp.X.production.obj
-__ptext5 49CC 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
+__ptext5 79E2 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
 __Htext7 0 0 ABS 0 text7 dist/default/production\smart_lamp.X.production.obj
 __Ltext7 0 0 ABS 0 text7 dist/default/production\smart_lamp.X.production.obj
-__ptext6 1AA8 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
+__ptext6 791A 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-OpenUSART@config 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_enviadados 519E 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
+__end_of_enviadados 7946 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
 __Htext8 0 0 ABS 0 text8 dist/default/production\smart_lamp.X.production.obj
 __Ltext8 0 0 ABS 0 text8 dist/default/production\smart_lamp.X.production.obj
-__ptext7 5238 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
-__pbssCOMRAM 24 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
+__ptext7 7A26 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
+__pbssCOMRAM 43 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext9 0 0 ABS 0 text9 dist/default/production\smart_lamp.X.production.obj
 __Ltext9 0 0 ABS 0 text9 dist/default/production\smart_lamp.X.production.obj
-__ptext8 52EA 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
-__ptext9 2C30 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
+__ptext8 7AA2 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
+__ptext9 799E 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\smart_lamp.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\smart_lamp.X.production.obj
-_buscaDuty 1FEA 0 CODE 0 text40 dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC10 2D7 0 BANK2 1 dataBANK2 dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC4 14E 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-?_enviadados 7C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_PorcentagemLux 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__HdataBANK4 0 0 ABS 0 dataBANK4 dist/default/production\smart_lamp.X.production.obj
-__LdataBANK4 0 0 ABS 0 dataBANK4 dist/default/production\smart_lamp.X.production.obj
-_paginaHTML1 6B4 0 BIGRAM 1 dataBIGRAM dist/default/production\smart_lamp.X.production.obj
-__pdataBANK4 400 0 BANK4 1 dataBANK4 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaready 3D4C 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
-__end_of_DutyAcertado 14D8 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
-__end_of__initialization 374E 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-_CCP2CONbits FBA 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_Valor_convAD C2 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-OpenPWM2@period 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaB0 3074 0 CODE 0 text45 dist/default/production\smart_lamp.X.production.obj
-__end_of___lwdiv 4A72 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
-?_IntToChar 68 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC5 15C 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-?_OpenUSART 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-?_buscaready 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_WriteUSART 52EA 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
-?_Delay1Second 76 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-buscaCONNECT@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_conf_ESP8266 1AA8 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
-?_putsUSART 22 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__HdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\smart_lamp.X.production.obj
-__LdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\smart_lamp.X.production.obj
-_paginaHTML2 4B0 0 BANK4 1 dataBANK4 dist/default/production\smart_lamp.X.production.obj
-__pdataBANK5 500 0 BANK5 1 dataBANK5 dist/default/production\smart_lamp.X.production.obj
-_Duty_ac BE 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-_USART_Status 34 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-texto@tamanho 7F 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+?_enviadados 20 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_Config_Ports 78E2 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
+__size_of_Config_Ports 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+__end_of__initialization 7998 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+?_Delay1Second 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+texto@tamanho 23 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hidata 0 0 CODE 0 idata dist/default/production\smart_lamp.X.production.obj
 __Lidata 0 0 CODE 0 idata dist/default/production\smart_lamp.X.production.obj
 __Hrdata 0 0 COMRAM 1 rdata dist/default/production\smart_lamp.X.production.obj
-_inicioADC 520E 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
 __Lrdata 0 0 COMRAM 1 rdata dist/default/production\smart_lamp.X.production.obj
-putsUSART@data 22 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_buffera 24 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaOK 4DFC 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
-_confGEThttp CE 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC11 2C4 0 BANK2 1 dataBANK2 dist/default/production\smart_lamp.X.production.obj
 __Hidloc 200008 0 IDLOC 0 idloc dist/default/production\smart_lamp.X.production.obj
-?___ftge 6A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+?___ftge 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Lidloc 200000 0 IDLOC 0 idloc dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC6 110 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-__end_of_inicioADC 5238 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
-_dutymed 400 0 BANK4 1 dataBANK4 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaGEThttp 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of_putsUSART 5260 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
-int_func 4A72 0 CODE 0 intcode_body dist/default/production\smart_lamp.X.production.obj
-__end_of___lldiv 406C 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
-buscaDuty@unidade 6E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awmod 46DA 0 CODE 0 text53 dist/default/production\smart_lamp.X.production.obj
-_modconf 3F 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
-___lwmod 4DFC 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
 __Hparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
 __Lparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
-?_buscaCONNECT 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___ftpack@sign 64 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-IntToChar@div4 70 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__HidataBIGRAM 0 0 ABS 0 idataBIGRAM dist/default/production\smart_lamp.X.production.obj
-__LidataBIGRAM 0 0 ABS 0 idataBIGRAM dist/default/production\smart_lamp.X.production.obj
-_paginaHTML3 500 0 BANK5 1 dataBANK5 dist/default/production\smart_lamp.X.production.obj
-_comando 5116 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
-_buscaBotao 3D4C 0 CODE 0 text43 dist/default/production\smart_lamp.X.production.obj
-__pidataBIGRAM 3B0A 0 CODE 0 idataBIGRAM dist/default/production\smart_lamp.X.production.obj
-_sprintf 2688 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
-buscabuilded@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__size_of_interrupcaoLOW 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+___ftpack@sign 5 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_comando 7946 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
 __Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
-_inicioLCD 406C 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
-_Connect 183 0 BANK1 1 dataBANK1 dist/default/production\smart_lamp.X.production.obj
-OpenADC@config 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-?___lmul 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+_inicioLCD 7B32 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\smart_lamp.X.production.obj
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\smart_lamp.X.production.obj
-?___wmul 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __Hcinit 0 0 ABS 0 cinit dist/default/production\smart_lamp.X.production.obj
-___ftmul 28A2 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
+___ftmul 7C82 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
 __Lcinit 0 0 ABS 0 cinit dist/default/production\smart_lamp.X.production.obj
-buscaB0@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___aldiv 2A90 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
-buscaB1@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___lldiv 3F66 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
-__pcinit 3612 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-buscaB2@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC7 3B0 0 BANK3 1 dataBANK3 dist/default/production\smart_lamp.X.production.obj
-___awdiv 3E5C 0 CODE 0 text54 dist/default/production\smart_lamp.X.production.obj
-_ValorPORCatual 2E 0 COMRAM 1 bssCOMRAM dist/default/production\smart_lamp.X.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-__end_of_limpa_rx 520E 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
-__mediumconst 7ED4 0 MEDIUMCONST 0 mediumconst C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-___lwdiv 49CC 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
+__pcinit 7972 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+__end_of_Config_Ports 78EE 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_dpowers 7ED4 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
 __Hconst 0 0 CODE 0 const dist/default/production\smart_lamp.X.production.obj
 __Lconst 0 0 CODE 0 const dist/default/production\smart_lamp.X.production.obj
-__size_of_VoltAcertado 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__size_of_OpenUSART 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?_CharToInt 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-buscaBotao@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-?_VoltAcertado 79 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-?_buscaIPD 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\smart_lamp.X.production.obj
-__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\smart_lamp.X.production.obj
-?_DutyAcertado 79 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaDutychar 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__pidataBANK0 52C0 0 CODE 0 idataBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_OpenPWM2 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-buscaOK@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_sprintf 28A2 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC8 2B0 0 BANK2 1 dataBANK2 dist/default/production\smart_lamp.X.production.obj
-_confCONNECT C8 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_inicioTIMER 5288 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
-___awtoft@sign 69 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-IntToChar@rest2 76 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___ftpack@arg 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-buscaDutychar@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__size_of___lwdiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_paginahtml 3612 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
-__end_of_WriteUSART 52FA 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
-_paginahtml 34B0 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
-SetDCPWM2@dutycycle 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__pbssBANK0 B8 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaDuty 2406 0 CODE 0 text40 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaGET 49CC 0 CODE 0 text49 dist/default/production\smart_lamp.X.production.obj
-__size_of_inicioADC 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+___awtoft@sign 16 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___ftpack@arg 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of_inicioLCD 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__size_of_inicioPWM 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_MsgFromPIC9 3D7 0 BANK3 1 dataBANK3 dist/default/production\smart_lamp.X.production.obj
-sprintf@flag 77 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_putsUSART 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\smart_lamp.X.production.obj
-__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\smart_lamp.X.production.obj
-__pbssBANK1 1B5 0 BANK1 1 bssBANK1 dist/default/production\smart_lamp.X.production.obj
 __Htext10 0 0 ABS 0 text10 dist/default/production\smart_lamp.X.production.obj
 __Ltext10 0 0 ABS 0 text10 dist/default/production\smart_lamp.X.production.obj
-__end_of_OpenTimer2 52C0 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
-__Htext20 0 0 ABS 0 text20 dist/default/production\smart_lamp.X.production.obj
-__Ltext20 0 0 ABS 0 text20 dist/default/production\smart_lamp.X.production.obj
-__ptext10 3C3C 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
-__Htext30 0 0 ABS 0 text30 dist/default/production\smart_lamp.X.production.obj
+__ptext10 7BCA 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
 __Htext11 0 0 ABS 0 text11 dist/default/production\smart_lamp.X.production.obj
-__Ltext30 0 0 ABS 0 text30 dist/default/production\smart_lamp.X.production.obj
 __Ltext11 0 0 ABS 0 text11 dist/default/production\smart_lamp.X.production.obj
-__ptext20 47A4 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
-__Htext40 0 0 ABS 0 text40 dist/default/production\smart_lamp.X.production.obj
-__Htext21 0 0 ABS 0 text21 dist/default/production\smart_lamp.X.production.obj
-__Ltext40 0 0 ABS 0 text40 dist/default/production\smart_lamp.X.production.obj
-__Ltext21 0 0 ABS 0 text21 dist/default/production\smart_lamp.X.production.obj
-__ptext11 4D76 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
-__ptext30 52FA 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaCLOSED 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__Htext50 0 0 ABS 0 text50 dist/default/production\smart_lamp.X.production.obj
-__Htext31 0 0 ABS 0 text31 dist/default/production\smart_lamp.X.production.obj
-__Htext12 0 0 ABS 0 text12 dist/default/production\smart_lamp.X.production.obj
-__Ltext50 0 0 ABS 0 text50 dist/default/production\smart_lamp.X.production.obj
-__Ltext31 0 0 ABS 0 text31 dist/default/production\smart_lamp.X.production.obj
-__Ltext12 0 0 ABS 0 text12 dist/default/production\smart_lamp.X.production.obj
-__ptext21 406C 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
-__ptext40 1FEA 0 CODE 0 text40 dist/default/production\smart_lamp.X.production.obj
-?_buscaB0 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__Htext41 0 0 ABS 0 text41 dist/default/production\smart_lamp.X.production.obj
-__Htext22 0 0 ABS 0 text22 dist/default/production\smart_lamp.X.production.obj
-__Ltext41 0 0 ABS 0 text41 dist/default/production\smart_lamp.X.production.obj
-__Ltext22 0 0 ABS 0 text22 dist/default/production\smart_lamp.X.production.obj
-__ptext12 51DA 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
-__ptext31 519E 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
-__ptext50 31E0 0 CODE 0 text50 dist/default/production\smart_lamp.X.production.obj
-__Htext51 0 0 ABS 0 text51 dist/default/production\smart_lamp.X.production.obj
-__Htext32 0 0 ABS 0 text32 dist/default/production\smart_lamp.X.production.obj
-__Htext13 0 0 ABS 0 text13 dist/default/production\smart_lamp.X.production.obj
-__Ltext51 0 0 ABS 0 text51 dist/default/production\smart_lamp.X.production.obj
-__Ltext32 0 0 ABS 0 text32 dist/default/production\smart_lamp.X.production.obj
-__Ltext13 0 0 ABS 0 text13 dist/default/production\smart_lamp.X.production.obj
-__ptext22 5116 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
-__ptext41 5080 0 CODE 0 text41 dist/default/production\smart_lamp.X.production.obj
-?_buscaB1 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_texto 4EF0 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
-__Htext42 0 0 ABS 0 text42 dist/default/production\smart_lamp.X.production.obj
-__Htext23 0 0 ABS 0 text23 dist/default/production\smart_lamp.X.production.obj
-__Ltext42 0 0 ABS 0 text42 dist/default/production\smart_lamp.X.production.obj
-__Ltext23 0 0 ABS 0 text23 dist/default/production\smart_lamp.X.production.obj
-__ptext13 DF6 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
-__ptext32 5260 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
-__ptext51 3896 0 CODE 0 text51 dist/default/production\smart_lamp.X.production.obj
+__ptext11 7C82 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
+__end_of_texto 7A26 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
 _ADCON0bits FC2 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__Htext52 0 0 ABS 0 text52 dist/default/production\smart_lamp.X.production.obj
-__Htext33 0 0 ABS 0 text33 dist/default/production\smart_lamp.X.production.obj
-__Htext14 0 0 ABS 0 text14 dist/default/production\smart_lamp.X.production.obj
-__Ltext52 0 0 ABS 0 text52 dist/default/production\smart_lamp.X.production.obj
-__Ltext33 0 0 ABS 0 text33 dist/default/production\smart_lamp.X.production.obj
-buscaready@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__Ltext14 0 0 ABS 0 text14 dist/default/production\smart_lamp.X.production.obj
-__ptext23 4E76 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
-__ptext42 4B16 0 CODE 0 text42 dist/default/production\smart_lamp.X.production.obj
-sprintf@prec 78 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\smart_lamp.X.production.obj
-__size_of___awdiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\smart_lamp.X.production.obj
-?_buscaB2 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_OpenPWM2 519E 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
-__Htext43 0 0 ABS 0 text43 dist/default/production\smart_lamp.X.production.obj
-__Htext24 0 0 ABS 0 text24 dist/default/production\smart_lamp.X.production.obj
-__Ltext43 0 0 ABS 0 text43 dist/default/production\smart_lamp.X.production.obj
-__Ltext24 0 0 ABS 0 text24 dist/default/production\smart_lamp.X.production.obj
-__ptext14 4CEA 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
-__ptext33 52A6 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
-__ptext52 334C 0 CODE 0 text52 dist/default/production\smart_lamp.X.production.obj
-__pidataBANK1 4862 0 CODE 0 idataBANK1 dist/default/production\smart_lamp.X.production.obj
-__size_of_inicioTIMER 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__Htext53 0 0 ABS 0 text53 dist/default/production\smart_lamp.X.production.obj
-__Htext34 0 0 ABS 0 text34 dist/default/production\smart_lamp.X.production.obj
-__Htext15 0 0 ABS 0 text15 dist/default/production\smart_lamp.X.production.obj
-__Ltext53 0 0 ABS 0 text53 dist/default/production\smart_lamp.X.production.obj
-__Ltext34 0 0 ABS 0 text34 dist/default/production\smart_lamp.X.production.obj
-__Ltext15 0 0 ABS 0 text15 dist/default/production\smart_lamp.X.production.obj
-__ptext24 515A 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
-__ptext43 3D4C 0 CODE 0 text43 dist/default/production\smart_lamp.X.production.obj
-__size_of_inicioUSART 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__Htext44 0 0 ABS 0 text44 dist/default/production\smart_lamp.X.production.obj
-__Htext25 0 0 ABS 0 text25 dist/default/production\smart_lamp.X.production.obj
-__Ltext44 0 0 ABS 0 text44 dist/default/production\smart_lamp.X.production.obj
-__Ltext25 0 0 ABS 0 text25 dist/default/production\smart_lamp.X.production.obj
-__ptext15 39D4 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
-__ptext34 52D6 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
-__ptext53 46DA 0 CODE 0 text53 dist/default/production\smart_lamp.X.production.obj
-__Htext54 0 0 ABS 0 text54 dist/default/production\smart_lamp.X.production.obj
-__Htext35 0 0 ABS 0 text35 dist/default/production\smart_lamp.X.production.obj
-__Htext16 0 0 ABS 0 text16 dist/default/production\smart_lamp.X.production.obj
-__Ltext54 0 0 ABS 0 text54 dist/default/production\smart_lamp.X.production.obj
-__Ltext35 0 0 ABS 0 text35 dist/default/production\smart_lamp.X.production.obj
-__Ltext16 0 0 ABS 0 text16 dist/default/production\smart_lamp.X.production.obj
-__ptext25 4C50 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
-__ptext44 2D9C 0 CODE 0 text44 dist/default/production\smart_lamp.X.production.obj
-__Htext45 0 0 ABS 0 text45 dist/default/production\smart_lamp.X.production.obj
-__Htext26 0 0 ABS 0 text26 dist/default/production\smart_lamp.X.production.obj
-__Ltext45 0 0 ABS 0 text45 dist/default/production\smart_lamp.X.production.obj
-__Ltext26 0 0 ABS 0 text26 dist/default/production\smart_lamp.X.production.obj
-__ptext16 2A90 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
-__ptext35 520E 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
-__ptext54 3E5C 0 CODE 0 text54 dist/default/production\smart_lamp.X.production.obj
-__Htext36 0 0 ABS 0 text36 dist/default/production\smart_lamp.X.production.obj
-__Htext17 0 0 ABS 0 text17 dist/default/production\smart_lamp.X.production.obj
-__Ltext36 0 0 ABS 0 text36 dist/default/production\smart_lamp.X.production.obj
-__Ltext17 0 0 ABS 0 text17 dist/default/production\smart_lamp.X.production.obj
-__ptext26 4164 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
-__ptext45 2F08 0 CODE 0 text45 dist/default/production\smart_lamp.X.production.obj
-__Htext46 0 0 ABS 0 text46 dist/default/production\smart_lamp.X.production.obj
-__Htext27 0 0 ABS 0 text27 dist/default/production\smart_lamp.X.production.obj
-__Ltext46 0 0 ABS 0 text46 dist/default/production\smart_lamp.X.production.obj
-__Ltext27 0 0 ABS 0 text27 dist/default/production\smart_lamp.X.production.obj
-__ptext17 14D8 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
-__ptext36 4F62 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
-?_buscaGET 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_enviadados 515A 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
-___awmod@divisor 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__Htext37 0 0 ABS 0 text37 dist/default/production\smart_lamp.X.production.obj
-__Htext18 0 0 ABS 0 text18 dist/default/production\smart_lamp.X.production.obj
-__end_of___lwmod 4E76 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
-__end_of_trataAD 4D76 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
-__Ltext37 0 0 ABS 0 text37 dist/default/production\smart_lamp.X.production.obj
-__Ltext18 0 0 ABS 0 text18 dist/default/production\smart_lamp.X.production.obj
-__ptext27 4EF0 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
-__ptext46 3074 0 CODE 0 text46 dist/default/production\smart_lamp.X.production.obj
+_enviadados 791A 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
 __size_of_comando 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___lwmod@divisor 69 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__Htext47 0 0 ABS 0 text47 dist/default/production\smart_lamp.X.production.obj
-__Htext28 0 0 ABS 0 text28 dist/default/production\smart_lamp.X.production.obj
-__Ltext47 0 0 ABS 0 text47 dist/default/production\smart_lamp.X.production.obj
-__Ltext28 0 0 ABS 0 text28 dist/default/production\smart_lamp.X.production.obj
-__ptext18 3F66 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
-__ptext37 5288 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
-__Htext38 0 0 ABS 0 text38 dist/default/production\smart_lamp.X.production.obj
-__Htext19 0 0 ABS 0 text19 dist/default/production\smart_lamp.X.production.obj
-__Ltext38 0 0 ABS 0 text38 dist/default/production\smart_lamp.X.production.obj
-__Ltext19 0 0 ABS 0 text19 dist/default/production\smart_lamp.X.production.obj
-__ptext28 28A2 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
-__ptext47 4516 0 CODE 0 text47 dist/default/production\smart_lamp.X.production.obj
-_inicioTIMER 5260 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
-__Htext48 0 0 ABS 0 text48 dist/default/production\smart_lamp.X.production.obj
-__Htext29 0 0 ABS 0 text29 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaGEThttp 45F8 0 CODE 0 text47 dist/default/production\smart_lamp.X.production.obj
-__Ltext48 0 0 ABS 0 text48 dist/default/production\smart_lamp.X.production.obj
-__Ltext29 0 0 ABS 0 text29 dist/default/production\smart_lamp.X.production.obj
-__ptext19 4BB4 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
-__ptext38 4FD2 0 CODE 0 text38 dist/default/production\smart_lamp.X.production.obj
-__Htext39 0 0 ABS 0 text39 dist/default/production\smart_lamp.X.production.obj
-__Ltext39 0 0 ABS 0 text39 dist/default/production\smart_lamp.X.production.obj
-__ptext29 3754 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
-__ptext48 45F8 0 CODE 0 text48 dist/default/production\smart_lamp.X.production.obj
-buscaCLOSED@data 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__Htext49 0 0 ABS 0 text49 dist/default/production\smart_lamp.X.production.obj
-__Ltext49 0 0 ABS 0 text49 dist/default/production\smart_lamp.X.production.obj
-__ptext39 2406 0 CODE 0 text39 dist/default/production\smart_lamp.X.production.obj
-__ptext49 4918 0 CODE 0 text49 dist/default/production\smart_lamp.X.production.obj
-_INTCONbits FF2 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_OpenUSART 4FD2 0 CODE 0 text38 dist/default/production\smart_lamp.X.production.obj
-_buscaready 3C3C 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
-__Hend_init C6 0 CODE 0 end_init dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaCONNECT 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__Lend_init C2 0 CODE 0 end_init dist/default/production\smart_lamp.X.production.obj
-_Delay1Second 4C50 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
-_putsUSART 5238 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
-___aldiv@divisor 64 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-enviadados@dado 7C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lldiv@divisor 70 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___ftpack@exp 63 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of___lldiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___awdiv@divisor 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-?_OpenADC 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__Hend_init 4 0 CODE 0 end_init dist/default/production\smart_lamp.X.production.obj
+__Lend_init 0 0 CODE 0 end_init dist/default/production\smart_lamp.X.production.obj
+_Delay1Second 7A26 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
+enviadados@dado 20 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___ftpack@exp 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\smart_lamp.X.production.obj
 __LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\smart_lamp.X.production.obj
-___lwdiv@divisor 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__pidataCOMRAM 5306 0 CODE 0 idataCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_inicioInterrupcoes 52EA 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
-__end_of_interrupcaoLOW C2 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
-_paginahtml$2263 82 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_Valor_convAD11 C4 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-__HdataBIGRAM 0 0 ABS 0 dataBIGRAM dist/default/production\smart_lamp.X.production.obj
-__LdataBIGRAM 0 0 ABS 0 dataBIGRAM dist/default/production\smart_lamp.X.production.obj
-OpenADC@config2 22 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_VoltAcertado 1AA8 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
-__pdataBIGRAM 6B4 0 BIGRAM 1 dataBIGRAM dist/default/production\smart_lamp.X.production.obj
-__end_of___ftmul 2A90 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
-__end_of_OpenPWM2 51DA 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaIPD 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?_SetDCPWM2 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-__end_of_Delay1Second 4CEA 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
-__end_of_OpenADC 4FD2 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
-__size_of___wmul 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_inicioPWM 52FA 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
-?_buscabuilded 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\smart_lamp.X.production.obj
+__pidataCOMRAM 78EF 0 CODE 0 idataCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of___ftmul 7D92 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
+__end_of_Delay1Second 7AA2 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\smart_lamp.X.production.obj
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\smart_lamp.X.production.obj
-SetDCPWM2@DCycle 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__HidataBANK2 0 0 ABS 0 idataBANK2 dist/default/production\smart_lamp.X.production.obj
-__LidataBANK2 0 0 ABS 0 idataBANK2 dist/default/production\smart_lamp.X.production.obj
-main@saidaI1 556 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaDutychar 2688 0 CODE 0 text39 dist/default/production\smart_lamp.X.production.obj
-__pidataBANK2 4348 0 CODE 0 idataBANK2 dist/default/production\smart_lamp.X.production.obj
-?_OpenTimer2 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_buscaIPD 45F8 0 CODE 0 text48 dist/default/production\smart_lamp.X.production.obj
-__stringdata 7EDE 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
-__size_of_inicioInterp 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?_trataAD 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-PorcentagemLux@Lux 76 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-DutyAcertado@abacate B3 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of___aldiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-main@erro_anterior 56C 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
+__size_of_Init_AD 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+__accesstop 60 0 ABS 0 - C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\smart_lamp.X.production.obj
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\smart_lamp.X.production.obj
-__pintcode_body 4A72 0 CODE 0 intcode_body dist/default/production\smart_lamp.X.production.obj
-intlevel0 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-IntToChar@aduty 68 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-intlevel1 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-intlevel2 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-PorcentagemLux@Luxaa 6E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_interrupcaoHIGH 8 0 CODE 0 intcode dist/default/production\smart_lamp.X.production.obj
-__end_of___awtoft 4F62 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
-main@saidaI2 55A 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-intlevel3 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\scfs.obj
-buscaDuty@dezena 6C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of___lmul 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of_CharToInt 4BB4 0 CODE 0 text42 dist/default/production\smart_lamp.X.production.obj
-buscaCLOSED@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaBotao 3E5C 0 CODE 0 text43 dist/default/production\smart_lamp.X.production.obj
-__end_of_SetDCPWM2 5116 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
-trataAD@Valoratual 70 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajusteextra A3 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_buscaGET 4918 0 CODE 0 text49 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@ajusteTotal 87 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_inicioPWM 5306 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
-buscaIPD@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaB2 2F08 0 CODE 0 text44 dist/default/production\smart_lamp.X.production.obj
+intlevel0 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
+intlevel1 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
+intlevel2 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
+__end_of___awtoft 79E2 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
+intlevel3 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\sr8c.obj
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
-__size_of___lwmod 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?_buscaOK 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__pdataCOMRAM 36 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
-__HidataBANK3 0 0 ABS 0 idataBANK3 dist/default/production\smart_lamp.X.production.obj
-__LidataBANK3 0 0 ABS 0 idataBANK3 dist/default/production\smart_lamp.X.production.obj
-__pidataBANK3 4258 0 CODE 0 idataBANK3 dist/default/production\smart_lamp.X.production.obj
-__end_of___wmul 50D2 0 CODE 0 text41 dist/default/production\smart_lamp.X.production.obj
-trataAD@a 6E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-start_initialization 3612 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-___aldiv@quotient 6A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-texto@apontador 7D 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-buscaDuty@data 64 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lldiv@quotient 74 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awdiv@quotient 66 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lwdiv@quotient 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-buscaGET@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-DutyAcertado@querolux 79 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__pdataCOMRAM 2E 0 COMRAM 1 dataCOMRAM dist/default/production\smart_lamp.X.production.obj
+start_initialization 7972 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+texto@apontador 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___ftge 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__size_of_interrupcaoHIGH 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-buscaB0@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaOK 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-buscaB1@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-buscaB2@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_trataAD 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of_buscaIPD 46DA 0 CODE 0 text48 dist/default/production\smart_lamp.X.production.obj
-?_buscaDuty 64 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_PorceDesejada C0 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_sprintf 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__size_of___awmod 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-VoltAcertado@Volt 79 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of_interrupcaoHIGH 4B16 0 CODE 0 intcode_body dist/default/production\smart_lamp.X.production.obj
-__initialization 3612 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-__end_of___ftge 4258 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
-main@saidaP1 56E 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-buscaOK@i 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-comando@dado 7C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awmod@dividend 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lwmod@dividend 67 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-sprintf@_val 79 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaB0 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaB1 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__size_of_buscaB2 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__activetblptr 3 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___lmul@product 68 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awmod@counter 22 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__HidataBANK4 0 0 ABS 0 idataBANK4 dist/default/production\smart_lamp.X.production.obj
-___wmul@product 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__LidataBANK4 0 0 ABS 0 idataBANK4 dist/default/production\smart_lamp.X.production.obj
-___lwmod@counter 23 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_inicioInterrupcoes 52D6 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
-__pidataBANK4 4430 0 CODE 0 idataBANK4 dist/default/production\smart_lamp.X.production.obj
-buscaDutychar@j 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__initialization 7972 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+__end_of___ftge 7B32 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
+comando@dado 20 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__activetblptr 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of___ftmul 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-sprintf@c 7E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-IntToChar@rest3 78 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-main@saidaP2 572 0 BANK5 1 cstackBANK5 dist/default/production\smart_lamp.X.production.obj
-___aldiv@dividend 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___lldiv@dividend 6C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-___awdiv@dividend 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 # %DABS Section
 # This section contains a table of all usuage of the assember
 # directive DABS in the program. Each line has the following format:
@@ -1940,20 +500,20 @@ ___awdiv@dividend 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.
 # All other numeric quantities are in decimal.
 %SEGMENTS
 reset_vec 0 0 0 4 1 CODE
-intcode 0 8 8 10 1 CODE
-intcodelo 0 18 18 3C23 1 CODE
-mediumconst 0 7ED4 7ED4 12C 1 MEDIUMCONST
 config 0 300000 300000 E 1 CONFIG
 idloc 0 200000 200000 8 1 IDLOC
-cstackCOMRAM 1 1 1 3F 1 COMRAM
-cstackBANK0 1 60 60 8C 1 BANK0
-dataBANK3 1 300 300 F0 1 BANK3
-dataBANK2 1 200 200 E8 1 BANK2
-dataBANK4 1 400 400 E5 1 BANK4
-dataBANK1 1 100 100 F1 1 BANK1
-dataBANK5 1 500 500 7E 1 BANK5
-bssBIGRAM 1 57E 57E 267 1 BIGRAM
-text10 0 3C3C 3C3C 8D9 1 CODE
-text47 0 4516 4516 401 1 CODE
-text49 0 4918 4918 9BD 1 CODE
-text34 0 52D6 52D6 3A 1 CODE
+cstackCOMRAM 1 1 1 45 1 COMRAM
+text0 0 7D92 7D92 26E 1 CODE
+text11 0 7C82 7C82 110 1 CODE
+text10 0 7BCA 7BCA B8 1 CODE
+text3 0 7B32 7B32 98 1 CODE
+text8 0 7AA2 7AA2 90 1 CODE
+text7 0 7A26 7A26 7C 1 CODE
+text5 0 79E2 79E2 44 1 CODE
+text9 0 799E 799E 44 1 CODE
+cinit 0 7972 7972 2C 1 CODE
+text4 0 7946 7946 2C 1 CODE
+text6 0 791A 791A 2C 1 CODE
+text2 0 7904 7904 16 1 CODE
+idataCOMRAM 0 78EF 78EF 15 1 CODE
+text1 0 78E2 78E2 C 1 CODE
