@@ -1,90 +1,12 @@
-#include <xc.h>
+#include<pic18f4550.h>
+
 #include <stdio.h>
 
-#define _XTAL_FREQ 20000000 //Frequência de oscilação igual a 20MHz
-#define TAM_MAX 60//Tamanho máximo de bytes para a recepção USART
-#define RS LATEbits.LE0 //Bit de seleção de dados e comando para o LCD ? conectado ao portE,0
-#define RW LATEbits.LE2 //Bit de leitura/escrita do LCD - conectado ao portE,2
-#define EN LATEbits.LE1//Bit de habilitação (enable) do LCD ? conectado ao porte,0
-unsigned char Linha1[]="CEFET-MG";
-unsigned char Linha2[]="TCC Adriane";
-
-/*Nome: Delay1Second
-Função: Espera de um segundo multiplicado pelo parâmetro recebido
-Parâmetro de entrada: número de segundos desejados (pode ser do tipo ponto flutuante ex: 0.5 ou 0.3)
-Parâmetro de saída: não tem.*/
-void Delay1Second(float time)
-{
- int i=0;
- time=time*100;
- for(i=0;i<time;i++)
- {
- __delay_ms(10); //for de 1 segundo [(10*ms)*100] vezes a entrada time
- }
-}
-
-//Funções associadas ao LCD
-/*Nome: enviadados
-Função: Envia um caractere ao LCD.
-Parâmetro de entrada: caractere a ser enviado ao LCD
-Parâmetro de saída: não tem.*/
-void enviadados(char dado)
-{
- PORTD=dado; //envia dado pro PORT associado ao LCD
- RS = 1; //ativa o modo de seleção como dados
- EN = 1; //ativa o LCD
- Delay1Second(0.01); //aguarda 0.01 segundo para garantir o envio
- EN = 0; //desativa o LCD
- Delay1Second(0.01); //aguarda 0.01 segundo
-}
-/*Nome: texto
-Função: Envia um texto ao LCD caractere por caractere utilizando a função enviadado.
-Parâmetro de entrada: texto a ser enviado ao LCD e seu tamanho
-Parâmetro de saída: não tem.*/
-void texto(char *apontador,char tamanho)
-{
- int i = 0;
- while(i<tamanho-1 ) //como começa em zero o último caractere é tamanho-1
-{
- enviadados(apontador[i]); //vai enviando caractere por caractere
- i=i++;
- }
-}
-/*Nome: comando
-Função: Envia byte de comando ao LCD.
-Parâmetro de entrada: comando a ser enviado ao LCD
-Parâmetro de saída: não tem.*/
-void comando(char dado)
-{
- PORTD=dado; // envia dado para o PORT associado ao LCD
- RS = 0; //ativa o modo de seleção como comandos
- EN = 1; //ativa o LCD
- Delay1Second(0.01); //aguarda 0.01 segundo para garantir o envio
- EN = 0; //desativa o LCD
- Delay1Second(0.01); //aguarda 0.01 segundo para garantir o envio
-}
-
-void inicioLCD()
-{
- TRISD = 0x00; //configura os pinos do LCD conectados ao port D como saida
- TRISE = 0x00; //configura os pinos do LCD conectados ao port E saida
- LATD = 0x00; //envia zero para D
- LATE = 0; //envia zero para E
- RS = 0; //ativa o modo de seleção como comandos
- RW = 0; //desativa modo leitura e escrita
- EN = 0; //desativa o LCD
- //envio da primeira mensagem
- comando (0b00000001); // 0x01 Limpeza do Display com retorno do cursor
- comando(0b00111100); //0X3C definição do tipo do display
- comando (0b00000110);// 0x06 Sentido de deslocamento do cursor
- //na entrada de um novo caractere para a direita
- comando (0b00001100); //0x0C Controle do Cursor: inativo
- comando (0b10000100); //0x84 seleção do endereço como quinto caractere da primeira linha
- texto(&Linha1,sizeof(Linha1)); //envia mensagem para a primeira linha
- comando (0b11000010); //0xC2 seleção do endereço como terceiro caractere da segunda linha
- texto(&Linha2,sizeof(Linha2)); //envia mensagem para a segunda linha
- Delay1Second(2);//aguarda 2 segundos
-}
+#define delay for (i = 0; i <= 1000; i++)
+#define rs RC0
+#define rw RC1
+#define e RC2
+#define LED RB0
 
 float analog_reading = 0;
 
@@ -96,40 +18,93 @@ void Init_AD() {
   ADRESL = 0;
 }
 
-void Config_Ports() {
-  TRISA = 0xFF; //sets PORTA as all inputs, bit0 is AN0
-  TRISB = 0x00; //sets PORTB as all outputs
-  PORTB = 0x00; //sets all outputs of PORTB off to begin with
-}
+unsigned int adc();
+
+void lcd_int();
+void cmd(unsigned char a);
+void dat(unsigned char b);
+void show(unsigned char * s);
+
+int i;
 
 void main() {
   Init_AD();
-  Config_Ports();
-  inicioLCD();
+  unsigned int val;
+  TRISD = TRISC = 0; //Port B and Port C is Output (LCD)
+  TRISB = 0; //Port D is output LED
+  TRISA0 = 1; //RA0 is input (ADC)
+  lcd_int();
   while (1) {
-    ADCON0 |= ((1<<ADON)|(1<<GO)); /*Enable ADC and start conversion*/
-    while(ADCON0bits.GO_nDONE==1); /*wait for End of conversion i.e. Go/done'=0 conversion completed*/
-    analog_reading = (ADRESH * 256) + (ADRESL); /*Combine 8-bit LSB and 2-bit MSB*/
 
-    if (analog_reading > 20 && analog_reading < 30) {
+    cmd(0x80);
+    ADCON0 |= ((1 << ADON) | (1 << GO)); /*Enable ADC and start conversion*/
+    while (ADCON0bits.GO_nDONE == 1); /*wait for End of conversion i.e. Go/done'=0 conversion completed*/
+    analog_reading = (ADRESH * 256) + (ADRESL); /*Combine 8-bit LSB and 2-bit MSB*/
+    analog_reading = 100 - analog_reading / 10.23;
+    char mystr[10];
+    sprintf(mystr, "%f", analog_reading);
+    show(mystr);
+    if (analog_reading > 0 && analog_reading < 10) {
       LATB = 0x80;
-    } else if (analog_reading >= 30 && analog_reading < 40) {
+    } else if (analog_reading >= 10 && analog_reading < 20) {
       LATB = 0xC0;
-    } else if (analog_reading >= 40 && analog_reading < 50) {
+    } else if (analog_reading >= 20 && analog_reading < 30) {
       LATB = 0xE0;
-    } else if (analog_reading >= 50 && analog_reading < 60) {
+    } else if (analog_reading >= 30 && analog_reading < 40) {
       LATB = 0xF0;
-    } else if (analog_reading >= 60 && analog_reading < 70) {
+    } else if (analog_reading >= 40 && analog_reading < 50) {
       LATB = 0xF8;
-    } else if (analog_reading >= 70 && analog_reading < 80) {
+    } else if (analog_reading >= 50 && analog_reading < 60) {
       LATB = 0xFC;
-    } else if (analog_reading >= 80 && analog_reading < 90) {
+    } else if (analog_reading >= 60 && analog_reading < 70) {
       LATB = 0xFE;
-    } else if (analog_reading >= 90) {
+    } else if (analog_reading >= 70) {
       LATB = 0xFF;
     } else {
       LATB = 0x00;
     }
-
   }
+}
+
+void lcd_int() {
+  cmd(0x38);
+  cmd(0x0c);
+  cmd(0x06);
+  cmd(0x80);
+}
+
+void cmd(unsigned char a) {
+  PORTD = a;
+  rs = 0;
+  rw = 0;
+  e = 1;
+  delay;
+  e = 0;
+}
+
+void dat(unsigned char b) {
+  PORTD = b;
+  rs = 1;
+  rw = 0;
+  e = 1;
+  delay;
+  e = 0;
+}
+
+void show(unsigned char * s) {
+  while ( * s) {
+    dat( * s++);
+  }
+}
+
+unsigned int adc() {
+  unsigned int adcval;
+
+  ADCON1 = 0xc0; //right justified
+  ADCON0 = 0x85; //adc on, fosc/64
+  while (GO_nDONE); //wait until conversion is finished
+  adcval = ((ADRESH << 8) | (ADRESL)); //store the result
+  adcval = (adcval / 3) - 1;
+
+  return adcval;
 }
