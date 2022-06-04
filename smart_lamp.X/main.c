@@ -1,5 +1,4 @@
 #include<pic18f4550.h>
-
 #include <stdio.h>
 
 #define delay for (i = 0; i <= 1000; i++)
@@ -40,7 +39,7 @@ void main() {
     ADCON0 |= ((1 << ADON) | (1 << GO)); /*Enable ADC and start conversion*/
     while (ADCON0bits.GO_nDONE == 1); /*wait for End of conversion i.e. Go/done'=0 conversion completed*/
     analog_reading = (ADRESH * 256) + (ADRESL); /*Combine 8-bit LSB and 2-bit MSB*/
-    analog_reading = 100 - analog_reading / 10.23;
+    analog_reading = (analog_reading * 5)/(10000 + analog_reading);
     char mystr[10];
     sprintf(mystr, "%f", analog_reading);
     show(mystr);

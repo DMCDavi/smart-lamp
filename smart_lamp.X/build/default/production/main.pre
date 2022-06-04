@@ -5330,7 +5330,7 @@ extern int vsscanf(const char *, const char *, va_list);
 extern int sprintf(char *, const char *, ...);
 extern int printf(const char *, ...);
 
-# 11 "main.c"
+# 10 "main.c"
 float analog_reading = 0;
 
 void Init_AD() {
@@ -5363,7 +5363,7 @@ cmd(0x80);
 ADCON0 |= ((1 << ADON) | (1 << GO));
 while (ADCON0bits.GO_nDONE == 1);
 analog_reading = (ADRESH * 256) + (ADRESL);
-analog_reading = 100 - analog_reading / 10.23;
+analog_reading = analog_reading/0.00489;
 char mystr[10];
 sprintf(mystr, "%f", analog_reading);
 show(mystr);
