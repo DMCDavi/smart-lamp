@@ -1,0 +1,278 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "ESP826601ESP01"
+      (family "ANA")
+      (package "XCVR_ESP826601ESP01")
+      (description "MakerFocus_4pcs_ESP8266_ESP-01_Serial_Wireless_WiFi_Transceiver_Receiver_Module_1MB_SPI_Flash_DC3.0-3.6V_Internet_of_Things_WiFi_Module_Board_Compatible_with_Ar_duino__")
+      (attribute "PKG_TYPE" "XCVR_ESP826601ESP01")
+      (attribute "STANDARD" "Manufacturer_recommendations_or_IPC_7351B")
+      (attribute "PARTREV" "V1.2")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "11.2_mm")
+      (attribute "MANUFACTURER" "AI-Thinker")
+      (gate
+        (swap 1)
+        (symbol "ESP826601ESP01")
+        (pin "!RST" 7 (type IP))
+        (pin "EN" 6 (type IP))
+        (pin "GND" 1 (type PP))
+        (pin "IO0" 3 (type IO))
+        (pin "IO2" 2 (type IO))
+        (pin "RXD" 4 (type IP))
+        (pin "TXD" 5 (type OP))
+        (pin "VCC" 8 (type PP))
+      )
+    )
+    (symbol "ESP826601ESP01"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -500 400) (pt 500 400) (pt 500 -400) (pt -500 -400) (pt -500 400) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "XCVR_ESP826601ESP01"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -287.8 -486.22) (pt -287.8 222.44))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -287.8 222.44) (pt -287.8 486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -287.8 486.22) (pt 279.13 486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 486.22) (pt 279.13 222.44))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 222.44) (pt 279.13 -486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 -486.22) (pt -287.8 -486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 222.44) (pt -287.8 222.44))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -321.26 -327.17) (pt -313.39 -327.17))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -297.64 496.06) (pt -297.64 -496.06))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -297.64 -496.06) (pt 288.98 -496.06))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 288.98 -496.06) (pt 288.98 496.06))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 288.98 496.06) (pt -297.64 496.06))
+        )
+      )
+      (layer TCOP
+        (graphic
+          (stroke 1)
+          (fill KEEPOUT)
+          (path (pt -287.8 486.22) (pt 279.13 486.22) (pt 279.13 222.44) (pt -287.8 222.44) (pt -287.8 486.22) (closed))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -287.8 -486.22) (pt -287.8 222.44))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -287.8 222.44) (pt -287.8 486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -287.8 486.22) (pt 279.13 486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 486.22) (pt 279.13 222.44))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 222.44) (pt 279.13 -486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 -486.22) (pt -287.8 -486.22))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 279.13 222.44) (pt -287.8 222.44))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -321.26 -327.17) (pt -313.39 -327.17))
+        )
+      )
+      (layer INNER
+        (graphic
+          (stroke 1)
+          (fill KEEPOUT)
+          (path (pt -287.8 486.22) (pt 279.13 486.22) (pt 279.13 222.44) (pt -287.8 222.44) (pt -287.8 486.22) (closed))
+        )
+      )
+      (leg 1 (pt -150 -327.17) (padstack 1))
+      (leg 2 (pt -50 -327.17) (padstack 2))
+      (leg 3 (pt 50 -327.17) (padstack 3))
+      (leg 4 (pt 150 -327.17) (padstack 4))
+      (leg 5 (pt -150 -427.17) (padstack 5))
+      (leg 6 (pt -50 -427.17) (padstack 6))
+      (leg 7 (pt 50 -427.17) (padstack 7))
+      (leg 8 (pt 150 -427.17) (padstack 8))
+      (padstack 1
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (square 59.06))
+        (pad (layer INNER) (square 59.06))
+        (pad (layer BCOP) (square 59.06))
+        (pad (layer TRES) (square 59.06))
+        (pad (layer BRES) (square 59.06))
+      )
+      (padstack 2
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 3
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 4
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 5
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 6
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 7
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 8
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (model ESP8266-01_ESP-01.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
