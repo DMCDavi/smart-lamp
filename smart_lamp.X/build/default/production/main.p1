@@ -1,6 +1,6 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"7172 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
-[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"3971 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
 "7082
 [v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
 "7012
@@ -18,11 +18,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
 "10648
 [v _TRISA0 `Vb ~T0 @X0 0 e@31888 ]
-"22 main.c
+"20 main.c
 [v _lcd_int `(v ~T0 @X0 0 ef ]
-"23
+"21
 [v _cmd `(v ~T0 @X0 0 ef1`uc ]
-"9346 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"7172 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
+[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"9346
 [v _ADON `Vb ~T0 @X0 0 e@32272 ]
 "9864
 [v _GO `Vb ~T0 @X0 0 e@32273 ]
@@ -58,11 +60,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S439 . . . . . . . . . . ]
 "7220
 [v _ADCON0bits `VS439 ~T0 @X0 0 e@4034 ]
-"205 E:\Program Files\Microchip\xc8\v1.20\include\stdio.h
+"205 C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdio.h
 [v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
-"25 main.c
+"23 main.c
 [v _show `(v ~T0 @X0 0 ef1`*uc ]
-"3490 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"3490 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
 [v _LATB `Vuc ~T0 @X0 0 e@3978 ]
 "2984
 [v _PORTD `Vuc ~T0 @X0 0 e@3971 ]
@@ -74,10 +76,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _RC1 `Vb ~T20 @X0 0 e@31761 ]
 "10330
 [v _RC2 `Vb ~T20 @X0 0 e@31762 ]
-"9872
-[v _GO_nDONE `Vb ~T0 @X0 0 e@32273 ]
 [; ;pic18f4550.h: 44: extern volatile unsigned char SPPDATA @ 0xF62;
-"46 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
 [; ;pic18f4550.h: 46: asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
 [; ;pic18f4550.h: 49: typedef union {
@@ -4165,63 +4165,59 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 12: void Init_AD() {
 [e :U _Init_AD ]
 [f ]
-[; ;main.c: 13: ADCON0 = 0x01;
+[; ;main.c: 13: TRISA = 0xff;
 "13
-[e = _ADCON0 -> -> 1 `i `uc ]
-[; ;main.c: 14: ADCON1 = 0x0E;
+[e = _TRISA -> -> 255 `i `uc ]
+[; ;main.c: 14: ADCON1 = 0x0e;
 "14
 [e = _ADCON1 -> -> 14 `i `uc ]
-[; ;main.c: 15: ADCON2 = 0xA6;
+[; ;main.c: 15: ADCON2 = 0x92;
 "15
-[e = _ADCON2 -> -> 166 `i `uc ]
-[; ;main.c: 16: ADRESH = 0;
+[e = _ADCON2 -> -> 146 `i `uc ]
+[; ;main.c: 16: ADRESH=0;
 "16
 [e = _ADRESH -> -> 0 `i `uc ]
-[; ;main.c: 17: ADRESL = 0;
+[; ;main.c: 17: ADRESL=0;
 "17
 [e = _ADRESL -> -> 0 `i `uc ]
 [; ;main.c: 18: }
 "18
 [e :UE 536 ]
 }
-[; ;main.c: 20: unsigned int adc();
-[; ;main.c: 22: void lcd_int();
-[; ;main.c: 23: void cmd(unsigned char a);
-[; ;main.c: 24: void dat(unsigned char b);
-[; ;main.c: 25: void show(unsigned char * s);
-"27
+[; ;main.c: 20: void lcd_int();
+[; ;main.c: 21: void cmd(unsigned char a);
+[; ;main.c: 22: void dat(unsigned char b);
+[; ;main.c: 23: void show(unsigned char * s);
+"25
 [v _i `i ~T0 @X0 1 e ]
-[; ;main.c: 27: int i;
-"29
+[; ;main.c: 25: int i;
+"27
 [v _main `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 29: void main() {
+[; ;main.c: 27: void main() {
 [e :U _main ]
 [f ]
-[; ;main.c: 30: Init_AD();
-"30
+[; ;main.c: 28: Init_AD();
+"28
 [e ( _Init_AD ..  ]
-"31
-[v _val `ui ~T0 @X0 1 a ]
-[; ;main.c: 31: unsigned int val;
-[; ;main.c: 32: TRISD = TRISC = 0;
-"32
+[; ;main.c: 30: TRISD = TRISC = 0;
+"30
 [e = _TRISD = _TRISC -> -> 0 `i `uc ]
-[; ;main.c: 33: TRISB = 0;
-"33
+[; ;main.c: 31: TRISB = 0;
+"31
 [e = _TRISB -> -> 0 `i `uc ]
-[; ;main.c: 34: TRISA0 = 1;
-"34
+[; ;main.c: 32: TRISA0 = 1;
+"32
 [e = _TRISA0 -> -> 1 `i `b ]
-[; ;main.c: 35: lcd_int();
-"35
+[; ;main.c: 33: lcd_int();
+"33
 [e ( _lcd_int ..  ]
-[; ;main.c: 36: while (1) {
-"36
+[; ;main.c: 34: while (1) {
+"34
 [e :U 539 ]
 {
-[; ;main.c: 38: cmd(0x80);
-"38
+[; ;main.c: 36: cmd(0x80);
+"36
 [e ( _cmd (1 -> -> 128 `i `uc ]
 [; ;main.c: 39: ADCON0 |= ((1 << ADON) | (1 << GO));
 "39
@@ -4236,13 +4232,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 41: analog_reading = (ADRESH * 256) + (ADRESL);
 "41
 [e = _analog_reading -> + * -> _ADRESH `i -> 256 `i -> _ADRESL `i `f ]
-[; ;main.c: 42: analog_reading = analog_reading/0.00489;
+[; ;main.c: 42: analog_reading = analog_reading*5/1023;
 "42
-[e = _analog_reading -> / -> _analog_reading `d .0.00489 `f ]
+[e = _analog_reading / * _analog_reading -> -> 5 `i `f -> -> 1023 `i `f ]
 "43
 [v _mystr `uc ~T0 @X0 -> 10 `i a ]
 [; ;main.c: 43: char mystr[10];
-[; ;main.c: 44: sprintf(mystr, "%f", analog_reading);
+[; ;main.c: 44: sprintf(mystr, "%.2f", analog_reading);
 "44
 [e ( _sprintf (1 , (. , &U _mystr :s 1C -> _analog_reading `d ]
 [; ;main.c: 45: show(mystr);
@@ -4347,7 +4343,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "65
 }
 [e :U 538 ]
-"36
+"34
 [e $U 539  ]
 [e :U 540 ]
 [; ;main.c: 64: }
@@ -4478,42 +4474,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 "97
 [e :UE 569 ]
 }
-"99
-[v _adc `(ui ~T0 @X0 1 ef ]
-{
-[; ;main.c: 99: unsigned int adc() {
-[e :U _adc ]
-[f ]
-"100
-[v _adcval `ui ~T0 @X0 1 a ]
-[; ;main.c: 100: unsigned int adcval;
-[; ;main.c: 102: ADCON1 = 0xc0;
-"102
-[e = _ADCON1 -> -> 192 `i `uc ]
-[; ;main.c: 103: ADCON0 = 0x85;
-"103
-[e = _ADCON0 -> -> 133 `i `uc ]
-[; ;main.c: 104: while (GO_nDONE);
-"104
-[e $U 574  ]
-[e :U 575 ]
-[e :U 574 ]
-[e $ _GO_nDONE 575  ]
-[e :U 576 ]
-[; ;main.c: 105: adcval = ((ADRESH << 8) | (ADRESL));
-"105
-[e = _adcval -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `ui ]
-[; ;main.c: 106: adcval = (adcval / 3) - 1;
-"106
-[e = _adcval - / _adcval -> -> 3 `i `ui -> -> 1 `i `ui ]
-[; ;main.c: 108: return adcval;
-"108
-[e ) _adcval ]
-[e $UE 573  ]
-[; ;main.c: 109: }
-"109
-[e :UE 573 ]
-}
-[p f _sprintf 8396800 ]
-[a 1C 37 102 0 ]
+[p f _sprintf 8462336 ]
+[a 1C 37 46 50 102 0 ]
 

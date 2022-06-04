@@ -1,7 +1,7 @@
 
 # 1 "main.c"
 
-# 44 "E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h"
+# 44 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h"
 extern volatile unsigned char SPPDATA @ 0xF62;
 
 asm("SPPDATA equ 0F62h");
@@ -5262,12 +5262,12 @@ extern volatile __bit nW @ (((unsigned) &SSPSTAT)*8) + 2;
 
 extern volatile __bit nWRITE @ (((unsigned) &SSPSTAT)*8) + 2;
 
-# 8 "E:\Program Files\Microchip\xc8\v1.20\include\stdio.h"
+# 8 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdio.h"
 typedef int ptrdiff_t;
 typedef unsigned size_t;
 typedef unsigned short wchar_t;
 
-# 7 "E:\Program Files\Microchip\xc8\v1.20\include\stdarg.h"
+# 7 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdarg.h"
 typedef void * va_list[1];
 
 #pragma intrinsic(__va_start)
@@ -5276,7 +5276,7 @@ extern void * __va_start(void);
 #pragma intrinsic(__va_arg)
 extern void * __va_arg(void *, ...);
 
-# 23 "E:\Program Files\Microchip\xc8\v1.20\include\stdio.h"
+# 23 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdio.h"
 extern int errno;
 
 # 54
@@ -5286,7 +5286,7 @@ char * ptr;
 void (* func)(char);
 };
 
-# 17 "E:\Program Files\Microchip\xc8\v1.20\include\conio.h"
+# 17 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\conio.h"
 extern int errno;
 
 
@@ -5303,7 +5303,7 @@ extern __bit kbhit(void);
 extern char * cgets(char *);
 extern void cputs(const char *);
 
-# 99 "E:\Program Files\Microchip\xc8\v1.20\include\stdio.h"
+# 99 "C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdio.h"
 extern int cprintf(char *, ...);
 #pragma printf_check(cprintf)
 
@@ -5334,14 +5334,12 @@ extern int printf(const char *, ...);
 float analog_reading = 0;
 
 void Init_AD() {
-ADCON0 = 0x01;
-ADCON1 = 0x0E;
-ADCON2 = 0xA6;
-ADRESH = 0;
-ADRESL = 0;
+TRISA = 0xff;
+ADCON1 = 0x0e;
+ADCON2 = 0x92;
+ADRESH=0;
+ADRESL=0;
 }
-
-unsigned int adc();
 
 void lcd_int();
 void cmd(unsigned char a);
@@ -5352,7 +5350,7 @@ int i;
 
 void main() {
 Init_AD();
-unsigned int val;
+
 TRISD = TRISC = 0;
 TRISB = 0;
 TRISA0 = 1;
@@ -5360,12 +5358,14 @@ lcd_int();
 while (1) {
 
 cmd(0x80);
+
+
 ADCON0 |= ((1 << ADON) | (1 << GO));
 while (ADCON0bits.GO_nDONE == 1);
 analog_reading = (ADRESH * 256) + (ADRESL);
-analog_reading = analog_reading/0.00489;
+analog_reading = analog_reading*5/1023;
 char mystr[10];
-sprintf(mystr, "%f", analog_reading);
+sprintf(mystr, "%.2f", analog_reading);
 show(mystr);
 if (analog_reading > 0 && analog_reading < 10) {
 LATB = 0x80;
@@ -5418,16 +5418,4 @@ void show(unsigned char * s) {
 while ( * s) {
 dat( * s++);
 }
-}
-
-unsigned int adc() {
-unsigned int adcval;
-
-ADCON1 = 0xc0;
-ADCON0 = 0x85;
-while (GO_nDONE);
-adcval = ((ADRESH << 8) | (ADRESL));
-adcval = (adcval / 3) - 1;
-
-return adcval;
 }
