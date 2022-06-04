@@ -5334,14 +5334,12 @@ extern int printf(const char *, ...);
 float analog_reading = 0;
 
 void Init_AD() {
-ADCON0 = 0x01;
-ADCON1 = 0x0E;
-ADCON2 = 0xA6;
-ADRESH = 0;
-ADRESL = 0;
+TRISA = 0xff;
+ADCON1 = 0x0e;
+ADCON2 = 0x92;
+ADRESH=0;
+ADRESL=0;
 }
-
-unsigned int adc();
 
 void lcd_int();
 void cmd(unsigned char a);
@@ -5352,7 +5350,7 @@ int i;
 
 void main() {
 Init_AD();
-unsigned int val;
+
 TRISD = TRISC = 0;
 TRISB = 0;
 TRISA0 = 1;
@@ -5363,9 +5361,9 @@ cmd(0x80);
 ADCON0 |= ((1 << ADON) | (1 << GO));
 while (ADCON0bits.GO_nDONE == 1);
 analog_reading = (ADRESH * 256) + (ADRESL);
-analog_reading = analog_reading/0.00489;
+analog_reading = analog_reading*5/1023;
 char mystr[10];
-sprintf(mystr, "%f", analog_reading);
+sprintf(mystr, "%.2f", analog_reading);
 show(mystr);
 if (analog_reading > 0 && analog_reading < 10) {
 LATB = 0x80;
@@ -5418,16 +5416,4 @@ void show(unsigned char * s) {
 while ( * s) {
 dat( * s++);
 }
-}
-
-unsigned int adc() {
-unsigned int adcval;
-
-ADCON1 = 0xc0;
-ADCON0 = 0x85;
-while (GO_nDONE);
-adcval = ((ADRESH << 8) | (ADRESL));
-adcval = (adcval / 3) - 1;
-
-return adcval;
 }

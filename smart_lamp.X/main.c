@@ -6,18 +6,16 @@
 #define rw RC1
 #define e RC2
 #define LED RB0
-
+#define RESOLUTION 5/1023 // (Vref)/(2^N - 1), PIC's Vref maximum = 5 VOLTS, N=10 bits
 float analog_reading = 0;
 
 void Init_AD() {
-  ADCON0 = 0x01; //select channel AN0, enable A/D module
-  ADCON1 = 0x0E; //use VDD, VSS as reference and configure AN0 for analog
-  ADCON2 = 0xA6; //result right justified, acquisition time = 8 TAD, FOSC/64
-  ADRESH = 0; /* Flush ADC output Register */
-  ADRESL = 0;
+    TRISA = 0xff;		/*Set as input port*/
+    ADCON1 = 0x0e;  		/*Ref vtg is VDD & Configure pin as analog pin*/    
+    ADCON2 = 0x92;  		/*Right Justified, 4Tad and Fosc/32. */
+    ADRESH=0;  			/*Flush ADC output Register*/
+    ADRESL=0;
 }
-
-unsigned int adc();
 
 void lcd_int();
 void cmd(unsigned char a);
@@ -28,10 +26,10 @@ int i;
 
 void main() {
   Init_AD();
-  unsigned int val;
-  TRISD = TRISC = 0; //Port B and Port C is Output (LCD)
-  TRISB = 0; //Port D is output LED
-  TRISA0 = 1; //RA0 is input (ADC)
+  
+  TRISD = TRISC = 0; //Port B and Port C is Output (LCD) -- it controls D and C sections
+  TRISB = 0; //Port D is output LED -- it controls B section
+  TRISA0 = 1; //RA0 is input (ADC) -- it controls A section
   lcd_int();
   while (1) {
 
@@ -39,9 +37,9 @@ void main() {
     ADCON0 |= ((1 << ADON) | (1 << GO)); /*Enable ADC and start conversion*/
     while (ADCON0bits.GO_nDONE == 1); /*wait for End of conversion i.e. Go/done'=0 conversion completed*/
     analog_reading = (ADRESH * 256) + (ADRESL); /*Combine 8-bit LSB and 2-bit MSB*/
-    analog_reading = (analog_reading * 5)/(10000 + analog_reading);
+    analog_reading = analog_reading*RESOLUTION;  // multiply the conversion bits by the conversion's resolution
     char mystr[10];
-    sprintf(mystr, "%f", analog_reading);
+    sprintf(mystr, "%.2f", analog_reading);
     show(mystr);
     if (analog_reading > 0 && analog_reading < 10) {
       LATB = 0x80;
@@ -94,16 +92,4 @@ void show(unsigned char * s) {
   while ( * s) {
     dat( * s++);
   }
-}
-
-unsigned int adc() {
-  unsigned int adcval;
-
-  ADCON1 = 0xc0; //right justified
-  ADCON0 = 0x85; //adc on, fosc/64
-  while (GO_nDONE); //wait until conversion is finished
-  adcval = ((ADRESH << 8) | (ADRESL)); //store the result
-  adcval = (adcval / 3) - 1;
-
-  return adcval;
 }

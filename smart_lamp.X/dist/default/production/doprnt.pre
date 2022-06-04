@@ -375,6 +375,24 @@ continue;
 # 557
 flag = 0;
 
+# 620
+if(*f == '.') {
+flag |= 0x4000;
+f++;
+
+# 629
+{
+prec = 0;
+while(isdigit((unsigned)*f))
+prec = prec*10 + *f++ - '0';
+}
+} else {
+prec = 0;
+
+flag |= 0x1000;
+
+}
+
 # 644
 switch(c = *f++) {
 
@@ -398,7 +416,8 @@ continue;
 
 if(flag & (0x700)) {
 
-# 838
+if(flag & 0x1000)
+
 prec = 6;
 fval = (*(double *)__va_arg((*(double **)ap), (double)0));
 if(fval < 0.0) {
@@ -507,6 +526,16 @@ prec--;
 # 1252
 continue;
 }
+
+# 1297
+if(prec == 0 && _val._val == 0)
+prec++;
+
+# 1346
+if(c < prec)
+c = prec;
+else if(prec < c)
+prec = c;
 
 # 1429
 {

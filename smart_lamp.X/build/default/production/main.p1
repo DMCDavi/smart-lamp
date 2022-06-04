@@ -1,6 +1,6 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"7172 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
-[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"3971 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
 "7082
 [v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
 "7012
@@ -18,11 +18,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
 "10648
 [v _TRISA0 `Vb ~T0 @X0 0 e@31888 ]
-"22 main.c
+"20 main.c
 [v _lcd_int `(v ~T0 @X0 0 ef ]
-"23
+"21
 [v _cmd `(v ~T0 @X0 0 ef1`uc ]
-"9346 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"7172 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"9346
 [v _ADON `Vb ~T0 @X0 0 e@32272 ]
 "9864
 [v _GO `Vb ~T0 @X0 0 e@32273 ]
@@ -60,7 +62,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _ADCON0bits `VS439 ~T0 @X0 0 e@4034 ]
 "205 E:\Program Files\Microchip\xc8\v1.20\include\stdio.h
 [v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
-"25 main.c
+"23 main.c
 [v _show `(v ~T0 @X0 0 ef1`*uc ]
 "3490 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
 [v _LATB `Vuc ~T0 @X0 0 e@3978 ]
@@ -74,8 +76,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _RC1 `Vb ~T20 @X0 0 e@31761 ]
 "10330
 [v _RC2 `Vb ~T20 @X0 0 e@31762 ]
-"9872
-[v _GO_nDONE `Vb ~T0 @X0 0 e@32273 ]
 [; ;pic18f4550.h: 44: extern volatile unsigned char SPPDATA @ 0xF62;
 "46 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
 [; ;pic18f4550.h: 46: asm("SPPDATA equ 0F62h");
@@ -4165,176 +4165,172 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 12: void Init_AD() {
 [e :U _Init_AD ]
 [f ]
-[; ;main.c: 13: ADCON0 = 0x01;
+[; ;main.c: 13: TRISA = 0xff;
 "13
-[e = _ADCON0 -> -> 1 `i `uc ]
-[; ;main.c: 14: ADCON1 = 0x0E;
+[e = _TRISA -> -> 255 `i `uc ]
+[; ;main.c: 14: ADCON1 = 0x0e;
 "14
 [e = _ADCON1 -> -> 14 `i `uc ]
-[; ;main.c: 15: ADCON2 = 0xA6;
+[; ;main.c: 15: ADCON2 = 0x92;
 "15
-[e = _ADCON2 -> -> 166 `i `uc ]
-[; ;main.c: 16: ADRESH = 0;
+[e = _ADCON2 -> -> 146 `i `uc ]
+[; ;main.c: 16: ADRESH=0;
 "16
 [e = _ADRESH -> -> 0 `i `uc ]
-[; ;main.c: 17: ADRESL = 0;
+[; ;main.c: 17: ADRESL=0;
 "17
 [e = _ADRESL -> -> 0 `i `uc ]
 [; ;main.c: 18: }
 "18
 [e :UE 536 ]
 }
-[; ;main.c: 20: unsigned int adc();
-[; ;main.c: 22: void lcd_int();
-[; ;main.c: 23: void cmd(unsigned char a);
-[; ;main.c: 24: void dat(unsigned char b);
-[; ;main.c: 25: void show(unsigned char * s);
-"27
+[; ;main.c: 20: void lcd_int();
+[; ;main.c: 21: void cmd(unsigned char a);
+[; ;main.c: 22: void dat(unsigned char b);
+[; ;main.c: 23: void show(unsigned char * s);
+"25
 [v _i `i ~T0 @X0 1 e ]
-[; ;main.c: 27: int i;
-"29
+[; ;main.c: 25: int i;
+"27
 [v _main `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 29: void main() {
+[; ;main.c: 27: void main() {
 [e :U _main ]
 [f ]
-[; ;main.c: 30: Init_AD();
-"30
+[; ;main.c: 28: Init_AD();
+"28
 [e ( _Init_AD ..  ]
-"31
-[v _val `ui ~T0 @X0 1 a ]
-[; ;main.c: 31: unsigned int val;
-[; ;main.c: 32: TRISD = TRISC = 0;
-"32
+[; ;main.c: 30: TRISD = TRISC = 0;
+"30
 [e = _TRISD = _TRISC -> -> 0 `i `uc ]
-[; ;main.c: 33: TRISB = 0;
-"33
+[; ;main.c: 31: TRISB = 0;
+"31
 [e = _TRISB -> -> 0 `i `uc ]
-[; ;main.c: 34: TRISA0 = 1;
-"34
+[; ;main.c: 32: TRISA0 = 1;
+"32
 [e = _TRISA0 -> -> 1 `i `b ]
-[; ;main.c: 35: lcd_int();
-"35
+[; ;main.c: 33: lcd_int();
+"33
 [e ( _lcd_int ..  ]
-[; ;main.c: 36: while (1) {
-"36
+[; ;main.c: 34: while (1) {
+"34
 [e :U 539 ]
 {
-[; ;main.c: 38: cmd(0x80);
-"38
+[; ;main.c: 36: cmd(0x80);
+"36
 [e ( _cmd (1 -> -> 128 `i `uc ]
-[; ;main.c: 39: ADCON0 |= ((1 << ADON) | (1 << GO));
-"39
+[; ;main.c: 37: ADCON0 |= ((1 << ADON) | (1 << GO));
+"37
 [e =| _ADCON0 -> | << -> 1 `i -> _ADON `i << -> 1 `i -> _GO `i `uc ]
-[; ;main.c: 40: while (ADCON0bits.GO_nDONE == 1);
-"40
+[; ;main.c: 38: while (ADCON0bits.GO_nDONE == 1);
+"38
 [e $U 541  ]
 [e :U 542 ]
 [e :U 541 ]
 [e $ == -> . . _ADCON0bits 1 1 `i -> 1 `i 542  ]
 [e :U 543 ]
-[; ;main.c: 41: analog_reading = (ADRESH * 256) + (ADRESL);
-"41
+[; ;main.c: 39: analog_reading = (ADRESH * 256) + (ADRESL);
+"39
 [e = _analog_reading -> + * -> _ADRESH `i -> 256 `i -> _ADRESL `i `f ]
-[; ;main.c: 42: analog_reading = analog_reading/0.00489;
-"42
-[e = _analog_reading -> / -> _analog_reading `d .0.00489 `f ]
-"43
+[; ;main.c: 40: analog_reading = analog_reading*5/1023;
+"40
+[e = _analog_reading / * _analog_reading -> -> 5 `i `f -> -> 1023 `i `f ]
+"41
 [v _mystr `uc ~T0 @X0 -> 10 `i a ]
-[; ;main.c: 43: char mystr[10];
-[; ;main.c: 44: sprintf(mystr, "%f", analog_reading);
-"44
+[; ;main.c: 41: char mystr[10];
+[; ;main.c: 42: sprintf(mystr, "%.2f", analog_reading);
+"42
 [e ( _sprintf (1 , (. , &U _mystr :s 1C -> _analog_reading `d ]
-[; ;main.c: 45: show(mystr);
-"45
+[; ;main.c: 43: show(mystr);
+"43
 [e ( _show (1 &U _mystr ]
-[; ;main.c: 46: if (analog_reading > 0 && analog_reading < 10) {
-"46
+[; ;main.c: 44: if (analog_reading > 0 && analog_reading < 10) {
+"44
 [e $ ! && > _analog_reading -> -> 0 `i `f < _analog_reading -> -> 10 `i `f 544  ]
 {
-[; ;main.c: 47: LATB = 0x80;
-"47
+[; ;main.c: 45: LATB = 0x80;
+"45
 [e = _LATB -> -> 128 `i `uc ]
-"48
+"46
 }
-[; ;main.c: 48: } else if (analog_reading >= 10 && analog_reading < 20) {
+[; ;main.c: 46: } else if (analog_reading >= 10 && analog_reading < 20) {
 [e $U 545  ]
 [e :U 544 ]
 [e $ ! && >= _analog_reading -> -> 10 `i `f < _analog_reading -> -> 20 `i `f 546  ]
 {
-[; ;main.c: 49: LATB = 0xC0;
-"49
+[; ;main.c: 47: LATB = 0xC0;
+"47
 [e = _LATB -> -> 192 `i `uc ]
-"50
+"48
 }
-[; ;main.c: 50: } else if (analog_reading >= 20 && analog_reading < 30) {
+[; ;main.c: 48: } else if (analog_reading >= 20 && analog_reading < 30) {
 [e $U 547  ]
 [e :U 546 ]
 [e $ ! && >= _analog_reading -> -> 20 `i `f < _analog_reading -> -> 30 `i `f 548  ]
 {
-[; ;main.c: 51: LATB = 0xE0;
-"51
+[; ;main.c: 49: LATB = 0xE0;
+"49
 [e = _LATB -> -> 224 `i `uc ]
-"52
+"50
 }
-[; ;main.c: 52: } else if (analog_reading >= 30 && analog_reading < 40) {
+[; ;main.c: 50: } else if (analog_reading >= 30 && analog_reading < 40) {
 [e $U 549  ]
 [e :U 548 ]
 [e $ ! && >= _analog_reading -> -> 30 `i `f < _analog_reading -> -> 40 `i `f 550  ]
 {
-[; ;main.c: 53: LATB = 0xF0;
-"53
+[; ;main.c: 51: LATB = 0xF0;
+"51
 [e = _LATB -> -> 240 `i `uc ]
-"54
+"52
 }
-[; ;main.c: 54: } else if (analog_reading >= 40 && analog_reading < 50) {
+[; ;main.c: 52: } else if (analog_reading >= 40 && analog_reading < 50) {
 [e $U 551  ]
 [e :U 550 ]
 [e $ ! && >= _analog_reading -> -> 40 `i `f < _analog_reading -> -> 50 `i `f 552  ]
 {
-[; ;main.c: 55: LATB = 0xF8;
-"55
+[; ;main.c: 53: LATB = 0xF8;
+"53
 [e = _LATB -> -> 248 `i `uc ]
-"56
+"54
 }
-[; ;main.c: 56: } else if (analog_reading >= 50 && analog_reading < 60) {
+[; ;main.c: 54: } else if (analog_reading >= 50 && analog_reading < 60) {
 [e $U 553  ]
 [e :U 552 ]
 [e $ ! && >= _analog_reading -> -> 50 `i `f < _analog_reading -> -> 60 `i `f 554  ]
 {
-[; ;main.c: 57: LATB = 0xFC;
-"57
+[; ;main.c: 55: LATB = 0xFC;
+"55
 [e = _LATB -> -> 252 `i `uc ]
-"58
+"56
 }
-[; ;main.c: 58: } else if (analog_reading >= 60 && analog_reading < 70) {
+[; ;main.c: 56: } else if (analog_reading >= 60 && analog_reading < 70) {
 [e $U 555  ]
 [e :U 554 ]
 [e $ ! && >= _analog_reading -> -> 60 `i `f < _analog_reading -> -> 70 `i `f 556  ]
 {
-[; ;main.c: 59: LATB = 0xFE;
-"59
+[; ;main.c: 57: LATB = 0xFE;
+"57
 [e = _LATB -> -> 254 `i `uc ]
-"60
+"58
 }
-[; ;main.c: 60: } else if (analog_reading >= 70) {
+[; ;main.c: 58: } else if (analog_reading >= 70) {
 [e $U 557  ]
 [e :U 556 ]
 [e $ ! >= _analog_reading -> -> 70 `i `f 558  ]
 {
-[; ;main.c: 61: LATB = 0xFF;
-"61
+[; ;main.c: 59: LATB = 0xFF;
+"59
 [e = _LATB -> -> 255 `i `uc ]
-"62
+"60
 }
-[; ;main.c: 62: } else {
+[; ;main.c: 60: } else {
 [e $U 559  ]
 [e :U 558 ]
 {
-[; ;main.c: 63: LATB = 0x00;
-"63
+[; ;main.c: 61: LATB = 0x00;
+"61
 [e = _LATB -> -> 0 `i `uc ]
-"64
+"62
 }
 [e :U 559 ]
 [e :U 557 ]
@@ -4344,61 +4340,61 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 549 ]
 [e :U 547 ]
 [e :U 545 ]
-"65
+"63
 }
 [e :U 538 ]
-"36
+"34
 [e $U 539  ]
 [e :U 540 ]
+[; ;main.c: 62: }
+[; ;main.c: 63: }
 [; ;main.c: 64: }
-[; ;main.c: 65: }
-[; ;main.c: 66: }
-"66
+"64
 [e :UE 537 ]
 }
-"68
+"66
 [v _lcd_int `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 68: void lcd_int() {
+[; ;main.c: 66: void lcd_int() {
 [e :U _lcd_int ]
 [f ]
-[; ;main.c: 69: cmd(0x38);
-"69
+[; ;main.c: 67: cmd(0x38);
+"67
 [e ( _cmd (1 -> -> 56 `i `uc ]
-[; ;main.c: 70: cmd(0x0c);
-"70
+[; ;main.c: 68: cmd(0x0c);
+"68
 [e ( _cmd (1 -> -> 12 `i `uc ]
-[; ;main.c: 71: cmd(0x06);
-"71
+[; ;main.c: 69: cmd(0x06);
+"69
 [e ( _cmd (1 -> -> 6 `i `uc ]
-[; ;main.c: 72: cmd(0x80);
-"72
+[; ;main.c: 70: cmd(0x80);
+"70
 [e ( _cmd (1 -> -> 128 `i `uc ]
-[; ;main.c: 73: }
-"73
+[; ;main.c: 71: }
+"71
 [e :UE 560 ]
 }
-"75
+"73
 [v _cmd `(v ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 75: void cmd(unsigned char a) {
+[; ;main.c: 73: void cmd(unsigned char a) {
 [e :U _cmd ]
 [v _a `uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;main.c: 76: PORTD = a;
-"76
+[; ;main.c: 74: PORTD = a;
+"74
 [e = _PORTD _a ]
-[; ;main.c: 77: RC0 = 0;
-"77
+[; ;main.c: 75: RC0 = 0;
+"75
 [e = _RC0 -> -> 0 `i `b ]
-[; ;main.c: 78: RC1 = 0;
-"78
+[; ;main.c: 76: RC1 = 0;
+"76
 [e = _RC1 -> -> 0 `i `b ]
-[; ;main.c: 79: RC2 = 1;
-"79
+[; ;main.c: 77: RC2 = 1;
+"77
 [e = _RC2 -> -> 1 `i `b ]
-[; ;main.c: 80: for (i = 0; i <= 1000; i++);
-"80
+[; ;main.c: 78: for (i = 0; i <= 1000; i++);
+"78
 {
 [e = _i -> 0 `i ]
 [e $ <= _i -> 1000 `i 562  ]
@@ -4408,34 +4404,34 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $ <= _i -> 1000 `i 562  ]
 [e :U 563 ]
 }
-[; ;main.c: 81: RC2 = 0;
-"81
+[; ;main.c: 79: RC2 = 0;
+"79
 [e = _RC2 -> -> 0 `i `b ]
-[; ;main.c: 82: }
-"82
+[; ;main.c: 80: }
+"80
 [e :UE 561 ]
 }
-"84
+"82
 [v _dat `(v ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 84: void dat(unsigned char b) {
+[; ;main.c: 82: void dat(unsigned char b) {
 [e :U _dat ]
 [v _b `uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;main.c: 85: PORTD = b;
-"85
+[; ;main.c: 83: PORTD = b;
+"83
 [e = _PORTD _b ]
-[; ;main.c: 86: RC0 = 1;
-"86
+[; ;main.c: 84: RC0 = 1;
+"84
 [e = _RC0 -> -> 1 `i `b ]
-[; ;main.c: 87: RC1 = 0;
-"87
+[; ;main.c: 85: RC1 = 0;
+"85
 [e = _RC1 -> -> 0 `i `b ]
-[; ;main.c: 88: RC2 = 1;
-"88
+[; ;main.c: 86: RC2 = 1;
+"86
 [e = _RC2 -> -> 1 `i `b ]
-[; ;main.c: 89: for (i = 0; i <= 1000; i++);
-"89
+[; ;main.c: 87: for (i = 0; i <= 1000; i++);
+"87
 {
 [e = _i -> 0 `i ]
 [e $ <= _i -> 1000 `i 566  ]
@@ -4445,75 +4441,39 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $ <= _i -> 1000 `i 566  ]
 [e :U 567 ]
 }
-[; ;main.c: 90: RC2 = 0;
-"90
+[; ;main.c: 88: RC2 = 0;
+"88
 [e = _RC2 -> -> 0 `i `b ]
-[; ;main.c: 91: }
-"91
+[; ;main.c: 89: }
+"89
 [e :UE 565 ]
 }
-"93
+"91
 [v _show `(v ~T0 @X0 1 ef1`*uc ]
 {
-[; ;main.c: 93: void show(unsigned char * s) {
+[; ;main.c: 91: void show(unsigned char * s) {
 [e :U _show ]
 [v _s `*uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;main.c: 94: while ( * s) {
-"94
+[; ;main.c: 92: while ( * s) {
+"92
 [e $U 570  ]
 [e :U 571 ]
 {
-[; ;main.c: 95: dat( * s++);
-"95
+[; ;main.c: 93: dat( * s++);
+"93
 [e ( _dat (1 *U ++ _s * -> -> 1 `i `x -> -> # *U _s `i `x ]
-"96
+"94
 }
 [e :U 570 ]
-"94
+"92
 [e $ != -> *U _s `i -> -> -> 0 `i `uc `i 571  ]
 [e :U 572 ]
-[; ;main.c: 96: }
-[; ;main.c: 97: }
-"97
+[; ;main.c: 94: }
+[; ;main.c: 95: }
+"95
 [e :UE 569 ]
 }
-"99
-[v _adc `(ui ~T0 @X0 1 ef ]
-{
-[; ;main.c: 99: unsigned int adc() {
-[e :U _adc ]
-[f ]
-"100
-[v _adcval `ui ~T0 @X0 1 a ]
-[; ;main.c: 100: unsigned int adcval;
-[; ;main.c: 102: ADCON1 = 0xc0;
-"102
-[e = _ADCON1 -> -> 192 `i `uc ]
-[; ;main.c: 103: ADCON0 = 0x85;
-"103
-[e = _ADCON0 -> -> 133 `i `uc ]
-[; ;main.c: 104: while (GO_nDONE);
-"104
-[e $U 574  ]
-[e :U 575 ]
-[e :U 574 ]
-[e $ _GO_nDONE 575  ]
-[e :U 576 ]
-[; ;main.c: 105: adcval = ((ADRESH << 8) | (ADRESL));
-"105
-[e = _adcval -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `ui ]
-[; ;main.c: 106: adcval = (adcval / 3) - 1;
-"106
-[e = _adcval - / _adcval -> -> 3 `i `ui -> -> 1 `i `ui ]
-[; ;main.c: 108: return adcval;
-"108
-[e ) _adcval ]
-[e $UE 573  ]
-[; ;main.c: 109: }
-"109
-[e :UE 573 ]
-}
-[p f _sprintf 8396800 ]
-[a 1C 37 102 0 ]
+[p f _sprintf 8462336 ]
+[a 1C 37 46 50 102 0 ]
 

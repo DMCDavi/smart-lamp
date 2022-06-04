@@ -78,6 +78,8 @@
 [v ___ftsub __ftsub `(f  1 e 3 0 ]
 "45 E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c
 [v ___fttol __fttol `(l  1 e 4 0 ]
+"13 E:\Program Files\Microchip\xc8\v1.20\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
 "5 E:\Program Files\Microchip\xc8\v1.20\sources\common\lbdiv.c
 [v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
 "5 E:\Program Files\Microchip\xc8\v1.20\sources\common\lbmod.c
@@ -136,22 +138,22 @@
 [v ___aslmul __aslmul `(ul  1 e 4 0 ]
 "12 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
 [v _Init_AD Init_AD `(v  1 e 0 0 ]
-"29
+"27
 [v _main main `(v  1 e 0 0 ]
-"68
+"66
 [v _lcd_int lcd_int `(v  1 e 0 0 ]
-"75
+"73
 [v _cmd cmd `(v  1 e 0 0 ]
-"84
+"82
 [v _dat dat `(v  1 e 0 0 ]
-"93
+"91
 [v _show show `(v  1 e 0 0 ]
-"99
-[v _adc adc `(ui  1 e 2 0 ]
 "2984 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
 [v _PORTD PORTD `VEuc  1 e 1 @3971 ]
 "3490
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3971
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
 "4168
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
 "4389
@@ -164,38 +166,38 @@
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
 "7172
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
-[s S41 . 1 `uc 1 . 1 0 :1:0 
+[s S42 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_NOT_DONE 1 0 :1:1 
 ]
 "7220
-[s S44 . 1 `uc 1 ADON 1 0 :1:0 
+[s S45 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :4:2 
 ]
-[s S51 . 1 `uc 1 . 1 0 :1:0 
+[s S52 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_DONE 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
 `uc 1 CHS2 1 0 :1:4 
 `uc 1 CHS3 1 0 :1:5 
 ]
-[s S58 . 1 `uc 1 . 1 0 :1:0 
+[s S59 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 DONE 1 0 :1:1 
 ]
-[s S61 . 1 `uc 1 . 1 0 :1:0 
+[s S62 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 ]
-[s S64 . 1 `uc 1 . 1 0 :1:0 
+[s S65 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_DONE 1 0 :1:1 
 ]
-[s S67 . 1 `uc 1 . 1 0 :1:0 
+[s S68 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 nDONE 1 0 :1:1 
 ]
-[s S70 . 1 `uc 1 . 1 0 :1:0 
+[s S71 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GODONE 1 0 :1:1 
 ]
-[u S73 . 1 `S41 1 . 1 0 `S44 1 . 1 0 `S41 1 . 1 0 `S51 1 . 1 0 `S58 1 . 1 0 `S61 1 . 1 0 `S64 1 . 1 0 `S67 1 . 1 0 `S70 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES73  1 e 1 @4034 ]
+[u S74 . 1 `S42 1 . 1 0 `S45 1 . 1 0 `S42 1 . 1 0 `S52 1 . 1 0 `S59 1 . 1 0 `S62 1 . 1 0 `S65 1 . 1 0 `S68 1 . 1 0 `S71 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES74  1 e 1 @4034 ]
 "7300
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
 "7306
@@ -204,8 +206,6 @@
 [v _ADON ADON `VEb  1 e 0 @32272 ]
 "9864
 [v _GO GO `VEb  1 e 0 @32273 ]
-"9872
-[v _GO_nDONE GO_nDONE `VEb  1 e 0 @32273 ]
 "10320
 [v _RC0 RC0 `VEb  1 e 0 @31760 ]
 "10322
@@ -222,14 +222,14 @@
 [v __npowers_ _npowers_ `C[13]d  1 e 39 0 ]
 "10 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
 [v _analog_reading analog_reading `f  1 e 3 0 ]
-"27
+"25
 [v _i i `i  1 e 2 0 ]
-"29
+"27
 [v _main main `(v  1 e 0 0 ]
 {
-"43
+"41
 [v main@mystr mystr `[10]uc  1 a 10 31 ]
-"66
+"64
 } 0
 "33 E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c
 [v ___awtoft __awtoft `(f  1 e 3 0 ]
@@ -244,27 +244,27 @@
 [v ___ftdiv __ftdiv `(f  1 e 3 0 ]
 {
 "52
-[v ___ftdiv@f3 f3 `f  1 a 3 20 ]
+[v ___ftdiv@f3 f3 `f  1 a 3 66 ]
 "51
-[v ___ftdiv@sign sign `uc  1 a 1 24 ]
-[v ___ftdiv@exp exp `uc  1 a 1 23 ]
-[v ___ftdiv@cntr cntr `uc  1 a 1 19 ]
+[v ___ftdiv@sign sign `uc  1 a 1 70 ]
+[v ___ftdiv@exp exp `uc  1 a 1 69 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 65 ]
 "50
-[v ___ftdiv@f1 f1 `f  1 p 3 8 ]
-[v ___ftdiv@f2 f2 `f  1 p 3 11 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 54 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 57 ]
 "78
 } 0
-"93 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+"91 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
 [v _show show `(v  1 e 0 0 ]
 {
 [v show@s s `*.39uc  1 p 2 1 ]
-"97
+"95
 } 0
-"84
+"82
 [v _dat dat `(v  1 e 0 0 ]
 {
 [v dat@b b `uc  1 p 1 0 ]
-"91
+"89
 } 0
 "493 E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
@@ -272,24 +272,24 @@
 "1208
 [v sprintf@vd vd `ui  1 a 2 9 ]
 "1236
-[v sprintf@vd_206 vd `ui  1 a 2 11 ]
-[s S193 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[v sprintf@vd_208 vd `ui  1 a 2 11 ]
+[s S195 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
 "525
-[u S196 . 5 `ul 1 _val 4 0 `S193 1 _str 5 0 ]
-[v sprintf@_val _val `S196  1 a 5 17 ]
+[u S198 . 5 `ul 1 _val 4 0 `S195 1 _str 5 0 ]
+[v sprintf@_val _val `S198  1 a 5 15 ]
 "516
-[v sprintf@fval fval `d  1 a 3 28 ]
-[v sprintf@integ integ `d  1 a 3 22 ]
-"517
-[v sprintf@exp exp `i  1 a 2 25 ]
+[v sprintf@fval fval `d  1 a 3 27 ]
+[v sprintf@integ integ `d  1 a 3 20 ]
 "504
-[v sprintf@prec prec `i  1 a 2 15 ]
+[v sprintf@prec prec `i  1 a 2 25 ]
+"517
+[v sprintf@exp exp `i  1 a 2 23 ]
 "508
 [v sprintf@flag flag `us  1 a 2 13 ]
 "494
 [v sprintf@ap ap `[1]*.39v  1 a 2 7 ]
 "499
-[v sprintf@c c `c  1 a 1 27 ]
+[v sprintf@c c `c  1 a 1 30 ]
 "493
 [v sprintf@sp sp `*.39uc  1 p 2 74 ]
 [v sprintf@f f `*.25Cuc  1 p 2 76 ]
@@ -435,6 +435,12 @@
 [v __tdiv_to_l_@f2 f2 `f  1 p 3 3 ]
 "101
 } 0
+"13 E:\Program Files\Microchip\xc8\v1.20\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 p 1 0 ]
+"15
+} 0
 "426 E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c
 [v _scale scale `(d  1 s 3 scale ]
 {
@@ -475,12 +481,6 @@
 [v ___awdiv@divisor divisor `i  1 p 2 9 ]
 "42
 } 0
-"410 E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c
-[v _fround fround `(d  1 s 3 fround ]
-{
-[v fround@prec prec `uc  1 p 1 54 ]
-"418
-} 0
 "52 E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 3 0 ]
 {
@@ -495,16 +495,22 @@
 [v ___ftmul@f2 f2 `f  1 p 3 40 ]
 "84
 } 0
-"68 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
+"410 E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c
+[v _fround fround `(d  1 s 3 fround ]
+{
+[v fround@prec prec `uc  1 p 1 54 ]
+"418
+} 0
+"66 E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c
 [v _lcd_int lcd_int `(v  1 e 0 0 ]
 {
-"73
+"71
 } 0
-"75
+"73
 [v _cmd cmd `(v  1 e 0 0 ]
 {
 [v cmd@a a `uc  1 p 1 0 ]
-"82
+"80
 } 0
 "12
 [v _Init_AD Init_AD `(v  1 e 0 0 ]
