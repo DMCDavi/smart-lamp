@@ -5262,10 +5262,1021 @@ extern volatile __bit nW @ (((unsigned) &SSPSTAT)*8) + 2;
 
 extern volatile __bit nWRITE @ (((unsigned) &SSPSTAT)*8) + 2;
 
-# 8 "E:\Program Files\Microchip\xc8\v1.20\include\stdio.h"
+# 2008 "E:\Program Files\Microchip\xc8\v1.20\include\plib\adc.h"
+union ADCResult
+{
+int lr;
+char br[2];
+};
+
+char BusyADC (void);
+
+void ConvertADC (void);
+
+void CloseADC(void);
+
+# 2026
+int ReadADC(void);
+
+# 2040
+void OpenADC ( unsigned char ,
+unsigned char ,
+unsigned char );
+
+# 2084
+void SetChanADC(unsigned char );
+
+# 2100
+void SelChanConvADC( unsigned char );
+
+# 38 "E:\Program Files\Microchip\xc8\v1.20\include\plib\ancomp.h"
+void Close_ancomp( void );
+void Open_ancomp(unsigned char config);
+
+# 584 "E:\Program Files\Microchip\xc8\v1.20\include\plib\spi.h"
+void OpenSPI( unsigned char sync_mode,
+unsigned char bus_mode,
+unsigned char smp_phase );
+
+signed char WriteSPI( unsigned char data_out );
+
+void getsSPI( unsigned char *rdptr, unsigned char length );
+
+void putsSPI( unsigned char *wrptr );
+
+unsigned char ReadSPI( void );
+
+# 414 "E:\Program Files\Microchip\xc8\v1.20\include\plib\can2510.h"
+void CAN2510Initialize(  unsigned int configuration,
+ unsigned char brp,
+ unsigned char interruptFlags,
+ unsigned char SPI_syncMode,
+ unsigned char SPI_busMode,
+ unsigned char SPI_smpPhase );
+
+signed char CAN2510Init(  unsigned long BufferConfig,
+ unsigned long BitTimeConfig,
+ unsigned char interruptEnables,
+ unsigned char SPI_syncMode,
+ unsigned char SPI_busMode,
+ unsigned char SPI_smpPhase );
+
+void CAN2510Enable( void );
+
+void CAN2510Disable( void );
+
+void CAN2510Reset( void );
+
+void CAN2510SetMode(  unsigned char mode );
+
+unsigned char CAN2510ReadMode( void );
+
+unsigned char CAN2510ReadStatus( void );
+
+unsigned char CAN2510ErrorState( void );
+
+unsigned char CAN2510InterruptStatus( void );
+
+void CAN2510InterruptEnable( unsigned char interruptFlags );
+
+unsigned char CAN2510ByteRead(  unsigned char addr );
+
+void CAN2510ByteWrite(  unsigned char addr,  unsigned char value );
+
+void CAN2510SequentialRead(  unsigned char *DataArray,
+ unsigned char CAN2510addr,
+ unsigned char numbytes );
+
+void CAN2510SequentialWrite(  unsigned char *DataArray,
+ unsigned char CAN2510addr,
+ unsigned char numbytes );
+
+void CAN2510BitModify(  unsigned char address,
+ unsigned char mask,
+ unsigned char data );
+
+void CAN2510SetSingleMaskStd(  unsigned char maskNum,  unsigned int mask );
+
+void CAN2510SetSingleMaskXtd(  unsigned char maskNum,  unsigned long mask );
+
+void CAN2510SetSingleFilterStd(  unsigned char filterNum,  unsigned int filter );
+
+void CAN2510SetSingleFilterXtd(  unsigned char filterNum,  unsigned long filter );
+
+signed char CAN2510SetMsgFilterStd(  unsigned char bufferNum,
+ unsigned int mask,
+ unsigned int *filters );
+
+signed char CAN2510SetMsgFilterXtd(  unsigned char bufferNum,
+ unsigned long mask,
+ unsigned long *filters );
+
+signed char CAN2510WriteStd(  unsigned int msgId,
+ unsigned char msgPriority,
+ unsigned char numBytes,
+ unsigned char *data );
+
+signed char CAN2510WriteXtd(  unsigned long msgId,
+ unsigned char msgPriority,
+ unsigned char numBytes,
+ unsigned char *data );
+
+void CAN2510LoadBufferStd(  unsigned char bufferNum,
+ unsigned int msgId,
+ unsigned char numBytes,
+ unsigned char *data );
+
+void CAN2510LoadBufferXtd(  unsigned char bufferNum,
+ unsigned long msgId,
+ unsigned char numBytes,
+ unsigned char *data );
+
+void CAN2510LoadRTRStd(  unsigned char bufferNum,
+ unsigned int msgId,
+ unsigned char numBytes );
+
+void CAN2510LoadRTRXtd(  unsigned char bufferNum,
+ unsigned long msgId,
+ unsigned char numBytes );
+
+void CAN2510SetBufferPriority(  unsigned char bufferNum,
+ unsigned char bufferPriority );
+
+void CAN2510SendBuffer(  unsigned char bufferNumber );
+
+signed char CAN2510WriteBuffer(  unsigned char bufferNum );
+
+unsigned char CAN2510DataReady(  unsigned char bufferNum );
+
+unsigned char CAN2510DataRead(  unsigned char bufferNum,
+ unsigned long *msgId,
+ unsigned char *numBytes,
+ unsigned char *data );
+
+# 64 "E:\Program Files\Microchip\xc8\v1.20\include\plib\capture.h"
+union capstatus
+{
+
+# 73
+struct
+{
+
+# 77
+unsigned Cap1OVF:1;
+
+# 82
+unsigned Cap2OVF:1;
+
+# 115
+};
+
+unsigned :8;
+
+};
+
+extern union capstatus CapStatus;
+
+union CapResult
+{
+unsigned int lc;
+char bc[2];
+};
+
+# 474
+void OpenCapture1 ( unsigned char config);
+unsigned int ReadCapture1 (void);
+void CloseCapture1 (void);
+
+# 484
+void OpenCapture2 ( unsigned char config);
+unsigned int ReadCapture2 (void);
+void CloseCapture2 (void);
+
+# 385 "E:\Program Files\Microchip\xc8\v1.20\include\plib\compare.h"
+void OpenCompare1(unsigned char config,unsigned int period);
+void CloseCompare1(void);
+
+# 392
+void OpenCompare2(unsigned char config, unsigned int period);
+void CloseCompare2(void);
+
+# 36 "E:\Program Files\Microchip\xc8\v1.20\include\plib\EEP.h"
+void Busy_eep ( void );
+unsigned char Read_b_eep( unsigned int badd );
+void Write_b_eep( unsigned int badd, unsigned char bdat );
+
+# 2 "E:\Program Files\Microchip\xc8\v1.20\include\stddef.h"
 typedef int ptrdiff_t;
 typedef unsigned size_t;
 typedef unsigned short wchar_t;
+
+# 13
+extern int errno;
+
+# 65 "E:\Program Files\Microchip\xc8\v1.20\include\GenericTypeDefs.h"
+typedef enum _BOOL { FALSE = 0, TRUE } BOOL;
+
+
+typedef enum _BIT { CLEAR = 0, SET } BIT;
+
+# 75
+typedef signed int INT;
+typedef signed char INT8;
+typedef signed short int INT16;
+typedef signed long int INT32;
+
+
+
+ typedef signed long long INT64;
+
+
+
+typedef unsigned int UINT;
+typedef unsigned char UINT8;
+typedef unsigned short int UINT16;
+
+# 93
+typedef unsigned long int UINT32;
+
+
+ typedef unsigned long long UINT64;
+
+
+typedef union
+{
+UINT8 Val;
+struct
+{
+ UINT8 b0:1;
+ UINT8 b1:1;
+ UINT8 b2:1;
+ UINT8 b3:1;
+ UINT8 b4:1;
+ UINT8 b5:1;
+ UINT8 b6:1;
+ UINT8 b7:1;
+} bits;
+} UINT8_VAL, UINT8_BITS;
+
+typedef union
+{
+UINT16 Val;
+UINT8 v[2] ;
+struct 
+{
+UINT8 LB;
+UINT8 HB;
+} byte;
+struct 
+{
+ UINT8 b0:1;
+ UINT8 b1:1;
+ UINT8 b2:1;
+ UINT8 b3:1;
+ UINT8 b4:1;
+ UINT8 b5:1;
+ UINT8 b6:1;
+ UINT8 b7:1;
+ UINT8 b8:1;
+ UINT8 b9:1;
+ UINT8 b10:1;
+ UINT8 b11:1;
+ UINT8 b12:1;
+ UINT8 b13:1;
+ UINT8 b14:1;
+ UINT8 b15:1;
+} bits;
+} UINT16_VAL, UINT16_BITS;
+
+# 187
+typedef union
+{
+UINT32 Val;
+UINT16 w[2] ;
+UINT8 v[4] ;
+struct 
+{
+UINT16 LW;
+UINT16 HW;
+} word;
+struct 
+{
+UINT8 LB;
+UINT8 HB;
+UINT8 UB;
+UINT8 MB;
+} byte;
+struct 
+{
+UINT16_VAL low;
+UINT16_VAL high;
+}wordUnion;
+struct 
+{
+ UINT8 b0:1;
+ UINT8 b1:1;
+ UINT8 b2:1;
+ UINT8 b3:1;
+ UINT8 b4:1;
+ UINT8 b5:1;
+ UINT8 b6:1;
+ UINT8 b7:1;
+ UINT8 b8:1;
+ UINT8 b9:1;
+ UINT8 b10:1;
+ UINT8 b11:1;
+ UINT8 b12:1;
+ UINT8 b13:1;
+ UINT8 b14:1;
+ UINT8 b15:1;
+ UINT8 b16:1;
+ UINT8 b17:1;
+ UINT8 b18:1;
+ UINT8 b19:1;
+ UINT8 b20:1;
+ UINT8 b21:1;
+ UINT8 b22:1;
+ UINT8 b23:1;
+ UINT8 b24:1;
+ UINT8 b25:1;
+ UINT8 b26:1;
+ UINT8 b27:1;
+ UINT8 b28:1;
+ UINT8 b29:1;
+ UINT8 b30:1;
+ UINT8 b31:1;
+} bits;
+} UINT32_VAL;
+
+
+
+typedef union
+{
+UINT64 Val;
+UINT32 d[2] ;
+UINT16 w[4] ;
+UINT8 v[8] ;
+struct 
+{
+UINT32 LD;
+UINT32 HD;
+} dword;
+struct 
+{
+UINT16 LW;
+UINT16 HW;
+UINT16 UW;
+UINT16 MW;
+} word;
+struct 
+{
+ UINT8 b0:1;
+ UINT8 b1:1;
+ UINT8 b2:1;
+ UINT8 b3:1;
+ UINT8 b4:1;
+ UINT8 b5:1;
+ UINT8 b6:1;
+ UINT8 b7:1;
+ UINT8 b8:1;
+ UINT8 b9:1;
+ UINT8 b10:1;
+ UINT8 b11:1;
+ UINT8 b12:1;
+ UINT8 b13:1;
+ UINT8 b14:1;
+ UINT8 b15:1;
+ UINT8 b16:1;
+ UINT8 b17:1;
+ UINT8 b18:1;
+ UINT8 b19:1;
+ UINT8 b20:1;
+ UINT8 b21:1;
+ UINT8 b22:1;
+ UINT8 b23:1;
+ UINT8 b24:1;
+ UINT8 b25:1;
+ UINT8 b26:1;
+ UINT8 b27:1;
+ UINT8 b28:1;
+ UINT8 b29:1;
+ UINT8 b30:1;
+ UINT8 b31:1;
+ UINT8 b32:1;
+ UINT8 b33:1;
+ UINT8 b34:1;
+ UINT8 b35:1;
+ UINT8 b36:1;
+ UINT8 b37:1;
+ UINT8 b38:1;
+ UINT8 b39:1;
+ UINT8 b40:1;
+ UINT8 b41:1;
+ UINT8 b42:1;
+ UINT8 b43:1;
+ UINT8 b44:1;
+ UINT8 b45:1;
+ UINT8 b46:1;
+ UINT8 b47:1;
+ UINT8 b48:1;
+ UINT8 b49:1;
+ UINT8 b50:1;
+ UINT8 b51:1;
+ UINT8 b52:1;
+ UINT8 b53:1;
+ UINT8 b54:1;
+ UINT8 b55:1;
+ UINT8 b56:1;
+ UINT8 b57:1;
+ UINT8 b58:1;
+ UINT8 b59:1;
+ UINT8 b60:1;
+ UINT8 b61:1;
+ UINT8 b62:1;
+ UINT8 b63:1;
+} bits;
+} UINT64_VAL;
+
+# 339
+typedef void VOID;
+
+typedef char CHAR8;
+typedef unsigned char UCHAR8;
+
+typedef unsigned char BYTE;
+typedef unsigned short int WORD;
+typedef unsigned long DWORD;
+
+
+typedef unsigned long long QWORD;
+typedef signed char CHAR;
+typedef signed short int SHORT;
+typedef signed long LONG;
+
+
+typedef signed long long LONGLONG;
+typedef union
+{
+BYTE Val;
+struct 
+{
+ BYTE b0:1;
+ BYTE b1:1;
+ BYTE b2:1;
+ BYTE b3:1;
+ BYTE b4:1;
+ BYTE b5:1;
+ BYTE b6:1;
+ BYTE b7:1;
+} bits;
+} BYTE_VAL, BYTE_BITS;
+
+typedef union
+{
+WORD Val;
+BYTE v[2] ;
+struct 
+{
+BYTE LB;
+BYTE HB;
+} byte;
+struct 
+{
+ BYTE b0:1;
+ BYTE b1:1;
+ BYTE b2:1;
+ BYTE b3:1;
+ BYTE b4:1;
+ BYTE b5:1;
+ BYTE b6:1;
+ BYTE b7:1;
+ BYTE b8:1;
+ BYTE b9:1;
+ BYTE b10:1;
+ BYTE b11:1;
+ BYTE b12:1;
+ BYTE b13:1;
+ BYTE b14:1;
+ BYTE b15:1;
+} bits;
+} WORD_VAL, WORD_BITS;
+
+typedef union
+{
+DWORD Val;
+WORD w[2] ;
+BYTE v[4] ;
+struct 
+{
+WORD LW;
+WORD HW;
+} word;
+struct 
+{
+BYTE LB;
+BYTE HB;
+BYTE UB;
+BYTE MB;
+} byte;
+struct 
+{
+WORD_VAL low;
+WORD_VAL high;
+}wordUnion;
+struct 
+{
+ BYTE b0:1;
+ BYTE b1:1;
+ BYTE b2:1;
+ BYTE b3:1;
+ BYTE b4:1;
+ BYTE b5:1;
+ BYTE b6:1;
+ BYTE b7:1;
+ BYTE b8:1;
+ BYTE b9:1;
+ BYTE b10:1;
+ BYTE b11:1;
+ BYTE b12:1;
+ BYTE b13:1;
+ BYTE b14:1;
+ BYTE b15:1;
+ BYTE b16:1;
+ BYTE b17:1;
+ BYTE b18:1;
+ BYTE b19:1;
+ BYTE b20:1;
+ BYTE b21:1;
+ BYTE b22:1;
+ BYTE b23:1;
+ BYTE b24:1;
+ BYTE b25:1;
+ BYTE b26:1;
+ BYTE b27:1;
+ BYTE b28:1;
+ BYTE b29:1;
+ BYTE b30:1;
+ BYTE b31:1;
+} bits;
+} DWORD_VAL;
+
+
+typedef union
+{
+QWORD Val;
+DWORD d[2] ;
+WORD w[4] ;
+BYTE v[8] ;
+struct 
+{
+DWORD LD;
+DWORD HD;
+} dword;
+struct 
+{
+WORD LW;
+WORD HW;
+WORD UW;
+WORD MW;
+} word;
+struct 
+{
+ BYTE b0:1;
+ BYTE b1:1;
+ BYTE b2:1;
+ BYTE b3:1;
+ BYTE b4:1;
+ BYTE b5:1;
+ BYTE b6:1;
+ BYTE b7:1;
+ BYTE b8:1;
+ BYTE b9:1;
+ BYTE b10:1;
+ BYTE b11:1;
+ BYTE b12:1;
+ BYTE b13:1;
+ BYTE b14:1;
+ BYTE b15:1;
+ BYTE b16:1;
+ BYTE b17:1;
+ BYTE b18:1;
+ BYTE b19:1;
+ BYTE b20:1;
+ BYTE b21:1;
+ BYTE b22:1;
+ BYTE b23:1;
+ BYTE b24:1;
+ BYTE b25:1;
+ BYTE b26:1;
+ BYTE b27:1;
+ BYTE b28:1;
+ BYTE b29:1;
+ BYTE b30:1;
+ BYTE b31:1;
+ BYTE b32:1;
+ BYTE b33:1;
+ BYTE b34:1;
+ BYTE b35:1;
+ BYTE b36:1;
+ BYTE b37:1;
+ BYTE b38:1;
+ BYTE b39:1;
+ BYTE b40:1;
+ BYTE b41:1;
+ BYTE b42:1;
+ BYTE b43:1;
+ BYTE b44:1;
+ BYTE b45:1;
+ BYTE b46:1;
+ BYTE b47:1;
+ BYTE b48:1;
+ BYTE b49:1;
+ BYTE b50:1;
+ BYTE b51:1;
+ BYTE b52:1;
+ BYTE b53:1;
+ BYTE b54:1;
+ BYTE b55:1;
+ BYTE b56:1;
+ BYTE b57:1;
+ BYTE b58:1;
+ BYTE b59:1;
+ BYTE b60:1;
+ BYTE b61:1;
+ BYTE b62:1;
+ BYTE b63:1;
+} bits;
+} QWORD_VAL;
+
+# 113 "E:\Program Files\Microchip\xc8\v1.20\include\plib\flash.h"
+extern void ReadFlash(unsigned long startaddr, unsigned int num_bytes, unsigned char *flash_array);
+
+# 120
+extern void EraseFlash(unsigned long startaddr, unsigned long endaddr);
+
+extern void WriteBlockFlash(unsigned long startaddr, unsigned char num_blocks, unsigned char *flash_array);
+
+extern void WriteBytesFlash(unsigned long startaddr, unsigned int num_bytes, unsigned char *flash_array);
+
+# 775 "E:\Program Files\Microchip\xc8\v1.20\include\plib\i2c.h"
+void IdleI2C( void );
+
+void OpenI2C( unsigned char sync_mode, unsigned char slew );
+
+signed char WriteI2C( unsigned char data_out );
+
+signed char putsI2C( unsigned char *wrptr );
+
+unsigned char ReadI2C( void );
+
+void CloseI2C( void );
+
+# 899
+signed char WriteI2C( unsigned char data_out );
+
+signed char getsI2C( unsigned char *rdptr, unsigned char length );
+
+# 908
+signed char EEAckPolling( unsigned char control );
+
+signed char EEByteWrite( unsigned char control,
+unsigned char address,
+unsigned char data );
+
+signed int EECurrentAddRead( unsigned char control );
+
+signed char EEPageWrite( unsigned char control,
+unsigned char address,
+unsigned char *wrptr );
+
+signed int EERandomRead( unsigned char control, unsigned char address );
+
+signed char EESequentialRead( unsigned char control,
+unsigned char address,
+unsigned char *rdptr,
+unsigned char length );
+
+# 325 "E:\Program Files\Microchip\xc8\v1.20\include\plib\mwire.h"
+void OpenMwire( unsigned char sync_mode );
+
+unsigned char ReadMwire( unsigned char high_byte,
+unsigned char low_byte );
+
+# 341
+signed char WriteMwire( unsigned char data_out );
+
+# 354
+void getsMwire( unsigned char *rdptr, unsigned char length );
+
+# 126 "E:\Program Files\Microchip\xc8\v1.20\include\plib\portb.h"
+void OpenPORTB( unsigned char config);
+
+# 176
+void OpenRB0INT( unsigned char config);
+
+# 194
+void OpenRB1INT( unsigned char config);
+
+# 211
+void OpenRB2INT( unsigned char config);
+
+# 85 "E:\Program Files\Microchip\xc8\v1.20\include\plib\pwm.h"
+union PWMDC
+{
+unsigned int lpwm;
+char bpwm[2];
+};
+
+# 467
+void OpenPWM1 ( char period);
+void SetDCPWM1 ( unsigned int duty_cycle);
+
+# 474
+void SetOutputPWM1 ( unsigned char output_config,
+unsigned char pwm_mode);
+
+void ClosePWM1 (void);
+
+# 485
+void OpenPWM2 ( char period);
+void SetDCPWM2( unsigned int duty_cycle);
+
+# 492
+void ClosePWM2 (void);
+
+# 16 "E:\Program Files\Microchip\xc8\v1.20\include\plib\reset.h"
+char isMCLR(void);
+void StatusReset(void);
+char isPOR(void);
+char isWU(void);
+
+
+char isBOR(void);
+
+
+
+char isWDTTO(void);
+char isWDTWU(void);
+
+
+
+char isLVD(void);
+
+# 687 "E:\Program Files\Microchip\xc8\v1.20\include\plib\rtcc.h"
+void Open_RTCC(void);
+void Close_RTCC(void);
+unsigned char update_RTCC(void);
+
+# 97 "E:\Program Files\Microchip\xc8\v1.20\include\plib\sw_i2c.h"
+void SWStopI2C ( void );
+void SWStartI2C ( void );
+void SWRestartI2C ( void );
+void SWStopI2C ( void );
+
+signed char SWAckI2C( void );
+signed char Clock_test( void );
+signed int SWReadI2C( void );
+signed char SWWriteI2C(  unsigned char data_out );
+signed char SWGetsI2C(  unsigned char *rdptr,  unsigned char length );
+signed char SWPutsI2C(  unsigned char *wrptr );
+
+# 84 "E:\Program Files\Microchip\xc8\v1.20\include\plib\sw_spi.h"
+void OpenSWSPI(void);
+
+
+char WriteSWSPI( char output);
+
+
+void SetCSSWSPI(void);
+
+
+void ClearCSSWSPI(void);
+
+# 47 "E:\Program Files\Microchip\xc8\v1.20\include\plib\sw_uart.h"
+void OpenUART(void);
+
+unsigned char ReadUART(void);
+
+void WriteUART( unsigned char);
+
+void getsUART( char *, unsigned char);
+
+void putsUART( char *);
+
+# 79
+extern void DelayRXBitUART (void);
+extern void DelayRXHalfBitUART(void);
+extern void DelayTXBitUART (void);
+
+# 36 "E:\Program Files\Microchip\xc8\v1.20\include\plib\timers.h"
+union Timers
+{
+unsigned int lt;
+char bt[2];
+};
+
+# 118
+void OpenTimer0 ( unsigned char config);
+void CloseTimer0 (void);
+unsigned int ReadTimer0 (void);
+void WriteTimer0 ( unsigned int timer0);
+
+# 236
+void OpenTimer1 ( unsigned char config);
+void CloseTimer1 (void);
+unsigned int ReadTimer1 (void);
+void WriteTimer1 ( unsigned int timer1);
+
+# 325
+void OpenTimer2 ( unsigned char config);
+void CloseTimer2 (void);
+
+# 391
+void OpenTimer3 ( unsigned char config);
+void CloseTimer3 (void);
+unsigned int ReadTimer3 (void);
+void WriteTimer3 ( unsigned int timer3);
+
+# 1179
+void SetTmrCCPSrc( unsigned char );
+
+# 568 "E:\Program Files\Microchip\xc8\v1.20\include\plib\usart.h"
+union USART
+{
+unsigned char val;
+struct
+{
+unsigned RX_NINE:1;
+unsigned TX_NINE:1;
+unsigned FRAME_ERROR:1;
+unsigned OVERRUN_ERROR:1;
+unsigned fill:4;
+};
+};
+extern union USART USART_Status;
+void OpenUSART ( unsigned char config, unsigned spbrg);
+
+# 596
+char ReadUSART (void);
+void WriteUSART ( char data);
+void getsUSART ( char *buffer, unsigned char len);
+void putsUSART ( char *data);
+void putrsUSART ( const  char *data);
+
+# 654
+void baudUSART ( unsigned char baudconfig);
+
+# 87 "E:\Program Files\Microchip\xc8\v1.20\include\plib\xlcd.h"
+void OpenXLCD( unsigned char);
+
+# 92
+void SetCGRamAddr( unsigned char);
+
+# 97
+void SetDDRamAddr( unsigned char);
+
+# 102
+unsigned char BusyXLCD(void);
+
+# 107
+unsigned char ReadAddrXLCD(void);
+
+# 112
+char ReadDataXLCD(void);
+
+# 117
+void WriteCmdXLCD( unsigned char);
+
+# 122
+void WriteDataXLCD( char);
+
+# 132
+void putsXLCD( char *);
+
+# 137
+void putrsXLCD(const char *);
+
+
+extern void DelayFor18TCY(void);
+extern void DelayPORXLCD(void);
+extern void DelayXLCD(void);
+
+# 13 "E:\Program Files\Microchip\xc8\v1.20\include\plib\delays.h"
+void Delay1TCYx(unsigned char);
+
+# 19
+void Delay10TCYx(unsigned char);
+
+# 25
+void Delay100TCYx(unsigned char);
+
+# 31
+void Delay1KTCYx(unsigned char);
+
+# 37
+void Delay10KTCYx(unsigned char);
+
+# 18 "E:\Program Files\Microchip\xc8\v1.20\include\pic18.h"
+__attribute__((__unsupported__("The flash_write routine is no longer supported. Please use the peripheral library functions: WriteBytesFlash, WriteBlockFlash or WriteWordFlash"))) void flash_write(const unsigned char *, unsigned int, __far unsigned char *);
+
+
+# 143
+#pragma intrinsic(_delay)
+extern void _delay(unsigned long);
+#pragma intrinsic(_delaywdt)
+extern void _delaywdt(unsigned long);
+#pragma intrinsic(_delay3)
+extern void _delay3(unsigned char);
+
+# 13 "E:\Program Files\Microchip\xc8\v1.20\include\stdint.h"
+typedef signed char int8_t;
+
+# 20
+typedef signed int int16_t;
+
+# 28
+typedef signed short long int int24_t;
+
+# 36
+typedef signed long int int32_t;
+
+# 43
+typedef unsigned char uint8_t;
+
+# 49
+typedef unsigned int uint16_t;
+
+# 56
+typedef unsigned short long int uint24_t;
+
+# 63
+typedef unsigned long int uint32_t;
+
+# 71
+typedef signed char int_least8_t;
+
+# 78
+typedef signed int int_least16_t;
+
+# 90
+typedef signed short long int int_least24_t;
+
+# 98
+typedef signed long int int_least32_t;
+
+# 105
+typedef unsigned char uint_least8_t;
+
+# 111
+typedef unsigned int uint_least16_t;
+
+# 121
+typedef unsigned short long int uint_least24_t;
+
+# 128
+typedef unsigned long int uint_least32_t;
+
+# 137
+typedef signed char int_fast8_t;
+
+# 144
+typedef signed int int_fast16_t;
+
+# 156
+typedef signed short long int int_fast24_t;
+
+# 164
+typedef signed long int int_fast32_t;
+
+# 171
+typedef unsigned char uint_fast8_t;
+
+# 177
+typedef unsigned int uint_fast16_t;
+
+# 187
+typedef unsigned short long int uint_fast24_t;
+
+# 194
+typedef unsigned long int uint_fast32_t;
+
+# 200
+typedef int32_t intmax_t;
+
+
+
+
+typedef uint32_t uintmax_t;
+
+
+
+
+typedef int16_t intptr_t;
+
+
+
+
+typedef uint16_t uintptr_t;
 
 # 7 "E:\Program Files\Microchip\xc8\v1.20\include\stdarg.h"
 typedef void * va_list[1];
@@ -5330,90 +6341,329 @@ extern int vsscanf(const char *, const char *, va_list);
 extern int sprintf(char *, const char *, ...);
 extern int printf(const char *, ...);
 
-# 10 "main.c"
-float analog_reading = 0;
+# 22 "E:\Program Files\Microchip\xc8\v1.20\include\string.h"
+extern void * memcpy(void *, const void *, size_t);
+extern void * memmove(void *, const void *, size_t);
+extern void * memset(void *, int, size_t);
+
+# 35
+extern char * strcat(char *, const char *);
+extern char * strcpy(char *, const char *);
+extern char * strncat(char *, const char *, size_t);
+extern char * strncpy(char *, const char *, size_t);
+extern char * strdup(const char *);
+extern char * strtok(char *, const char *);
+
+
+extern int memcmp(const void *, const void *, size_t);
+extern int strcmp(const char *, const char *);
+extern int stricmp(const char *, const char *);
+extern int strncmp(const char *, const char *, size_t);
+extern int strnicmp(const char *, const char *, size_t);
+extern void * memchr(const void *, int, size_t);
+extern size_t strcspn(const char *, const char *);
+extern char * strpbrk(const char *, const char *);
+extern size_t strspn(const char *, const char *);
+extern char * strstr(const char *, const char *);
+extern char * stristr(const char *, const char *);
+extern char * strerror(int);
+extern size_t strlen(const char *);
+extern char * strchr(const char *, int);
+extern char * strichr(const char *, int);
+extern char * strrchr(const char *, int);
+extern char * strrichr(const char *, int);
+
+
+# 13 "bits_Configuration.h"
+#pragma config PLLDIV = 1
+#pragma config CPUDIV = OSC1_PLL2
+#pragma config USBDIV = 1
+
+
+#pragma config FOSC = HS
+#pragma config FCMEN = OFF
+#pragma config IESO = OFF
+
+
+#pragma config PWRT = OFF
+#pragma config BOR = OFF
+#pragma config BORV = 3
+#pragma config VREGEN = OFF
+
+
+#pragma config WDT = OFF
+#pragma config WDTPS = 32768
+
+
+#pragma config CCP2MX = ON
+#pragma config PBADEN = ON
+#pragma config LPT1OSC = OFF
+#pragma config MCLRE = ON
+
+
+#pragma config STVREN = ON
+#pragma config LVP = OFF
+#pragma config ICPRT = OFF
+#pragma config XINST = OFF
+
+
+#pragma config CP0 = OFF
+#pragma config CP1 = OFF
+#pragma config CP2 = OFF
+#pragma config CP3 = OFF
+
+
+#pragma config CPB = OFF
+#pragma config CPD = OFF
+
+
+#pragma config WRT0 = OFF
+#pragma config WRT1 = OFF
+#pragma config WRT2 = OFF
+#pragma config WRT3 = OFF
+
+
+#pragma config WRTC = OFF
+#pragma config WRTB = OFF
+#pragma config WRTD = OFF
+
+
+#pragma config EBTR0 = OFF
+#pragma config EBTR1 = OFF
+#pragma config EBTR2 = OFF
+#pragma config EBTR3 = OFF
+
+
+#pragma config EBTRB = OFF
+
+# 27 "lcd.h"
+void Lcd_Port(char a)
+{
+if(a & 1)
+RD4 = 1;
+else
+RD4 = 0;
+
+if(a & 2)
+RD5 = 1;
+else
+RD5 = 0;
+
+if(a & 4)
+RD6 = 1;
+else
+RD6 = 0;
+
+if(a & 8)
+RD7 = 1;
+else
+RD7 = 0;
+}
+
+# 52
+void Lcd_Cmd(char a)
+{
+RD2 = 0;
+Lcd_Port(a);
+RD3 = 1;
+_delay((unsigned long)((4)*(8000000/4000.0)));
+RD3 = 0;
+}
+
+# 63
+void lcd_clear()
+{
+Lcd_Cmd(0);
+Lcd_Cmd(1);
+}
+
+# 71
+void lcd_gotoxy(char a, char b)
+{
+char temp,z,y;
+if(a == 1)
+{
+temp = 0x80 + b - 1;
+z = temp>>4;
+y = temp & 0x0F;
+Lcd_Cmd(z);
+Lcd_Cmd(y);
+}
+else if(a == 2)
+{
+temp = 0xC0 + b - 1;
+z = temp>>4;
+y = temp & 0x0F;
+Lcd_Cmd(z);
+Lcd_Cmd(y);
+}
+}
+
+# 94
+void lcd_init()
+{
+TRISD=0x00;
+Lcd_Port(0x00);
+_delay((unsigned long)((20)*(8000000/4000.0)));
+Lcd_Cmd(0x03);
+_delay((unsigned long)((5)*(8000000/4000.0)));
+Lcd_Cmd(0x03);
+_delay((unsigned long)((11)*(8000000/4000.0)));
+Lcd_Cmd(0x03);
+
+Lcd_Cmd(0x02);
+Lcd_Cmd(0x02);
+Lcd_Cmd(0x08);
+Lcd_Cmd(0x00);
+Lcd_Cmd(0x0C);
+Lcd_Cmd(0x00);
+Lcd_Cmd(0x06);
+}
+
+# 116
+void lcd_write_char(char a)
+{
+char temp,y;
+temp = a&0x0F;
+y = a&0xF0;
+RD2 = 1;
+Lcd_Port(y>>4);
+RD3 = 1;
+_delay((unsigned long)((40)*(8000000/4000000.0)));
+RD3 = 0;
+Lcd_Port(temp);
+RD3 = 1;
+_delay((unsigned long)((40)*(8000000/4000000.0)));
+RD3 = 0;
+}
+
+# 134
+void lcd_putc(char *a)
+{
+int i;
+for(i=0;a[i]!='\0';i++)
+lcd_write_char(a[i]);
+}
+
+# 143
+void lcd_shift_right()
+{
+Lcd_Cmd(0x01);
+Lcd_Cmd(0x0C);
+}
+
+# 151
+void lcd_shift_left()
+{
+Lcd_Cmd(0x01);
+Lcd_Cmd(0x08);
+}
+
+# 37 "main.c"
+uint16_t LCD_Buffer [16];
+
+# 41
+void Configuracion_Registros (void);
+void Timer1_Init (void);
+uint16_t Obtener_Distancia (void);
+void Init_AD();
+float Read_LDR();
+
+# 49
+void main(void)
+{
+uint16_t Distancia;
+float LDR_value;
+
+Configuracion_Registros();
+Timer1_Init();
+lcd_init();
+Init_AD();
+
+while(1)
+{
+Distancia=Obtener_Distancia();
+LDR_value=Read_LDR();
+lcd_gotoxy(1,1);
+sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
+lcd_putc(LCD_Buffer);
+sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);
+lcd_gotoxy(2,1);
+lcd_putc(LCD_Buffer);
+
+
+
+}
+return;
+}
+
+# 78
+void Configuracion_Registros (void)
+{
+ADCON1bits.PCFG=0b1111;
+TRISA&=~(1<<1);
+TRISA|=(1<<2);
+
+TRISB = 0;
+}
+
+# 89
+void Timer1_Init (void)
+{
+T1CONbits.RD16=1;
+T1CONbits.T1CKPS=0b00;
+T1CONbits.TMR1CS=0;
+TMR1=0;
+TMR1ON=0;
+}
+
+# 100
+uint16_t Obtener_Distancia (void)
+{
+uint16_t Duracion;
+uint16_t Distancia;
+uint16_t Timer_1;
+
+LATAbits.LATA1=1;
+_delay((unsigned long)((10)*(8000000/4000000.0)));
+LATAbits.LATA1=0;
+while(PORTAbits.RA2==0);
+T1CONbits.TMR1ON=1;
+while(PORTAbits.RA2==1);
+T1CONbits.TMR1ON=0;
+Timer_1=TMR1;
+Duracion=Timer_1/2;
+if(Duracion<=23200)
+{
+Distancia=Duracion/58;
+}
+else if(Duracion<116)
+{
+Distancia=0;
+}
+else
+{
+Distancia=0;
+}
+Duracion=0;
+TMR1=0;
+
+return Distancia;
+}
 
 void Init_AD() {
-TRISA = 0xff;
+TRISA0 = 1;
 ADCON1 = 0x0e;
 ADCON2 = 0x92;
 ADRESH=0;
 ADRESL=0;
 }
 
-void lcd_int();
-void cmd(unsigned char a);
-void dat(unsigned char b);
-void show(unsigned char * s);
-
-int i;
-
-void main() {
-Init_AD();
-
-TRISD = TRISC = 0;
-TRISB = 0;
-TRISA0 = 1;
-lcd_int();
-while (1) {
-
-cmd(0x80);
+float Read_LDR() {
+float analog_reading = 0;
 ADCON0 |= ((1 << ADON) | (1 << GO));
 while (ADCON0bits.GO_nDONE == 1);
 analog_reading = (ADRESH * 256) + (ADRESL);
 analog_reading = analog_reading*5/1023;
-char mystr[10];
-sprintf(mystr, "%.2f", analog_reading);
-show(mystr);
-if (analog_reading > 0 && analog_reading < 10) {
-LATB = 0x80;
-} else if (analog_reading >= 10 && analog_reading < 20) {
-LATB = 0xC0;
-} else if (analog_reading >= 20 && analog_reading < 30) {
-LATB = 0xE0;
-} else if (analog_reading >= 30 && analog_reading < 40) {
-LATB = 0xF0;
-} else if (analog_reading >= 40 && analog_reading < 50) {
-LATB = 0xF8;
-} else if (analog_reading >= 50 && analog_reading < 60) {
-LATB = 0xFC;
-} else if (analog_reading >= 60 && analog_reading < 70) {
-LATB = 0xFE;
-} else if (analog_reading >= 70) {
-LATB = 0xFF;
-} else {
-LATB = 0x00;
-}
-}
-}
-
-void lcd_int() {
-cmd(0x38);
-cmd(0x0c);
-cmd(0x06);
-cmd(0x80);
-}
-
-void cmd(unsigned char a) {
-PORTD = a;
-RC0 = 0;
-RC1 = 0;
-RC2 = 1;
-for (i = 0; i <= 1000; i++);
-RC2 = 0;
-}
-
-void dat(unsigned char b) {
-PORTD = b;
-RC0 = 1;
-RC1 = 0;
-RC2 = 1;
-for (i = 0; i <= 1000; i++);
-RC2 = 0;
-}
-
-void show(unsigned char * s) {
-while ( * s) {
-dat( * s++);
-}
+return analog_reading;
 }

@@ -372,10 +372,36 @@ if(c != '%')
 continue;
 }
 
-# 557
+
+width = 0;
+
 flag = 0;
 
-# 620
+for(;;) {
+switch(*f) {
+
+# 588
+case '0':
+flag |= 0x04;
+f++;
+continue;
+
+}
+break;
+}
+
+# 606
+if(isdigit((unsigned)*f)) {
+width = 0;
+do {
+width *= 10;
+width += *f++ - '0';
+} while(isdigit((unsigned)*f));
+
+# 617
+}
+
+
 if(*f == '.') {
 flag |= 0x4000;
 f++;
@@ -402,6 +428,11 @@ goto alldone;
 # 671
 case 'f':
 flag |= 0x400;
+break;
+
+# 706
+case 'd':
+case 'i':
 break;
 
 # 811
@@ -472,10 +503,39 @@ for(c = 1 ; c != (sizeof dpowers/sizeof dpowers[0]) ; c++)
 if(_val._val < dpowers[c])
 break;
 
-# 1182
+
+
+width -= prec + c + exp;
+if(
+
+# 1156
+prec)
+width--;
+if(flag & 0x03)
+width--;
+
+
+if(flag & 0x04) {
+
+# 1175
+while(width > 0) {
+((*sp++ = ('0')));
+width--;
+}
+
+} else
+
 {
 
-# 1195
+# 1187
+while(width > 0) {
+((*sp++ = (' ')));
+width--;
+}
+
+
+
+
 if(flag & 0x03)
 
 ((*sp++ = ('-')));
@@ -527,9 +587,27 @@ prec--;
 continue;
 }
 
+# 1260
+{
+
+# 1266
+_val._val = (long)(*(int *)__va_arg((*(int **)ap), (int)0));
+
+if((long)_val._val < 0) {
+flag |= 0x03;
+_val._val = -_val._val;
+}
+
+}
+
 # 1297
 if(prec == 0 && _val._val == 0)
 prec++;
+
+# 1312
+for(c = 1 ; c != sizeof dpowers/sizeof dpowers[0] ; c++)
+if(_val._val < dpowers[c])
+break;
 
 # 1346
 if(c < prec)
@@ -537,14 +615,69 @@ c = prec;
 else if(prec < c)
 prec = c;
 
-# 1429
+
+if(width && flag & 0x03)
+width--;
+
+if(flag & 0x4000) {
+if(width > prec)
+width -= prec;
+else
+width = 0;
+}
+
+# 1388
+if(width > c)
+width -= c;
+else
+width = 0;
+
+
+if(flag & 0x04) {
+
+
+
+
+if(flag & 0x03)
+((*sp++ = ('-')));
+
+# 1422
+if(width)
+do
+((*sp++ = ('0')));
+while(--width);
+
+} else
+
 {
+
+if(width
+
+# 1435
+)
+do
+((*sp++ = (' ')));
+while(--width);
 
 # 1445
 if(flag & 0x03)
 ((*sp++ = ('-')));
 
 # 1476
+}
+
+# 1481
+while(prec--) {
+
+# 1485
+{
+
+# 1496
+c = (_val._val / dpowers[prec]) % 10 + '0';
+
+# 1530
+}
+((*sp++ = (c)));
 }
 
 # 1540
