@@ -1019,7 +1019,7 @@ void paginahtml()
  limpa_rx(); // senão limpar fica mandando a pagina varias vezes
 }
 
-//int main() // ok sem ports
+//int main() // ok sem ports;;;;;;
 //{
 // int d=0;
 // TRISA=0xff;

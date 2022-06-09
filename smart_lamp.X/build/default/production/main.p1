@@ -1,7 +1,7 @@
 Version 3.2 HI-TECH Software Intermediate Code
 [t ~ __deprecated__ ]
 [t T29 __deprecated__ ]
-"10366 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"10366 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
 [v _RD4 `Vb ~T29 @X0 0 e@31772 ]
 "10368
 [v _RD5 `Vb ~T29 @X0 0 e@31773 ]
@@ -13,25 +13,65 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _RD2 `Vb ~T29 @X0 0 e@31770 ]
 "10364
 [v _RD3 `Vb ~T29 @X0 0 e@31771 ]
-"144 E:\Program Files\Microchip\xc8\v1.20\include\pic18.h
+"144 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18.h
 [v __delay `(v ~T0 @X0 0 ef1`ul ]
 [p i __delay ]
-"4560 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"4560 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
 [v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
 [p mainexit ]
-"41 main.c
+"45 main.c
 [v _Configuracion_Registros `(v ~T0 @X0 0 ef ]
-"42
+"46
 [v _Timer1_Init `(v ~T0 @X0 0 ef ]
-"44
+"48
 [v _Init_AD `(v ~T0 @X0 0 ef ]
-"43
+"50
+[v _USART_Init `(v ~T0 @X0 0 ef ]
+"47
 [v _Obtener_Distancia `(ui ~T0 @X0 0 ef ]
-"45
+"49
 [v _Read_LDR `(f ~T0 @X0 0 ef ]
-"205 E:\Program Files\Microchip\xc8\v1.20\include\stdio.h
+"205 C:\Program Files (x86)\Microchip\xc8\v1.20\include\stdio.h
 [v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
-"7088 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"52 main.c
+[v _USART_ReceiveChar `(uc ~T0 @X0 0 ef ]
+"53
+[v _states_LED `(v ~T0 @X0 0 ef1`uc ]
+"3490 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
+[v _LATB `Vuc ~T0 @X0 0 e@3978 ]
+"10686
+[v _TRISC6 `Vb ~T0 @X0 0 e@31910 ]
+"10688
+[v _TRISC7 `Vb ~T0 @X0 0 e@31911 ]
+"5939
+[v _SPBRG `Vuc ~T0 @X0 0 e@4015 ]
+"5497
+[v _RCSTA `Vuc ~T0 @X0 0 e@4011 ]
+"10754
+[v _TXIF `Vb ~T0 @X0 0 e@31988 ]
+"5917
+[v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
+"10348
+[v _RCIF `Vb ~T0 @X0 0 e@31989 ]
+"5508
+[s S354 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S354 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"5518
+[s S355 :3 `uc 1 :1 `uc 1 ]
+[n S355 . . ADEN ]
+"5522
+[s S356 :5 `uc 1 :1 `uc 1 ]
+[n S356 . . SRENA ]
+"5507
+[u S353 `S354 1 `S355 1 `S356 1 ]
+[n S353 . . . . ]
+"5527
+[v _RCSTAbits `VS353 ~T0 @X0 0 e@4011 ]
+"9498
+[v _CREN `Vb ~T0 @X0 0 e@32092 ]
+"5928
+[v _RCREG `Vuc ~T0 @X0 0 e@4014 ]
+"7088
 [s S434 :4 `uc 1 :2 `uc 1 ]
 [n S434 . PCFG VCFG ]
 "7092
@@ -189,7 +229,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "7220
 [v _ADCON0bits `VS439 ~T0 @X0 0 e@4034 ]
 [; ;pic18f4550.h: 44: extern volatile unsigned char SPPDATA @ 0xF62;
-"46 E:\Program Files\Microchip\xc8\v1.20\include\pic18f4550.h
+"46 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
 [; ;pic18f4550.h: 46: asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
 [; ;pic18f4550.h: 49: typedef union {
@@ -5413,297 +5453,431 @@ Version 3.2 HI-TECH Software Intermediate Code
 "155
 [e :UE 595 ]
 }
-"37 main.c
+"41 main.c
 [v _LCD_Buffer `ui ~T0 @X0 -> 16 `i e ]
-[; ;main.c: 37: uint16_t LCD_Buffer [16];
-[; ;main.c: 41: void Configuracion_Registros (void);
-[; ;main.c: 42: void Timer1_Init (void);
-[; ;main.c: 43: uint16_t Obtener_Distancia (void);
-[; ;main.c: 44: void Init_AD();
-[; ;main.c: 45: float Read_LDR();
-"50
+[; ;main.c: 41: uint16_t LCD_Buffer [16];
+[; ;main.c: 45: void Configuracion_Registros (void);
+[; ;main.c: 46: void Timer1_Init (void);
+[; ;main.c: 47: uint16_t Obtener_Distancia (void);
+[; ;main.c: 48: void Init_AD();
+[; ;main.c: 49: float Read_LDR();
+[; ;main.c: 50: void USART_Init();
+[; ;main.c: 51: void USART_TransmitChar(char);
+[; ;main.c: 52: char USART_ReceiveChar();
+[; ;main.c: 53: void states_LED(char);
+"58
 [v _main `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 49: void main(void)
-[; ;main.c: 50: {
+[; ;main.c: 57: void main(void)
+[; ;main.c: 58: {
 [e :U _main ]
 [f ]
-"51
-[v _Distancia `ui ~T0 @X0 1 a ]
-"52
-[v _LDR_value `f ~T0 @X0 1 a ]
-[; ;main.c: 51: uint16_t Distancia;
-[; ;main.c: 52: float LDR_value;
-[; ;main.c: 54: Configuracion_Registros();
-"54
-[e ( _Configuracion_Registros ..  ]
-[; ;main.c: 55: Timer1_Init();
-"55
-[e ( _Timer1_Init ..  ]
-[; ;main.c: 56: lcd_init();
-"56
-[e ( _lcd_init ..  ]
-[; ;main.c: 57: Init_AD();
-"57
-[e ( _Init_AD ..  ]
-[; ;main.c: 59: while(1)
 "59
-[e :U 598 ]
-[; ;main.c: 60: {
+[v _Distancia `ui ~T0 @X0 1 a ]
 "60
-{
-[; ;main.c: 61: Distancia=Obtener_Distancia();
-"61
-[e = _Distancia ( _Obtener_Distancia ..  ]
-[; ;main.c: 62: LDR_value=Read_LDR();
+[v _LDR_value `f ~T0 @X0 1 a ]
+[; ;main.c: 59: uint16_t Distancia;
+[; ;main.c: 60: float LDR_value;
+[; ;main.c: 62: Configuracion_Registros();
 "62
-[e = _LDR_value ( _Read_LDR ..  ]
-[; ;main.c: 63: lcd_gotoxy(1,1);
+[e ( _Configuracion_Registros ..  ]
+[; ;main.c: 63: Timer1_Init();
 "63
-[e ( _lcd_gotoxy (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-[; ;main.c: 64: sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
+[e ( _Timer1_Init ..  ]
+[; ;main.c: 64: lcd_init();
 "64
-[e ( _sprintf (1 , (. , -> &U _LCD_Buffer `*uc :s 1C -> _LDR_value `d ]
-[; ;main.c: 65: lcd_putc(LCD_Buffer);
+[e ( _lcd_init ..  ]
+[; ;main.c: 65: Init_AD();
 "65
-[e ( _lcd_putc (1 -> &U _LCD_Buffer `*uc ]
-[; ;main.c: 66: sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);
-"66
-[e ( _sprintf (1 , (. , -> &U _LCD_Buffer `*uc :s 2C _Distancia ]
-[; ;main.c: 67: lcd_gotoxy(2,1);
+[e ( _Init_AD ..  ]
+[; ;main.c: 67: USART_Init();
 "67
-[e ( _lcd_gotoxy (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-[; ;main.c: 68: lcd_putc(LCD_Buffer);
+[e ( _USART_Init ..  ]
 "68
-[e ( _lcd_putc (1 -> &U _LCD_Buffer `*uc ]
+[v _esp_server_data `uc ~T0 @X0 1 a ]
+[; ;main.c: 68: char esp_server_data = 'a';
+[e = _esp_server_data -> -> 97 `ui `uc ]
+[; ;main.c: 70: while(1)
+"70
+[e :U 598 ]
+[; ;main.c: 71: {
+"71
+{
+[; ;main.c: 72: Distancia=Obtener_Distancia();
 "72
+[e = _Distancia ( _Obtener_Distancia ..  ]
+[; ;main.c: 73: LDR_value=Read_LDR();
+"73
+[e = _LDR_value ( _Read_LDR ..  ]
+[; ;main.c: 74: lcd_gotoxy(1,1);
+"74
+[e ( _lcd_gotoxy (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;main.c: 75: sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
+"75
+[e ( _sprintf (1 , (. , -> &U _LCD_Buffer `*uc :s 1C -> _LDR_value `d ]
+[; ;main.c: 76: lcd_putc(LCD_Buffer);
+"76
+[e ( _lcd_putc (1 -> &U _LCD_Buffer `*uc ]
+[; ;main.c: 82: esp_server_data=USART_ReceiveChar();
+"82
+[e = _esp_server_data ( _USART_ReceiveChar ..  ]
+[; ;main.c: 83: sprintf(LCD_Buffer,"maria: %c", esp_server_data);
+"83
+[e ( _sprintf (1 , (. , -> &U _LCD_Buffer `*uc :s 2C -> _esp_server_data `i ]
+[; ;main.c: 84: states_LED(esp_server_data);
+"84
+[e ( _states_LED (1 _esp_server_data ]
+"85
 }
 [e :U 597 ]
-"59
+"70
 [e $U 598  ]
 [e :U 599 ]
-[; ;main.c: 72: }
-[; ;main.c: 73: return;
-"73
+[; ;main.c: 85: }
+[; ;main.c: 86: return;
+"86
 [e $UE 596  ]
-[; ;main.c: 74: }
-"74
+[; ;main.c: 87: }
+"87
 [e :UE 596 ]
 }
-"79
-[v _Configuracion_Registros `(v ~T0 @X0 1 ef ]
+"89
+[v _states_LED `(v ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 78: void Configuracion_Registros (void)
-[; ;main.c: 79: {
-[e :U _Configuracion_Registros ]
+[; ;main.c: 89: void states_LED(char data){
+[e :U _states_LED ]
+[v _data `uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;main.c: 80: ADCON1bits.PCFG=0b1111;
-"80
-[e = . . _ADCON1bits 0 0 -> -> 15 `i `uc ]
-[; ;main.c: 81: TRISA&=~(1<<1);
-"81
-[e =& _TRISA -> ~ << -> 1 `i -> 1 `i `uc ]
-[; ;main.c: 82: TRISA|=(1<<2);
-"82
-[e =| _TRISA -> << -> 1 `i -> 2 `i `uc ]
-[; ;main.c: 84: TRISB = 0;
-"84
-[e = _TRISB -> -> 0 `i `uc ]
-[; ;main.c: 85: }
-"85
+[; ;main.c: 90: if(data){
+"90
+[e $ ! != -> _data `i -> -> -> 0 `i `uc `i 601  ]
+{
+[; ;main.c: 91: LATB = 0x01;
+"91
+[e = _LATB -> -> 1 `i `uc ]
+[; ;main.c: 92: lcd_gotoxy(2,1);
+"92
+[e ( _lcd_gotoxy (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+[; ;main.c: 93: lcd_putc(LCD_Buffer);
+"93
+[e ( _lcd_putc (1 -> &U _LCD_Buffer `*uc ]
+"94
+}
+[e :U 601 ]
+[; ;main.c: 94: }
+[; ;main.c: 95: }
+"95
 [e :UE 600 ]
 }
-"90
-[v _Timer1_Init `(v ~T0 @X0 1 ef ]
-{
-[; ;main.c: 89: void Timer1_Init (void)
-[; ;main.c: 90: {
-[e :U _Timer1_Init ]
-[f ]
-[; ;main.c: 91: T1CONbits.RD16=1;
-"91
-[e = . . _T1CONbits 1 6 -> -> 1 `i `uc ]
-[; ;main.c: 92: T1CONbits.T1CKPS=0b00;
-"92
-[e = . . _T1CONbits 1 4 -> -> 0 `i `uc ]
-[; ;main.c: 93: T1CONbits.TMR1CS=0;
-"93
-[e = . . _T1CONbits 1 1 -> -> 0 `i `uc ]
-[; ;main.c: 94: TMR1=0;
-"94
-[e = _TMR1 -> -> 0 `i `us ]
-[; ;main.c: 95: TMR1ON=0;
-"95
-[e = _TMR1ON -> -> 0 `i `b ]
-[; ;main.c: 96: }
-"96
-[e :UE 601 ]
-}
 "101
-[v _Obtener_Distancia `(ui ~T0 @X0 1 ef ]
+[v _USART_Init `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 100: uint16_t Obtener_Distancia (void)
-[; ;main.c: 101: {
-[e :U _Obtener_Distancia ]
+[; ;main.c: 101: void USART_Init(){
+[e :U _USART_Init ]
 [f ]
 "102
-[v _Duracion `ui ~T0 @X0 1 a ]
+[v _baud_rate `l ~T0 @X0 1 a ]
+[; ;main.c: 102: long int baud_rate = 115200;
+[e = _baud_rate -> 115200 `l ]
 "103
-[v _Distancia `ui ~T0 @X0 1 a ]
+[v _temp `f ~T0 @X0 1 a ]
+[; ;main.c: 103: float temp;
+[; ;main.c: 104: TRISC6=0;
 "104
-[v _Timer_1 `ui ~T0 @X0 1 a ]
-[; ;main.c: 102: uint16_t Duracion;
-[; ;main.c: 103: uint16_t Distancia;
-[; ;main.c: 104: uint16_t Timer_1;
-[; ;main.c: 106: LATAbits.LATA1=1;
-"106
-[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
-[; ;main.c: 107: _delay((unsigned long)((10)*(8000000/4000000.0)));
-"107
-[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
-[; ;main.c: 108: LATAbits.LATA1=0;
+[e = _TRISC6 -> -> 0 `i `b ]
+[; ;main.c: 105: TRISC7=1;
+"105
+[e = _TRISC7 -> -> 1 `i `b ]
+[; ;main.c: 108: temp= (( (float) (200000/64) / (float) baud_rate ) - 1); ;
 "108
-[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
-[; ;main.c: 109: while(PORTAbits.RA2==0);
+[e = _temp - / -> / -> 200000 `l -> -> 64 `i `l `f -> _baud_rate `f -> -> 1 `i `f ]
+[; ;main.c: 109: SPBRG = (int) temp;
 "109
-[e $U 603  ]
-[e :U 604 ]
-[e :U 603 ]
-[e $ == -> . . _PORTAbits 0 2 `i -> 0 `i 604  ]
-[e :U 605 ]
-[; ;main.c: 110: T1CONbits.TMR1ON=1;
-"110
-[e = . . _T1CONbits 1 0 -> -> 1 `i `uc ]
-[; ;main.c: 111: while(PORTAbits.RA2==1);
-"111
-[e $U 606  ]
-[e :U 607 ]
-[e :U 606 ]
-[e $ == -> . . _PORTAbits 0 2 `i -> 1 `i 607  ]
-[e :U 608 ]
-[; ;main.c: 112: T1CONbits.TMR1ON=0;
+[e = _SPBRG -> -> _temp `i `uc ]
+[; ;main.c: 112: RCSTA = 0x90;
 "112
-[e = . . _T1CONbits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 113: Timer_1=TMR1;
+[e = _RCSTA -> -> 144 `i `uc ]
+[; ;main.c: 113: }
 "113
-[e = _Timer_1 -> _TMR1 `ui ]
-[; ;main.c: 114: Duracion=Timer_1/2;
-"114
-[e = _Duracion / _Timer_1 -> -> 2 `i `ui ]
-[; ;main.c: 115: if(Duracion<=23200)
-"115
-[e $ ! <= _Duracion -> -> 23200 `i `ui 609  ]
-[; ;main.c: 116: {
-"116
-{
-[; ;main.c: 117: Distancia=Duracion/58;
-"117
-[e = _Distancia / _Duracion -> -> 58 `i `ui ]
-"118
-}
-[; ;main.c: 118: }
-[e $U 610  ]
-"119
-[e :U 609 ]
-[; ;main.c: 119: else if(Duracion<116)
-[e $ ! < _Duracion -> -> 116 `i `ui 611  ]
-[; ;main.c: 120: {
-"120
-{
-[; ;main.c: 121: Distancia=0;
-"121
-[e = _Distancia -> -> 0 `i `ui ]
-"122
-}
-[; ;main.c: 122: }
-[e $U 612  ]
-"123
-[e :U 611 ]
-[; ;main.c: 123: else
-[; ;main.c: 124: {
-"124
-{
-[; ;main.c: 125: Distancia=0;
-"125
-[e = _Distancia -> -> 0 `i `ui ]
-"126
-}
-[e :U 612 ]
-[e :U 610 ]
-[; ;main.c: 126: }
-[; ;main.c: 127: Duracion=0;
-"127
-[e = _Duracion -> -> 0 `i `ui ]
-[; ;main.c: 128: TMR1=0;
-"128
-[e = _TMR1 -> -> 0 `i `us ]
-[; ;main.c: 130: return Distancia;
-"130
-[e ) _Distancia ]
-[e $UE 602  ]
-[; ;main.c: 131: }
-"131
 [e :UE 602 ]
 }
-"133
-[v _Init_AD `(v ~T0 @X0 1 ef ]
+"116
+[v _USART_TransmitChar `(v ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 133: void Init_AD() {
-[e :U _Init_AD ]
+[; ;main.c: 115: void USART_TransmitChar(char out)
+[; ;main.c: 116: {
+[e :U _USART_TransmitChar ]
+[v _out `uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;main.c: 134: TRISA0 = 1;
-"134
-[e = _TRISA0 -> -> 1 `i `b ]
-[; ;main.c: 135: ADCON1 = 0x0e;
-"135
-[e = _ADCON1 -> -> 14 `i `uc ]
-[; ;main.c: 136: ADCON2 = 0x92;
+[; ;main.c: 117: while (TXIF == 0);
+"117
+[e $U 604  ]
+[e :U 605 ]
+[e :U 604 ]
+[e $ == -> _TXIF `i -> 0 `i 605  ]
+[e :U 606 ]
+[; ;main.c: 118: TXREG = out;
+"118
+[e = _TXREG _out ]
+[; ;main.c: 119: }
+"119
+[e :UE 603 ]
+}
+"122
+[v _USART_ReceiveChar `(uc ~T0 @X0 1 ef ]
+{
+[; ;main.c: 121: char USART_ReceiveChar()
+[; ;main.c: 122: {
+[e :U _USART_ReceiveChar ]
+[f ]
+[; ;main.c: 123: while(RCIF==0);
+"123
+[e $U 608  ]
+[e :U 609 ]
+[e :U 608 ]
+[e $ == -> _RCIF `i -> 0 `i 609  ]
+[e :U 610 ]
+[; ;main.c: 124: if(RCSTAbits.OERR)
+"124
+[e $ ! != -> . . _RCSTAbits 0 1 `i -> -> -> 0 `i `Vuc `i 611  ]
+[; ;main.c: 125: {
+"125
+{
+[; ;main.c: 126: CREN = 0;
+"126
+[e = _CREN -> -> 0 `i `b ]
+[; ;main.c: 127: asm(" nop");
+"127
+[; <"  nop ;# ">
+[; ;main.c: 128: CREN=1;
+"128
+[e = _CREN -> -> 1 `i `b ]
+"129
+}
+[e :U 611 ]
+[; ;main.c: 129: }
+[; ;main.c: 130: return(RCREG);
+"130
+[e ) _RCREG ]
+[e $UE 607  ]
+[; ;main.c: 131: }
+"131
+[e :UE 607 ]
+}
 "136
-[e = _ADCON2 -> -> 146 `i `uc ]
-[; ;main.c: 137: ADRESH=0;
+[v _Configuracion_Registros `(v ~T0 @X0 1 ef ]
+{
+[; ;main.c: 135: void Configuracion_Registros (void)
+[; ;main.c: 136: {
+[e :U _Configuracion_Registros ]
+[f ]
+[; ;main.c: 137: ADCON1bits.PCFG=0b1111;
 "137
-[e = _ADRESH -> -> 0 `i `uc ]
-[; ;main.c: 138: ADRESL=0;
+[e = . . _ADCON1bits 0 0 -> -> 15 `i `uc ]
+[; ;main.c: 138: TRISA&=~(1<<1);
 "138
-[e = _ADRESL -> -> 0 `i `uc ]
-[; ;main.c: 139: }
+[e =& _TRISA -> ~ << -> 1 `i -> 1 `i `uc ]
+[; ;main.c: 139: TRISA|=(1<<2);
 "139
+[e =| _TRISA -> << -> 1 `i -> 2 `i `uc ]
+[; ;main.c: 141: TRISB = 0;
+"141
+[e = _TRISB -> -> 0 `i `uc ]
+[; ;main.c: 142: }
+"142
+[e :UE 612 ]
+}
+"147
+[v _Timer1_Init `(v ~T0 @X0 1 ef ]
+{
+[; ;main.c: 146: void Timer1_Init (void)
+[; ;main.c: 147: {
+[e :U _Timer1_Init ]
+[f ]
+[; ;main.c: 148: T1CONbits.RD16=1;
+"148
+[e = . . _T1CONbits 1 6 -> -> 1 `i `uc ]
+[; ;main.c: 149: T1CONbits.T1CKPS=0b00;
+"149
+[e = . . _T1CONbits 1 4 -> -> 0 `i `uc ]
+[; ;main.c: 150: T1CONbits.TMR1CS=0;
+"150
+[e = . . _T1CONbits 1 1 -> -> 0 `i `uc ]
+[; ;main.c: 151: TMR1=0;
+"151
+[e = _TMR1 -> -> 0 `i `us ]
+[; ;main.c: 152: TMR1ON=0;
+"152
+[e = _TMR1ON -> -> 0 `i `b ]
+[; ;main.c: 153: }
+"153
 [e :UE 613 ]
 }
-"141
-[v _Read_LDR `(f ~T0 @X0 1 ef ]
+"158
+[v _Obtener_Distancia `(ui ~T0 @X0 1 ef ]
 {
-[; ;main.c: 141: float Read_LDR() {
-[e :U _Read_LDR ]
+[; ;main.c: 157: uint16_t Obtener_Distancia (void)
+[; ;main.c: 158: {
+[e :U _Obtener_Distancia ]
 [f ]
-"142
-[v _analog_reading `f ~T0 @X0 1 a ]
-[; ;main.c: 142: float analog_reading = 0;
-[e = _analog_reading -> -> 0 `i `f ]
-[; ;main.c: 143: ADCON0 |= ((1 << ADON) | (1 << GO));
-"143
-[e =| _ADCON0 -> | << -> 1 `i -> _ADON `i << -> 1 `i -> _GO `i `uc ]
-[; ;main.c: 144: while (ADCON0bits.GO_nDONE == 1);
-"144
+"159
+[v _Duracion `ui ~T0 @X0 1 a ]
+"160
+[v _Distancia `ui ~T0 @X0 1 a ]
+"161
+[v _Timer_1 `ui ~T0 @X0 1 a ]
+[; ;main.c: 159: uint16_t Duracion;
+[; ;main.c: 160: uint16_t Distancia;
+[; ;main.c: 161: uint16_t Timer_1;
+[; ;main.c: 163: LATAbits.LATA1=1;
+"163
+[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
+[; ;main.c: 164: _delay((unsigned long)((10)*(8000000/4000000.0)));
+"164
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+[; ;main.c: 165: LATAbits.LATA1=0;
+"165
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 166: while(PORTAbits.RA2==0);
+"166
 [e $U 615  ]
 [e :U 616 ]
 [e :U 615 ]
-[e $ == -> . . _ADCON0bits 1 1 `i -> 1 `i 616  ]
+[e $ == -> . . _PORTAbits 0 2 `i -> 0 `i 616  ]
 [e :U 617 ]
-[; ;main.c: 145: analog_reading = (ADRESH * 256) + (ADRESL);
-"145
-[e = _analog_reading -> + * -> _ADRESH `i -> 256 `i -> _ADRESL `i `f ]
-[; ;main.c: 146: analog_reading = analog_reading*5/1023;
-"146
-[e = _analog_reading / * _analog_reading -> -> 5 `i `f -> -> 1023 `i `f ]
-[; ;main.c: 147: return analog_reading;
-"147
-[e ) _analog_reading ]
+[; ;main.c: 167: T1CONbits.TMR1ON=1;
+"167
+[e = . . _T1CONbits 1 0 -> -> 1 `i `uc ]
+[; ;main.c: 168: while(PORTAbits.RA2==1);
+"168
+[e $U 618  ]
+[e :U 619 ]
+[e :U 618 ]
+[e $ == -> . . _PORTAbits 0 2 `i -> 1 `i 619  ]
+[e :U 620 ]
+[; ;main.c: 169: T1CONbits.TMR1ON=0;
+"169
+[e = . . _T1CONbits 1 0 -> -> 0 `i `uc ]
+[; ;main.c: 170: Timer_1=TMR1;
+"170
+[e = _Timer_1 -> _TMR1 `ui ]
+[; ;main.c: 171: Duracion=Timer_1/2;
+"171
+[e = _Duracion / _Timer_1 -> -> 2 `i `ui ]
+[; ;main.c: 172: if(Duracion<=23200)
+"172
+[e $ ! <= _Duracion -> -> 23200 `i `ui 621  ]
+[; ;main.c: 173: {
+"173
+{
+[; ;main.c: 174: Distancia=Duracion/58;
+"174
+[e = _Distancia / _Duracion -> -> 58 `i `ui ]
+"175
+}
+[; ;main.c: 175: }
+[e $U 622  ]
+"176
+[e :U 621 ]
+[; ;main.c: 176: else if(Duracion<116)
+[e $ ! < _Duracion -> -> 116 `i `ui 623  ]
+[; ;main.c: 177: {
+"177
+{
+[; ;main.c: 178: Distancia=0;
+"178
+[e = _Distancia -> -> 0 `i `ui ]
+"179
+}
+[; ;main.c: 179: }
+[e $U 624  ]
+"180
+[e :U 623 ]
+[; ;main.c: 180: else
+[; ;main.c: 181: {
+"181
+{
+[; ;main.c: 182: Distancia=0;
+"182
+[e = _Distancia -> -> 0 `i `ui ]
+"183
+}
+[e :U 624 ]
+[e :U 622 ]
+[; ;main.c: 183: }
+[; ;main.c: 184: Duracion=0;
+"184
+[e = _Duracion -> -> 0 `i `ui ]
+[; ;main.c: 185: TMR1=0;
+"185
+[e = _TMR1 -> -> 0 `i `us ]
+[; ;main.c: 187: return Distancia;
+"187
+[e ) _Distancia ]
 [e $UE 614  ]
-[; ;main.c: 148: }
-"148
+[; ;main.c: 188: }
+"188
 [e :UE 614 ]
 }
-[p f _sprintf 8495236 ]
-[a 2C 68 105 115 116 97 110 99 105 97 58 32 37 48 51 100 99 109 0 ]
+"190
+[v _Init_AD `(v ~T0 @X0 1 ef ]
+{
+[; ;main.c: 190: void Init_AD() {
+[e :U _Init_AD ]
+[f ]
+[; ;main.c: 191: TRISA0 = 1;
+"191
+[e = _TRISA0 -> -> 1 `i `b ]
+[; ;main.c: 192: ADCON1 = 0x0e;
+"192
+[e = _ADCON1 -> -> 14 `i `uc ]
+[; ;main.c: 193: ADCON2 = 0x92;
+"193
+[e = _ADCON2 -> -> 146 `i `uc ]
+[; ;main.c: 194: ADRESH=0;
+"194
+[e = _ADRESH -> -> 0 `i `uc ]
+[; ;main.c: 195: ADRESL=0;
+"195
+[e = _ADRESL -> -> 0 `i `uc ]
+[; ;main.c: 196: }
+"196
+[e :UE 625 ]
+}
+"198
+[v _Read_LDR `(f ~T0 @X0 1 ef ]
+{
+[; ;main.c: 198: float Read_LDR() {
+[e :U _Read_LDR ]
+[f ]
+"199
+[v _analog_reading `f ~T0 @X0 1 a ]
+[; ;main.c: 199: float analog_reading = 0;
+[e = _analog_reading -> -> 0 `i `f ]
+[; ;main.c: 200: ADCON0 |= ((1 << ADON) | (1 << GO));
+"200
+[e =| _ADCON0 -> | << -> 1 `i -> _ADON `i << -> 1 `i -> _GO `i `uc ]
+[; ;main.c: 201: while (ADCON0bits.GO_nDONE == 1);
+"201
+[e $U 627  ]
+[e :U 628 ]
+[e :U 627 ]
+[e $ == -> . . _ADCON0bits 1 1 `i -> 1 `i 628  ]
+[e :U 629 ]
+[; ;main.c: 202: analog_reading = (ADRESH * 256) + (ADRESL);
+"202
+[e = _analog_reading -> + * -> _ADRESH `i -> 256 `i -> _ADRESL `i `f ]
+[; ;main.c: 203: analog_reading = analog_reading*5/1023;
+"203
+[e = _analog_reading / * _analog_reading -> -> 5 `i `f -> -> 1023 `i `f ]
+[; ;main.c: 204: return analog_reading;
+"204
+[e ) _analog_reading ]
+[e $UE 626  ]
+[; ;main.c: 205: }
+"205
+[e :UE 626 ]
+}
+[p f _sprintf 8986624 ]
 [a 1C 76 68 82 58 32 37 46 50 102 0 ]
+[a 2C 109 97 114 105 97 58 32 37 99 0 ]

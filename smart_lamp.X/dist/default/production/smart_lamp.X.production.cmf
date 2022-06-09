@@ -11,61 +11,65 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
+$C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
 end_init CODE 0 0 0 4 1
 idloc IDLOC 0 200000 200000 8 1
 config CONFIG 0 300000 300000 E 1
 $dist/default/production\smart_lamp.X.production.obj
-smallconst SMALLCONST 0 800 800 94 1
-text37 CODE 0 2BDE 2BDE 2A 1
-text36 CODE 0 2C52 2C52 20 1
-text35 CODE 0 296A 296A 56 1
-text34 CODE 0 24EE 24EE B8 1
-text33 CODE 0 2B38 2B38 3A 1
-text32 CODE 0 2BA8 2BA8 36 1
-text31 CODE 0 2CB0 2CB0 12 1
-text30 CODE 0 2C9C 2C9C 14 1
-text29 CODE 0 2C88 2C88 14 1
-text28 CODE 0 2914 2914 56 1
-text27 CODE 0 274C 274C 7E 1
-text26 CODE 0 1FF0 1FF0 FE 1
-text25 CODE 0 2436 2436 B8 1
-text24 CODE 0 1EE0 1EE0 110 1
-text23 CODE 0 2A06 2A06 44 1
-text22 CODE 0 237C 237C BA 1
-text21 CODE 0 1972 1972 280 1
-text20 CODE 0 2636 2636 90 1
-text19 CODE 0 27CA 27CA 7C 1
-text18 CODE 0 2AFE 2AFE 3A 1
-text17 CODE 0 1522 1522 450 1
-text16 CODE 0 2C2E 2C2E 24 1
-text15 CODE 0 1DBE 1DBE 122 1
-text14 CODE 0 20EE 20EE F4 1
-text13 CODE 0 1BF2 1BF2 1CC 1
-text12 CODE 0 2AC2 2AC2 3C 1
-text11 CODE 0 2A86 2A86 3C 1
-text10 CODE 0 2B72 2B72 36 1
-text9 CODE 0 2A4A 2A4A 3C 1
-text8 CODE 0 25A6 25A6 90 1
-text7 CODE 0 2C08 2C08 26 1
-text6 CODE 0 21E2 21E2 E0 1
-text5 CODE 0 26C6 26C6 86 1
-text4 CODE 0 2846 2846 6A 1
-text3 CODE 0 28B0 28B0 64 1
-text2 CODE 0 29C0 29C0 46 1
-text1 CODE 0 894 894 C8E 1
-text0 CODE 0 22C2 22C2 BA 1
+smallconst SMALLCONST 0 800 800 8C 1
+text41 CODE 0 1E92 1E92 E0 1
+text40 CODE 0 29E4 29E4 2A 1
+text39 CODE 0 2A58 2A58 20 1
+text38 CODE 0 21BA 21BA B8 1
+text37 CODE 0 2AC8 2AC8 12 1
+text36 CODE 0 2AA2 2AA2 14 1
+text35 CODE 0 2A8E 2A8E 14 1
+text34 CODE 0 2102 2102 B8 1
+text33 CODE 0 249E 249E 84 1
+text32 CODE 0 18A2 18A2 1CC 1
+text31 CODE 0 1CA0 1CA0 FE 1
+text30 CODE 0 2418 2418 86 1
+text29 CODE 0 2740 2740 56 1
+text28 CODE 0 2522 2522 7E 1
+text27 CODE 0 1B90 1B90 110 1
+text26 CODE 0 27DC 27DC 44 1
+text25 CODE 0 2048 2048 BA 1
+text24 CODE 0 2302 2302 90 1
+text23 CODE 0 25A0 25A0 7C 1
+text22 CODE 0 290E 290E 3A 1
+text21 CODE 0 1622 1622 280 1
+text20 CODE 0 11D2 11D2 450 1
+text19 CODE 0 2A34 2A34 24 1
+text18 CODE 0 1A6E 1A6E 122 1
+text17 CODE 0 1D9E 1D9E F4 1
+text16 CODE 0 2898 2898 3C 1
+text15 CODE 0 285C 285C 3C 1
+text14 CODE 0 297E 297E 36 1
+text13 CODE 0 2820 2820 3C 1
+text12 CODE 0 2272 2272 90 1
+text11 CODE 0 2A0E 2A0E 26 1
+text10 CODE 0 2392 2392 86 1
+text9 CODE 0 261C 261C 6A 1
+text8 CODE 0 2686 2686 64 1
+text7 CODE 0 2796 2796 46 1
+text6 CODE 0 88C 88C 946 1
+text5 CODE 0 2AB6 2AB6 12 1
+text4 CODE 0 26EA 26EA 56 1
+text3 CODE 0 28D4 28D4 3A 1
+text2 CODE 0 2948 2948 36 1
+text1 CODE 0 29B4 29B4 30 1
+text0 CODE 0 1F72 1F72 D6 1
 cstackCOMRAM COMRAM 1 1 1 5E 1
-cstackBANK0 BANK0 1 60 60 21 1
-bssBANK0 BANK0 1 81 81 20 1
-cinit CODE 0 2C72 2C72 16 1
+cstackBANK0 BANK0 1 60 60 36 1
+bssBANK0 BANK0 1 96 96 20 1
+cinit CODE 0 2A78 2A78 16 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-BANK0 0000A1-0000FF 1
+BANK0 0000B6-0000FF 1
 BANK1 000100-0001FF 1
 BANK2 000200-0002FF 1
 BANK3 000300-0003FF 1
@@ -74,17 +78,17 @@ BANK5 000500-0005FF 1
 BANK6 000600-0006FF 1
 BANK7 000700-0007FF 1
 BIGRAM 00005F-00005F 1
-BIGRAM 0000A1-0007FF 1
+BIGRAM 0000B6-0007FF 1
 CODE 000004-0007FF 1
-CODE 002CC2-007FFF 1
+CODE 002ADA-007FFF 1
 COMRAM 00005F-00005F 1
 CONST 000004-0007FF 1
-CONST 002CC2-007FFF 1
+CONST 002ADA-007FFF 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 002CC2-007FFF 1
-RAM 0000A1-0007FF 1
+MEDIUMCONST 002ADA-007FFF 1
+RAM 0000B6-0007FF 1
 SFR 000F60-000FFF 1
-SMALLCONST 002CC2-007FFF 1
+SMALLCONST 002ADA-007FFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -99,615 +103,604 @@ SMALLCONST 002CC2-007FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\smart_lamp.X.production.obj
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":542 894 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":545 8A2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":547 8A6 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":550 8B2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":551 8C4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":555 8C8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":557 8D6 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":589 8E6 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":590 8EC text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":560 8F0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":606 902 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":607 918 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":609 926 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":610 942 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":611 970 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":620 986 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":621 998 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":622 99E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":630 9A2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":631 9B0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":632 9B2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":631 9EE text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":635 A06 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":637 A14 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":672 A1C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":673 A22 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":644 A24 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":834 A58 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":836 A64 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":838 A6C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":839 A7A text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":840 AA2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":841 AC0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":842 ADC text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":844 AE4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":845 AF2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":846 B06 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":847 B4A text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":848 B54 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":849 B70 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":850 B8C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":851 B94 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":855 B9E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":856 BB8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":857 BD4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":858 BF4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":859 C00 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":860 C20 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1121 C28 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1122 C3C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1125 C60 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1129 CB8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1130 CD8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1132 CDE text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1134 CEC text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1135 D00 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1138 D3C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1139 D54 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1140 D56 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1141 D76 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1142 DA6 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1145 DB4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1146 DCC text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1145 E06 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1151 E0E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1156 E4A text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1157 E56 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1158 E60 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1159 E7C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1162 E86 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1176 E90 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1177 EA0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1175 EAA text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1188 EC0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1189 ED0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1187 EDA text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1195 EEE text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1197 F0A text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1208 F16 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1209 F5E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1210 F7A text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1203 F90 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1215 FA0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1216 FB0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1214 FBA text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1218 FCE text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1219 FE2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1221 FF0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1222 FF4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1226 100E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1228 1018 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1234 1028 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1235 1078 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1236 107A text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1237 10C2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1238 10DE text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1239 10F4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1235 1144 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1243 1154 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1244 1164 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1242 116E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1266 117C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1268 11B0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1269 11B8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1270 11C0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1297 11E0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1298 11FC text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1312 1204 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1313 121C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1312 1256 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1346 125E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1347 1284 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1348 128A text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1349 12B0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1352 12C6 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1353 12EE text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1355 12F8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1356 1300 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1357 1324 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1359 133E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1388 134C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1389 1372 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1391 138E text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1394 139C text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1399 13A4 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1400 13C0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1422 13D0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1424 13DC text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1425 13EC text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1435 13F8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1437 1404 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1438 1414 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1445 1428 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1446 1444 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1496 1452 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1531 14D0 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1481 14E2 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":545 14F8 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1545 1514 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":1548 1520 text1 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":428 1522 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":429 1526 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":430 1528 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":431 1532 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":432 166C text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":433 1676 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":434 1728 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":436 1736 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":437 1740 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":438 187A text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":439 1884 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":440 1942 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":441 1970 text17 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":413 1972 text21 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":414 1978 text21 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":415 1ACE text21 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":416 1AD4 text21 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":417 1BA6 text21 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\doprnt.c":418 1BF0 text21 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":90 1BF2 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":91 1C18 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":92 1C3E text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":93 1C5A text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":94 1C68 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":95 1C84 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":96 1C92 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":97 1C9A text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":98 1C9C text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":99 1C9E text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":100 1CA0 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":101 1CA2 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":102 1CA4 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":103 1CB0 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":104 1CB2 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":106 1CBE text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":110 1CC4 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":111 1CCC text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":112 1CCE text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":114 1CE2 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":115 1CEA text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":113 1CEC text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":117 1CF4 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":121 1CFA text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":122 1D02 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":123 1D04 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":125 1D18 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":126 1D20 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":124 1D22 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":129 1D28 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":131 1D2C text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":132 1D38 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":134 1D44 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":136 1D48 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":137 1D54 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":139 1D60 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":140 1D68 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":141 1D74 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":142 1D78 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":143 1D84 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":144 1D90 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":146 1D98 text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftadd.c":148 1DBC text13 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":66 1DBE text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":68 1DEA text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":70 1E16 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":71 1E18 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":72 1E24 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":73 1E26 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":74 1E32 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":75 1E42 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":76 1E46 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":77 1E4C text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":79 1E54 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":80 1E5E text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":81 1E6E text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":82 1E7A text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":84 1E7C text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":85 1E84 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":86 1E88 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":87 1E8C text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":90 1E96 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":91 1EA0 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":93 1EA6 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":94 1EAC text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":96 1EBE text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":97 1EC8 text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":95 1ECA text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":100 1ECE text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdivl.c":101 1EDE text15 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":56 1EE0 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":58 1F0C text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":59 1F36 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":60 1F44 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":61 1F4A text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":62 1F4E text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":63 1F52 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":64 1F56 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":66 1F58 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":67 1F5A text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":68 1F66 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":69 1F72 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":71 1F7A text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":72 1F7E text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":73 1F8A text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":74 1F92 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":75 1F9A text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":76 1F9E text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":78 1FA6 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":79 1FAA text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":80 1FB6 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":81 1FBE text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":82 1FC6 text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":83 1FCA text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftmul.c":84 1FEE text24 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":55 1FF0 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":57 201C text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":58 2046 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":59 2054 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":60 2060 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":61 2066 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":62 206A text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":63 206E text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":64 2072 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":65 2074 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":66 2080 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":67 2082 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":68 208E text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":70 2096 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":71 209E text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":72 20AE text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":73 20BA text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":75 20BC text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":76 20C4 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":77 20C8 text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftdiv.c":78 20EC text26 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":66 20EE text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":68 20FA text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":70 2106 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":71 2108 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":72 2118 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":73 211A text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":74 212A text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":75 213A text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":76 213E text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":77 2144 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":79 214C text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":80 2156 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":81 216A text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":82 217A text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":84 217C text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":85 2186 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":86 218A text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":87 218E text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":90 2198 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":91 21A2 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":93 21A8 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":94 21AE text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":96 21C0 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":97 21CA text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":95 21CC text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":100 21D0 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fldivl.c":101 21E0 text14 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":49 21E2 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":51 220E text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":52 2234 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":53 2236 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":54 2242 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":55 2250 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":56 2254 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":57 2258 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":60 2262 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":61 226C text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":63 2272 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":64 2278 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":66 228A text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":67 2294 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":65 2296 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":70 229A text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":71 22A0 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":72 22B0 text6 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\fttol.c":73 22C0 text6 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":54 22C2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":55 22C6 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":56 22CA text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":57 22CE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":61 22D2 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":62 22DE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":63 22EE text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":64 2302 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":65 2326 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":66 2336 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":67 2356 text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":68 236A text0 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":142 237C text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":143 2388 text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":144 23BE text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":145 23C2 text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":146 23E4 text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":147 2428 text22 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":148 2434 text22 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":64 2436 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":65 2446 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":67 2454 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":68 2456 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":66 245E text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":71 247C text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":72 247E text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":73 248A text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":70 2492 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":76 24B0 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":77 24B2 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":75 24BA text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":79 24BE text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":80 24C0 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":81 24C2 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":82 24C6 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":83 24DA text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":84 24DE text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":85 24E0 text25 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\float.c":86 24EC text25 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":96 24EE text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":97 24F2 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":98 24FE text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":99 250E text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":100 251A text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":101 252A text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":102 2536 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":103 2544 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":105 2550 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":106 255C text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":107 2568 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":108 2574 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":109 2580 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":110 258C text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":111 2598 text34 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":112 25A4 text34 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":6 25A6 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":7 25AA text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":8 25D6 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":9 25DA text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":10 2606 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":11 2612 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":12 261E text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftge.c":13 2634 text8 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":14 2636 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":15 263E text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":16 2642 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":17 264A text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":19 2652 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":20 2656 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":21 265E text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":23 2662 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":24 266A text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":25 2672 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":26 267A text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":27 267C text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":28 2682 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":26 2684 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":31 2688 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":32 268E text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":33 269A text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":34 26A2 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":36 26A4 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":37 26AA text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":39 26AE text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":40 26B4 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":41 26BC text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awdiv.c":42 26C4 text20 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":14 26C6 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":15 26D6 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":16 26E2 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":17 26EA text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":18 26EC text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":19 26F6 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":17 26F8 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":22 26FC text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":23 2706 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":24 271A text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":25 272A text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":27 272C text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":28 2736 text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":30 273A text5 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lldiv.c":31 274A text5 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":106 274C text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":107 274E text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":108 2756 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":109 2758 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":110 275C text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":111 275E text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":112 2762 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":113 2764 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":114 276C text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":115 2776 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":117 2782 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":118 279E text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":119 27A0 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":125 27A8 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":127 27B0 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":128 27B8 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":130 27C0 text27 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":131 27C8 text27 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":13 27CA text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":14 27D2 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":15 27D6 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":16 27DE text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":18 27E6 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":19 27EA text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":20 27F2 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":21 27FA text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":22 2802 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":23 2804 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":24 280A text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":22 280C text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":27 2810 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":28 281C text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":29 2824 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":30 282A text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":32 282E text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":33 2834 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":34 283C text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awmod.c":35 2844 text19 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":13 2846 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":14 2852 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":15 285A text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":16 285C text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":17 2866 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":15 2868 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":20 286C text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":21 2880 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":22 2890 text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":23 289A text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":25 289E text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\llmod.c":26 28AE text4 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c":38 28B0 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c":41 28B8 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c":42 28BA text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c":43 28C4 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c":41 28C6 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c":45 28EA text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lltoft.c":46 2912 text3 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":14 2914 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":15 291C text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":16 2924 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":17 292C text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":18 292E text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":19 2934 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":17 2936 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":22 293A text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":23 2940 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":24 294C text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":25 2954 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":27 2956 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":28 295C text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":30 2960 text28 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwdiv.c":31 2968 text28 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":74 296A text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":76 2970 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":77 2976 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":78 297C text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":79 2982 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":80 298A text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":81 2992 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":82 2994 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":84 299C text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":85 29A2 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":86 29A8 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":87 29AE text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":88 29B6 text35 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":90 29BE text35 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":13 29C0 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":14 29C8 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":15 29D0 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":16 29D2 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":17 29D8 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":15 29DA text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":20 29DE text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":21 29EA text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":22 29F2 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":23 29F8 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":25 29FC text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\lwmod.c":26 2A04 text2 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":36 2A06 text23 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":37 2A0E text23 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":38 2A12 text23 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":39 2A1A text23 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":41 2A22 text23 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\awtoft.c":42 2A48 text23 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftsub.c":6 2A4A text9 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftsub.c":7 2A84 text9 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftmul.c":6 2A86 text11 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftmul.c":7 2AC0 text11 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftadd.c":6 2AC2 text12 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\pic18\asftadd.c":7 2AFC text12 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":14 2AFE text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":15 2B0A text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":16 2B1C text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":30 2B2E text18 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\wmul.c":31 2B36 text18 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":119 2B38 text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":120 2B3E text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":121 2B44 text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":122 2B46 text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":123 2B50 text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":124 2B52 text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":125 2B5A text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":126 2B5C text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":127 2B64 text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":128 2B66 text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":129 2B6E text33 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":130 2B70 text33 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftsub.c":23 2B72 text10 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftsub.c":24 2B7E text10 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftsub.c":25 2BA6 text10 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":137 2BA8 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":138 2BB2 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":137 2BC6 text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":139 2BDA text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":137 2BDC text32 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":29 2BDE text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":30 2BE2 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":32 2BE6 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":34 2BE8 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":35 2BEC text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":37 2BF0 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":39 2BF2 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":40 2BF6 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":42 2BFA text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":44 2BFC text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":45 2C00 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":47 2C04 text37 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":48 2C06 text37 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftneg.c":17 2C08 text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftneg.c":18 2C14 text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftneg.c":19 2C20 text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\ftneg.c":20 2C2C text7 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\isdigit.c":14 2C2E text16 CODE
-"E:\Program Files\Microchip\xc8\v1.20\sources\common\isdigit.c":15 2C50 text16 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":54 2C52 text36 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":55 2C54 text36 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":56 2C5C text36 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":57 2C5E text36 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":58 2C6E text36 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\lcd.h":59 2C70 text36 CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":828 2C72 cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":829 2C76 cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":831 2C78 cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":832 2C7A cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":833 2C7C cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":841 2C7E cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":842 2C80 cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":843 2C82 cinit CODE
-"C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.":844 2C84 cinit CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":134 2C88 text29 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":135 2C8A text29 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":136 2C8E text29 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":137 2C92 text29 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":138 2C96 text29 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":139 2C9A text29 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":91 2C9C text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":92 2C9E text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":93 2CA2 text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":94 2CA4 text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":95 2CAC text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":96 2CAE text30 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":80 2CB0 text31 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":81 2CB8 text31 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":82 2CBA text31 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":84 2CBC text31 CODE
-"E:\davim\GitHub\smart-lamp\smart_lamp.X\main.c":85 2CC0 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":542 88C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":545 89E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":547 8A2 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":550 8AE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":557 8C0 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":620 8CE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":621 8E4 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":622 8EA text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":630 8F2 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":631 900 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":632 902 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":631 946 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":635 962 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":637 970 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":672 978 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":673 97E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":762 980 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":763 9A8 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":777 9B2 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":776 9D6 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":808 9EE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":814 A0C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":815 A1E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":816 A2C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":644 A2E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":834 A62 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":836 A6E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":838 A76 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":839 A84 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":840 AAC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":841 ACA text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":842 AE6 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":844 AEE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":845 AFC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":846 B10 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":847 B5E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":848 B68 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":849 B84 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":850 BA0 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":851 BA8 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":855 BB2 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":856 BCC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":857 BE8 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":858 C08 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":859 C14 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":860 C34 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1121 C3C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1122 C50 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1125 C74 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1129 CCC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1130 CEC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1132 CF2 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1134 D00 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1135 D14 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1138 D50 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1139 D68 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1140 D6A text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1141 D8A text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1142 DC0 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1145 DCE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1146 DEA text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1145 E24 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1195 E2C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1197 E4E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1208 E5A text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1209 EA2 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1210 EBE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1203 ED8 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1215 EE8 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1216 EFC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1214 F06 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1218 F1A text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1219 F2E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1221 F40 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1222 F44 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1226 F5E text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1228 F68 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1234 F7C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1235 FCC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1236 FCE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1237 1016 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1238 1032 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1239 104C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1235 109C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1243 10AC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1244 10C0 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1242 10CA text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1297 10D8 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1298 10F4 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1346 10FC text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1347 1124 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1348 112A text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1349 1154 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1445 116A text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1446 118C text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":545 11A0 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1545 11C4 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":1548 11D0 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":428 11D2 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":429 11D6 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":430 11D8 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":431 11E2 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":432 131C text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":433 1326 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":434 13D8 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":436 13E6 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":437 13F0 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":438 152A text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":439 1534 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":440 15F2 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":441 1620 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":413 1622 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":414 1628 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":415 177E text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":416 1784 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":417 1856 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c":418 18A0 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":90 18A2 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":91 18C8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":92 18EE text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":93 190A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":94 1918 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":95 1934 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":96 1942 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":97 194A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":98 194C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":99 194E text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":100 1950 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":101 1952 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":102 1954 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":103 1960 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":104 1962 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":106 196E text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":110 1974 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":111 197C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":112 197E text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":114 1992 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":115 199A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":113 199C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":117 19A4 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":121 19AA text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":122 19B2 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":123 19B4 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":125 19C8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":126 19D0 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":124 19D2 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":129 19D8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":131 19DC text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":132 19E8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":134 19F4 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":136 19F8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":137 1A04 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":139 1A10 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":140 1A18 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":141 1A24 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":142 1A28 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":143 1A34 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":144 1A40 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":146 1A48 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftadd.c":148 1A6C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":66 1A6E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":68 1A9A text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":70 1AC6 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":71 1AC8 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":72 1AD4 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":73 1AD6 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":74 1AE2 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":75 1AF2 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":76 1AF6 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":77 1AFC text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":79 1B04 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":80 1B0E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":81 1B1E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":82 1B2A text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":84 1B2C text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":85 1B34 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":86 1B38 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":87 1B3C text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":90 1B46 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":91 1B50 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":93 1B56 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":94 1B5C text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":96 1B6E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":97 1B78 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":95 1B7A text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":100 1B7E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdivl.c":101 1B8E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":56 1B90 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":58 1BBC text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":59 1BE6 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":60 1BF4 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":61 1BFA text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":62 1BFE text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":63 1C02 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":64 1C06 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":66 1C08 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":67 1C0A text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":68 1C16 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":69 1C22 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":71 1C2A text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":72 1C2E text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":73 1C3A text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":74 1C42 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":75 1C4A text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":76 1C4E text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":78 1C56 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":79 1C5A text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":80 1C66 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":81 1C6E text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":82 1C76 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":83 1C7A text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c":84 1C9E text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":55 1CA0 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":57 1CCC text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":58 1CF6 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":59 1D04 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":60 1D10 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":61 1D16 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":62 1D1A text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":63 1D1E text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":64 1D22 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":65 1D24 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":66 1D30 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":67 1D32 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":68 1D3E text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":70 1D46 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":71 1D4E text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":72 1D5E text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":73 1D6A text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":75 1D6C text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":76 1D74 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":77 1D78 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftdiv.c":78 1D9C text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":66 1D9E text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":68 1DAA text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":70 1DB6 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":71 1DB8 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":72 1DC8 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":73 1DCA text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":74 1DDA text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":75 1DEA text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":76 1DEE text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":77 1DF4 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":79 1DFC text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":80 1E06 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":81 1E1A text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":82 1E2A text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":84 1E2C text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":85 1E36 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":86 1E3A text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":87 1E3E text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":90 1E48 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":91 1E52 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":93 1E58 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":94 1E5E text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":96 1E70 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":97 1E7A text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":95 1E7C text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":100 1E80 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fldivl.c":101 1E90 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":49 1E92 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":51 1EBE text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":52 1EE4 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":53 1EE6 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":54 1EF2 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":55 1F00 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":56 1F04 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":57 1F08 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":60 1F12 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":61 1F1C text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":63 1F22 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":64 1F28 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":66 1F3A text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":67 1F44 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":65 1F46 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":70 1F4A text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":71 1F50 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":72 1F60 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c":73 1F70 text41 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":62 1F72 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":63 1F76 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":64 1F7A text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":65 1F7E text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":67 1F82 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":68 1F86 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":72 1F92 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":73 1F9E text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":74 1FAE text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":75 1FC2 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":76 1FF2 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":82 2002 text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":83 200C text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":84 203E text0 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":199 2048 text25 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":200 2054 text25 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":201 208A text25 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":202 208E text25 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":203 20B0 text25 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":204 20F4 text25 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":205 2100 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":64 2102 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":65 2112 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":67 2120 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":68 2122 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":66 212A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":71 2148 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":72 214A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":73 2156 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":70 215E text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":76 217C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":77 217E text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":75 2186 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":79 218A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":80 218C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":81 218E text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":82 2192 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":83 21A6 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":84 21AA text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":85 21AC text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\float.c":86 21B8 text34 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":96 21BA text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":97 21BE text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":98 21CA text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":99 21DA text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":100 21E6 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":101 21F6 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":102 2202 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":103 2210 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":105 221C text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":106 2228 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":107 2234 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":108 2240 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":109 224C text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":110 2258 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":111 2264 text38 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":112 2270 text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":6 2272 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":7 2276 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":8 22A2 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":9 22A6 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":10 22D2 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":11 22DE text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":12 22EA text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftge.c":13 2300 text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":14 2302 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":15 230A text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":16 230E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":17 2316 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":19 231E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":20 2322 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":21 232A text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":23 232E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":24 2336 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":25 233E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":26 2346 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":27 2348 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":28 234E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":26 2350 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":31 2354 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":32 235A text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":33 2366 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":34 236E text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":36 2370 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":37 2376 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":39 237A text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":40 2380 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":41 2388 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awdiv.c":42 2390 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":14 2392 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":15 23A2 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":16 23AE text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":17 23B6 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":18 23B8 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":19 23C2 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":17 23C4 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":22 23C8 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":23 23D2 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":24 23E6 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":25 23F6 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":27 23F8 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":28 2402 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":30 2406 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lldiv.c":31 2416 text10 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":102 2418 text30 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":104 2428 text30 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":105 242A text30 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":108 242C text30 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":109 2484 text30 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":112 2498 text30 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":113 249C text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":45 249E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":46 24A6 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":47 24AE text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":48 24B2 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":49 24C2 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":53 24CC text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":54 24D6 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":52 24D8 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":56 24FC text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\altoft.c":57 2520 text33 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":163 2522 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":164 2524 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":165 252C text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":166 252E text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":167 2532 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":168 2534 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":169 2538 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":170 253A text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":171 2542 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":172 254C text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":174 2558 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":175 2574 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":176 2576 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":182 257E text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":184 2586 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":185 258E text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":187 2596 text28 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":188 259E text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":13 25A0 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":14 25A8 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":15 25AC text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":16 25B4 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":18 25BC text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":19 25C0 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":20 25C8 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":21 25D0 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":22 25D8 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":23 25DA text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":24 25E0 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":22 25E2 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":27 25E6 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":28 25F2 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":29 25FA text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":30 2600 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":32 2604 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":33 260A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":34 2612 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awmod.c":35 261A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":13 261C text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":14 2628 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":15 2630 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":16 2632 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":17 263C text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":15 263E text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":20 2642 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":21 2656 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":22 2666 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":23 2670 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":25 2674 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\llmod.c":26 2684 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c":38 2686 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c":41 268E text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c":42 2690 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c":43 269A text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c":41 269C text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c":45 26C0 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lltoft.c":46 26E8 text8 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":74 26EA text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":76 26F0 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":77 26F6 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":78 26FC text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":79 2702 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":80 270A text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":81 2712 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":82 2714 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":84 271C text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":85 2722 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":86 2728 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":87 272E text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":88 2736 text4 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":90 273E text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":14 2740 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":15 2748 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":16 2750 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":17 2758 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":18 275A text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":19 2760 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":17 2762 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":22 2766 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":23 276C text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":24 2778 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":25 2780 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":27 2782 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":28 2788 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":30 278C text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c":31 2794 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":13 2796 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":14 279E text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":15 27A6 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":16 27A8 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":17 27AE text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":15 27B0 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":20 27B4 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":21 27C0 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":22 27C8 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":23 27CE text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":25 27D2 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwmod.c":26 27DA text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c":36 27DC text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c":37 27E4 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c":38 27E8 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c":39 27F0 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c":41 27F8 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c":42 281E text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftsub.c":6 2820 text13 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftsub.c":7 285A text13 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftmul.c":6 285C text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftmul.c":7 2896 text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftadd.c":6 2898 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\pic18\asftadd.c":7 28D2 text16 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":119 28D4 text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":120 28DA text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":121 28E0 text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":122 28E2 text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":123 28EC text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":124 28EE text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":125 28F6 text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":126 28F8 text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":127 2900 text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":128 2902 text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":129 290A text3 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":130 290C text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\wmul.c":14 290E text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\wmul.c":15 291A text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\wmul.c":16 292C text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\wmul.c":30 293E text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\wmul.c":31 2946 text22 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":137 2948 text2 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":138 2952 text2 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":137 2966 text2 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":139 297A text2 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":137 297C text2 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftsub.c":23 297E text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftsub.c":24 298A text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftsub.c":25 29B2 text14 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":90 29B4 text1 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":91 29BA text1 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":92 29BE text1 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":93 29D2 text1 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":95 29E2 text1 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":29 29E4 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":30 29E8 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":32 29EC text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":34 29EE text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":35 29F2 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":37 29F6 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":39 29F8 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":40 29FC text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":42 2A00 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":44 2A02 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":45 2A06 text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":47 2A0A text40 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":48 2A0C text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftneg.c":17 2A0E text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftneg.c":18 2A1A text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftneg.c":19 2A26 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftneg.c":20 2A32 text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\isdigit.c":14 2A34 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\isdigit.c":15 2A56 text19 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":54 2A58 text39 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":55 2A5A text39 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":56 2A62 text39 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":57 2A64 text39 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":58 2A74 text39 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h":59 2A76 text39 CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":852 2A78 cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":853 2A7C cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":855 2A7E cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":856 2A80 cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":857 2A82 cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":865 2A84 cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":866 2A86 cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":867 2A88 cinit CODE
+"C:\Users\MARIAA~1\AppData\Local\Temp\sg18.":868 2A8A cinit CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":191 2A8E text35 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":192 2A90 text35 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":193 2A94 text35 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":194 2A98 text35 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":195 2A9C text35 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":196 2AA0 text35 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":148 2AA2 text36 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":149 2AA4 text36 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":150 2AA8 text36 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":151 2AAA text36 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":152 2AB2 text36 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":153 2AB4 text36 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":123 2AB6 text5 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":124 2ABA text5 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":126 2ABE text5 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":127 2AC0 text5 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":128 2AC2 text5 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":130 2AC4 text5 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":131 2AC6 text5 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":137 2AC8 text37 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":138 2AD0 text37 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":139 2AD2 text37 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":141 2AD4 text37 CODE
+"D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c":142 2AD8 text37 CODE
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -723,15 +716,16 @@ $dist/default/production\smart_lamp.X.production.obj
 ___lwdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___lldiv@counter E 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-sprintf@fval 7B 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+sprintf@fval 8C 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 ___awdiv@counter D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-sprintf@f 4D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+sprintf@f 67 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___altoft@c 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___lwdiv@counter 8 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___lltoft@c 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___awtoft@c 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _GO 7E11 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of___ftneg 2C2E 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
+__end_of___ftneg 2A34 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
 _RD2 7C1A 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _RD3 7C1B 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _RD4 7C1C 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
@@ -739,38 +733,45 @@ _RD5 7C1D 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _RD6 7C1E 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _RD7 7C1F 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __S0 30000E 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__S1 A1 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+__S1 B6 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hintentry 0 0 ABS 0 intentry dist/default/production\smart_lamp.X.production.obj
 __CFG_PWRT$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Lintentry 0 0 ABS 0 intentry dist/default/production\smart_lamp.X.production.obj
-__end_of_lcd_write_char 2B72 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
-___ftadd@f1 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of___awdiv 26C6 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
+__end_of_lcd_write_char 290E 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
+___ftadd@f1 48 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of___awdiv 2392 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
 __size_of_Obtener_Distancia 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 lcd_putc@i 7 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _TMR1 FCE 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of___ftsub 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-sprintf@vd_520 69 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 ?_Lcd_Cmd 2 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_RCIF 7CF5 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_LATB F8A 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_TXIF 7CF4 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_CREN 7D5C 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _ADON 7E10 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___ftneg@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___ftadd@f2 C 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_Configuracion_Registros 2CB0 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
-___ftsub@f1 17 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___ftadd@f2 4B 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_Configuracion_Registros 2AC8 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
+___ftsub@f1 56 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?_Obtener_Distancia 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_main 22C2 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
-start 0 0 CODE 0 init C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
-?___ftadd 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_main 1F72 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
+start 0 0 CODE 0 init C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
+?___ftadd 48 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___fttol@f1 17 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_lcd_gotoxy 296A 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
-___ftsub@f2 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_lcd_gotoxy 26EA 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
+___ftsub@f2 59 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___ftmul@f1 26 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 lcd_gotoxy@a 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___fttol@lval 21 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___ftdiv@f1 37 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_RCREG FAE 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _TRISA F92 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_RCSTA FAB 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _TRISB F93 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_TXREG FAD 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _TRISD F95 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_SPBRG FAF 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hirdata 0 0 CODE 0 irdata dist/default/production\smart_lamp.X.production.obj
 __Lirdata 0 0 CODE 0 irdata dist/default/production\smart_lamp.X.production.obj
 __HRAM 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
@@ -783,9 +784,9 @@ __Hconfig 30000E 0 CONFIG 0 config dist/default/production\smart_lamp.X.producti
 __Lconfig 300000 0 CONFIG 0 config dist/default/production\smart_lamp.X.production.obj
 ?___ftneg 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __powers_ 84F 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
-___ftpack 2436 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
+___ftpack 2102 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
 lcd_gotoxy@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-?___llmod F 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+?___llmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?___awmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?___lwmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 lcd_gotoxy@b 5 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
@@ -794,58 +795,63 @@ __Hbigram 0 0 ABS 0 bigram dist/default/production\smart_lamp.X.production.obj
 __Lbigram 0 0 ABS 0 bigram dist/default/production\smart_lamp.X.production.obj
 __Hrparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
 __Lrparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
-_scale 1522 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
+_scale 11D2 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
 __Hram 0 0 ABS 0 ram dist/default/production\smart_lamp.X.production.obj
-?___ftsub 17 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+?___ftsub 56 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Lram 0 0 ABS 0 ram dist/default/production\smart_lamp.X.production.obj
 __Hcomram 0 0 ABS 0 comram dist/default/production\smart_lamp.X.production.obj
 __Lcomram 0 0 ABS 0 comram dist/default/production\smart_lamp.X.production.obj
-_lcd_putc 2BA8 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
+_lcd_putc 2948 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
 __Hsfr 0 0 ABS 0 sfr dist/default/production\smart_lamp.X.production.obj
-__end_of_lcd_putc 2BDE 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
+__end_of_lcd_putc 297E 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
 __Lsfr 0 0 ABS 0 sfr dist/default/production\smart_lamp.X.production.obj
-__end_of__stringdata 892 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
+__end_of__stringdata 88A 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
 __Hbss 0 0 RAM 1 bss dist/default/production\smart_lamp.X.production.obj
 __CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Lbss 0 0 RAM 1 bss dist/default/production\smart_lamp.X.production.obj
 ___ftge@ff1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\smart_lamp.X.production.obj
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\smart_lamp.X.production.obj
-?_sprintf 4B 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_Read_LDR 2436 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
+?_sprintf 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__end_of_Read_LDR 2102 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
 ___ftmul@cntr 35 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___ftadd 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_scale$1130 40 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___ftdiv@cntr 42 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _TRISA0 7C90 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 lcd_gotoxy@z 6 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_states_LED 29B4 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
+_scale$1211 40 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?_lcd_gotoxy 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _ADCON0 FC2 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __tdiv_to_l_@quot C 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___asftadd 2AC2 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
+___asftadd 2898 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
 _ADCON1 FC1 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___ftge@ff2 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-sprintf@vd 67 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+sprintf@vd 79 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+USART_Init@baud_rate 56 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _ADCON2 FC0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_TRISC6 7CA6 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_TRISC7 7CA7 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ?___fttol 17 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\smart_lamp.X.production.obj
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\smart_lamp.X.production.obj
 ?_isdigit 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?___ftmul 26 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _LATAbits F89 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-sprintf@ap 6B 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+sprintf@ap 7D 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\smart_lamp.X.production.obj
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\smart_lamp.X.production.obj
-__end_of_Init_AD 2C9C 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
-_lcd_init 24EE 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
+__end_of_Init_AD 2AA2 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
+_lcd_init 21BA 0 CODE 0 text38 dist/default/production\smart_lamp.X.production.obj
 ?___lldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___altoft 249E 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\smart_lamp.X.production.obj
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\smart_lamp.X.production.obj
 ?___ftdiv 37 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?___awdiv 8 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hintret 0 0 ABS 0 intret dist/default/production\smart_lamp.X.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production\smart_lamp.X.production.obj
-___lltoft 28B0 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
+___lltoft 2686 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
 __Hramtop 800 0 RAM 0 ramtop dist/default/production\smart_lamp.X.production.obj
 __Lramtop 800 0 RAM 0 ramtop dist/default/production\smart_lamp.X.production.obj
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\smart_lamp.X.production.obj
@@ -853,8 +859,8 @@ __Lstruct 0 0 COMRAM 1 struct dist/default/production\smart_lamp.X.production.ob
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\smart_lamp.X.production.obj
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\smart_lamp.X.production.obj
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
-___awtoft 2A06 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
-_Lcd_Port 2BDE 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
+___awtoft 27DC 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
+_Lcd_Port 29E4 0 CODE 0 text40 dist/default/production\smart_lamp.X.production.obj
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\smart_lamp.X.production.obj
 ?___lwdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\smart_lamp.X.production.obj
@@ -875,31 +881,32 @@ ___ftmul@f3_as_product 32 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\smart_lamp.X.production.obj
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\smart_lamp.X.production.obj
 ?__tdiv_to_l_ 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___asftadd@f2 48 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___asftadd@f2 58 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __npowers_ 828 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
-__end_of___ftpack 24EE 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
+__end_of___ftpack 21BA 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
 ?___ftpack 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of_states_LED 29E4 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
 __CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __div_to_l_@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___ftpack 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __end_of_dpowers 828 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
-__end_of_scale 1972 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
+__end_of_scale 1622 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
 __size_of___fttol 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of___awmod 2846 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
-___ftadd@sign 14 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of___awmod 261C 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
+___ftadd@sign 53 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hdata 0 0 ABS 0 data dist/default/production\smart_lamp.X.production.obj
 __Ldata 0 0 ABS 0 data dist/default/production\smart_lamp.X.production.obj
 __CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ?_scale 37 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___ftge 25A6 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
-sprintf@sp 4B 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___ftge 2272 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
+sprintf@sp 65 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 ?_lcd_putc 5 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_fround 1972 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
+_fround 1622 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-_Timer1_Init 2C9C 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
-___asftsub 2A4A 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
+_Timer1_Init 2AA2 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
+___asftsub 2820 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
 __CFG_CPUDIV$OSC1_PLL2 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 ___awmod@sign 7 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
@@ -912,52 +919,56 @@ __Linit 0 0 CODE 0 init dist/default/production\smart_lamp.X.production.obj
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
 __size_of___asftadd 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\smart_lamp.X.production.obj
-___wmul 2AFE 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
+___wmul 290E 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
 __size_of___asftsub 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of___asftmul 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\smart_lamp.X.production.obj
-__end_of_main 237C 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
+__end_of_main 2048 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\smart_lamp.X.production.obj
-__end_of_Lcd_Cmd 2C72 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
+__end_of_Lcd_Cmd 2A78 0 CODE 0 text39 dist/default/production\smart_lamp.X.production.obj
+_fround$1210 40 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext 0 0 ABS 0 text dist/default/production\smart_lamp.X.production.obj
 __Ltext 0 0 ABS 0 text dist/default/production\smart_lamp.X.production.obj
 __CFG_CCP2MX$ON 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__div_to_l_ 20EE 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
-sprintf@width 79 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__div_to_l_ 1D9E 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
 ___wmul@multiplier 11 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___ftneg 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___ftmul@sign 36 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-end_of_initialization 2C7E 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+end_of_initialization 2A84 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
 ___ftdiv@sign 47 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___awdiv@sign E 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of__div_to_l_ 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+?_states_LED 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_USBDIV$1 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-?___asftadd 46 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+?___asftadd 56 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___wmul@multiplicand 13 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_VREGEN$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___asftsub@f2 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___asftsub@f2 62 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __size_of___awtoft 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __CFG_PLLDIV$1 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 fround@prec 37 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-main@LDR_value 5A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of___ftadd 1DBE 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
-__end_of___lltoft 2914 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
+main@LDR_value 92 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+__end_of___ftadd 1A6E 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
+__end_of___lltoft 26EA 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
 _PORTAbits F80 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 Obtener_Distancia@Distancia D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 _T1CONbits FCD 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of___asftadd 2AFE 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
-___asftmul 2A86 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
+__end_of___asftadd 28D4 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
+___asftmul 285C 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
 Obtener_Distancia@Duracion F 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+?___altoft 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?___lltoft 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?___awtoft 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?_Lcd_Port 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\smart_lamp.X.production.obj
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\smart_lamp.X.production.obj
 __size_of___lltoft 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_Init_AD 2C88 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
+_Init_AD 2A8E 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\smart_lamp.X.production.obj
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\smart_lamp.X.production.obj
-___asftadd@f1p 46 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___asftadd@f1p 56 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of_USART_ReceiveChar 2AC8 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\smart_lamp.X.production.obj
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\smart_lamp.X.production.obj
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\smart_lamp.X.production.obj
@@ -979,326 +990,351 @@ __Lbank6 0 0 ABS 0 bank6 dist/default/production\smart_lamp.X.production.obj
 __Hbank7 0 0 ABS 0 bank7 dist/default/production\smart_lamp.X.production.obj
 __Lbank7 0 0 ABS 0 bank7 dist/default/production\smart_lamp.X.production.obj
 __div_to_l_@f2 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_lcd_write_char 2B38 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
+_lcd_write_char 28D4 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
 __Htext0 0 0 ABS 0 text0 dist/default/production\smart_lamp.X.production.obj
 __Ltext0 0 0 ABS 0 text0 dist/default/production\smart_lamp.X.production.obj
 __Htext1 0 0 ABS 0 text1 dist/default/production\smart_lamp.X.production.obj
 __Ltext1 0 0 ABS 0 text1 dist/default/production\smart_lamp.X.production.obj
-__ptext0 22C2 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
+__ptext0 1F72 0 CODE 0 text0 dist/default/production\smart_lamp.X.production.obj
 __Htext2 0 0 ABS 0 text2 dist/default/production\smart_lamp.X.production.obj
 __Ltext2 0 0 ABS 0 text2 dist/default/production\smart_lamp.X.production.obj
-__ptext1 894 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
+__ptext1 29B4 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
 ___asftmul@f2 39 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext3 0 0 ABS 0 text3 dist/default/production\smart_lamp.X.production.obj
 __Ltext3 0 0 ABS 0 text3 dist/default/production\smart_lamp.X.production.obj
-__ptext2 29C0 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
+__ptext2 2948 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
 __Htext4 0 0 ABS 0 text4 dist/default/production\smart_lamp.X.production.obj
 __Ltext4 0 0 ABS 0 text4 dist/default/production\smart_lamp.X.production.obj
-__ptext3 28B0 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
+__ptext3 28D4 0 CODE 0 text3 dist/default/production\smart_lamp.X.production.obj
 __Htext5 0 0 ABS 0 text5 dist/default/production\smart_lamp.X.production.obj
 __Ltext5 0 0 ABS 0 text5 dist/default/production\smart_lamp.X.production.obj
-__ptext4 2846 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
+__ptext4 26EA 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
 __Htext6 0 0 ABS 0 text6 dist/default/production\smart_lamp.X.production.obj
 __Ltext6 0 0 ABS 0 text6 dist/default/production\smart_lamp.X.production.obj
-__ptext5 26C6 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
+__ptext5 2AB6 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
 __Htext7 0 0 ABS 0 text7 dist/default/production\smart_lamp.X.production.obj
 __Ltext7 0 0 ABS 0 text7 dist/default/production\smart_lamp.X.production.obj
-__ptext6 21E2 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
+__ptext6 88C 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
 __Htext8 0 0 ABS 0 text8 dist/default/production\smart_lamp.X.production.obj
 __Ltext8 0 0 ABS 0 text8 dist/default/production\smart_lamp.X.production.obj
-__ptext7 2C08 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
-__end_of_Timer1_Init 2CB0 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
+__ptext7 2796 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
+__end_of_Timer1_Init 2AB6 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
 __Htext9 0 0 ABS 0 text9 dist/default/production\smart_lamp.X.production.obj
 __Ltext9 0 0 ABS 0 text9 dist/default/production\smart_lamp.X.production.obj
-__ptext8 25A6 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
-__ptext9 2A4A 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
+__ptext8 2686 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
+__ptext9 261C 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
+__size_of___altoft 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __end_of__npowers_ 84F 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
 __size_of_lcd_init 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\smart_lamp.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\smart_lamp.X.production.obj
 lcd_write_char@a 2 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of_lcd_gotoxy 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of__initialization 2C7E 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-__end_of___lwdiv 296A 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
+__end_of__initialization 2A84 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+__end_of___lwdiv 2796 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
 __tdiv_to_l_@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of__div_to_l_ 21E2 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
-_Lcd_Cmd 2C52 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
-___asftsub@f1p 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__size_of_USART_Init 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+__end_of__div_to_l_ 1E92 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
+_Lcd_Cmd 2A58 0 CODE 0 text39 dist/default/production\smart_lamp.X.production.obj
+main@esp_server_data 95 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___asftsub@f1p 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __size_of_scale 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___ftadd 1BF2 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
+___ftadd 18A2 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
 __size_of_fround 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hidata 0 0 CODE 0 idata dist/default/production\smart_lamp.X.production.obj
 __Lidata 0 0 CODE 0 idata dist/default/production\smart_lamp.X.production.obj
-__end_of_lcd_gotoxy 29C0 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
+__end_of_lcd_gotoxy 2740 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
 __Hrdata 0 0 COMRAM 1 rdata dist/default/production\smart_lamp.X.production.obj
 __Lrdata 0 0 COMRAM 1 rdata dist/default/production\smart_lamp.X.production.obj
 __Hidloc 200008 0 IDLOC 0 idloc dist/default/production\smart_lamp.X.production.obj
 ?___ftge 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Lidloc 200000 0 IDLOC 0 idloc dist/default/production\smart_lamp.X.production.obj
 lcd_write_char@temp 3 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-main@Distancia 5D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___ftneg 2C08 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
-___llmod 2846 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
-__end_of___lldiv 274C 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
-___awmod 27CA 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
+main@Distancia 90 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___ftneg 2A0E 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
+___llmod 261C 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
+__end_of___lldiv 2418 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
+___awmod 25A0 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
 __size_of_Configuracion_Registros 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___lwmod 29C0 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
+___lwmod 2796 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
 __Hparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
 __Lparam 0 0 ABS 0 rparam dist/default/production\smart_lamp.X.production.obj
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?_fround 37 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___ftsub 2B72 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
+___ftsub 297E 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___ftpack@sign 5 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-?___asftsub 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_sprintf 894 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
-___ftadd@exp1 16 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__Hsmallconst 894 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
+?___asftsub 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+_sprintf 88C 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
+___ftadd@exp1 55 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__Hsmallconst 88C 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
 __Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
 __psmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
-___fttol 21E2 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
+___fttol 1E92 0 CODE 0 text41 dist/default/production\smart_lamp.X.production.obj
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\smart_lamp.X.production.obj
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\smart_lamp.X.production.obj
 ?___wmul 11 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_isdigit 2C2E 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
+_isdigit 2A34 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
 __Hcinit 0 0 ABS 0 cinit dist/default/production\smart_lamp.X.production.obj
-___ftmul 1EE0 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
+___ftmul 1B90 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
 __Lcinit 0 0 ABS 0 cinit dist/default/production\smart_lamp.X.production.obj
 __CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of_lcd_write_char 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___lldiv 26C6 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
-__pcinit 2C72 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+___lldiv 2392 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
+__pcinit 2A78 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
 __CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___ftdiv 1FF0 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
-___awdiv 2636 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
-___lwdiv 2914 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
+___ftdiv 1CA0 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
+___awdiv 2302 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
+___lwdiv 2740 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 _dpowers 800 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
 __Hconst 0 0 CODE 0 const dist/default/production\smart_lamp.X.production.obj
 __Lconst 0 0 CODE 0 const dist/default/production\smart_lamp.X.production.obj
 ?__div_to_l_ 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__tdiv_to_l_ 1DBE 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
-_LCD_Buffer 81 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
+__tdiv_to_l_ 1A6E 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
+_LCD_Buffer 96 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 ___asftmul@f1p 37 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __div_to_l_@exp1 D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___fttol@exp1 25 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___ftdiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of___asftmul 2AC2 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
-__end_of_isdigit 2C52 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
-__end_of_sprintf 1522 0 CODE 0 text1 dist/default/production\smart_lamp.X.production.obj
-_Obtener_Distancia 274C 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
+_isdigit$870 3 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of___asftmul 2898 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
+__end_of_isdigit 2A58 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
+__end_of_sprintf 11D2 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
+_Obtener_Distancia 2522 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
+___altoft@sign 12 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_USART_Init 2418 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
+USART_Init@temp 5A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___awtoft@sign D 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___ftpack@arg 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_fround$1128 43 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of___lwdiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___ftadd@exp2 15 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_fround$1209 43 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___ftadd@exp2 54 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 __LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 __CFG_WRT2$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__pbssBANK0 81 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
+__pbssBANK0 96 0 BANK0 1 bssBANK0 dist/default/production\smart_lamp.X.production.obj
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __CFG_WRT3$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-sprintf@flag 75 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+sprintf@flag 7F 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __size_of_lcd_putc 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Htext10 0 0 ABS 0 text10 dist/default/production\smart_lamp.X.production.obj
 __Ltext10 0 0 ABS 0 text10 dist/default/production\smart_lamp.X.production.obj
 __Htext20 0 0 ABS 0 text20 dist/default/production\smart_lamp.X.production.obj
 __Ltext20 0 0 ABS 0 text20 dist/default/production\smart_lamp.X.production.obj
-_fround$1129 40 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__ptext10 2B72 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
+__ptext10 2392 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
 __Htext30 0 0 ABS 0 text30 dist/default/production\smart_lamp.X.production.obj
 __Htext11 0 0 ABS 0 text11 dist/default/production\smart_lamp.X.production.obj
 __Ltext30 0 0 ABS 0 text30 dist/default/production\smart_lamp.X.production.obj
 __Ltext11 0 0 ABS 0 text11 dist/default/production\smart_lamp.X.production.obj
-__ptext20 2636 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
-sprintf@exp 77 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__ptext20 11D2 0 CODE 0 text20 dist/default/production\smart_lamp.X.production.obj
+sprintf@exp 84 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__Htext40 0 0 ABS 0 text40 dist/default/production\smart_lamp.X.production.obj
 __Htext21 0 0 ABS 0 text21 dist/default/production\smart_lamp.X.production.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/production\smart_lamp.X.production.obj
 __Ltext21 0 0 ABS 0 text21 dist/default/production\smart_lamp.X.production.obj
-__ptext11 2A86 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
-__ptext30 2C9C 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
+__ptext11 2A0E 0 CODE 0 text11 dist/default/production\smart_lamp.X.production.obj
+__ptext30 2418 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
 __Htext31 0 0 ABS 0 text31 dist/default/production\smart_lamp.X.production.obj
 __Htext12 0 0 ABS 0 text12 dist/default/production\smart_lamp.X.production.obj
 __Ltext31 0 0 ABS 0 text31 dist/default/production\smart_lamp.X.production.obj
 __Ltext12 0 0 ABS 0 text12 dist/default/production\smart_lamp.X.production.obj
-__ptext21 1972 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
+__ptext21 1622 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
+__ptext40 29E4 0 CODE 0 text40 dist/default/production\smart_lamp.X.production.obj
+__Htext41 0 0 ABS 0 text41 dist/default/production\smart_lamp.X.production.obj
 __Htext22 0 0 ABS 0 text22 dist/default/production\smart_lamp.X.production.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/production\smart_lamp.X.production.obj
 __Ltext22 0 0 ABS 0 text22 dist/default/production\smart_lamp.X.production.obj
-__ptext12 2AC2 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
-__ptext31 2CB0 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
+__ptext12 2272 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
+__ptext31 1CA0 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
 __Htext32 0 0 ABS 0 text32 dist/default/production\smart_lamp.X.production.obj
 __Htext13 0 0 ABS 0 text13 dist/default/production\smart_lamp.X.production.obj
 ?_Read_LDR 48 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Ltext32 0 0 ABS 0 text32 dist/default/production\smart_lamp.X.production.obj
 __Ltext13 0 0 ABS 0 text13 dist/default/production\smart_lamp.X.production.obj
-__ptext22 237C 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
+__ptext22 290E 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
+__ptext41 1E92 0 CODE 0 text41 dist/default/production\smart_lamp.X.production.obj
 __Htext23 0 0 ABS 0 text23 dist/default/production\smart_lamp.X.production.obj
 __Ltext23 0 0 ABS 0 text23 dist/default/production\smart_lamp.X.production.obj
-__ptext13 1BF2 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
-__ptext32 2BA8 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
+__ptext13 2820 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
+__ptext32 18A2 0 CODE 0 text32 dist/default/production\smart_lamp.X.production.obj
 _ADCON0bits FC2 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Htext33 0 0 ABS 0 text33 dist/default/production\smart_lamp.X.production.obj
 __Htext14 0 0 ABS 0 text14 dist/default/production\smart_lamp.X.production.obj
 __Ltext33 0 0 ABS 0 text33 dist/default/production\smart_lamp.X.production.obj
 __Ltext14 0 0 ABS 0 text14 dist/default/production\smart_lamp.X.production.obj
 _ADCON1bits FC1 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__ptext23 2A06 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
-sprintf@prec 7E 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__ptext23 25A0 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
+sprintf@prec 8A 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __size_of___awdiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Htext24 0 0 ABS 0 text24 dist/default/production\smart_lamp.X.production.obj
 __Ltext24 0 0 ABS 0 text24 dist/default/production\smart_lamp.X.production.obj
-__ptext14 20EE 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
-__ptext33 2B38 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
+__ptext14 297E 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
+__ptext33 249E 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
 __Htext34 0 0 ABS 0 text34 dist/default/production\smart_lamp.X.production.obj
 __Htext15 0 0 ABS 0 text15 dist/default/production\smart_lamp.X.production.obj
 __Ltext34 0 0 ABS 0 text34 dist/default/production\smart_lamp.X.production.obj
 __Ltext15 0 0 ABS 0 text15 dist/default/production\smart_lamp.X.production.obj
-__ptext24 1EE0 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
+__ptext24 2302 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
 __Htext25 0 0 ABS 0 text25 dist/default/production\smart_lamp.X.production.obj
-__end_of__tdiv_to_l_ 1EE0 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
+__end_of__tdiv_to_l_ 1B90 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
 __Ltext25 0 0 ABS 0 text25 dist/default/production\smart_lamp.X.production.obj
-__ptext15 1DBE 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
-__ptext34 24EE 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
+__ptext15 285C 0 CODE 0 text15 dist/default/production\smart_lamp.X.production.obj
+__ptext34 2102 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
 __Htext35 0 0 ABS 0 text35 dist/default/production\smart_lamp.X.production.obj
 __Htext16 0 0 ABS 0 text16 dist/default/production\smart_lamp.X.production.obj
 __Ltext35 0 0 ABS 0 text35 dist/default/production\smart_lamp.X.production.obj
 __Ltext16 0 0 ABS 0 text16 dist/default/production\smart_lamp.X.production.obj
-__ptext25 2436 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
+__ptext25 2048 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
 __Htext26 0 0 ABS 0 text26 dist/default/production\smart_lamp.X.production.obj
 __Ltext26 0 0 ABS 0 text26 dist/default/production\smart_lamp.X.production.obj
-__ptext16 2C2E 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
-__ptext35 296A 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
+__ptext16 2898 0 CODE 0 text16 dist/default/production\smart_lamp.X.production.obj
+__ptext35 2A8E 0 CODE 0 text35 dist/default/production\smart_lamp.X.production.obj
 __Htext36 0 0 ABS 0 text36 dist/default/production\smart_lamp.X.production.obj
 __Htext17 0 0 ABS 0 text17 dist/default/production\smart_lamp.X.production.obj
 __Ltext36 0 0 ABS 0 text36 dist/default/production\smart_lamp.X.production.obj
 __Ltext17 0 0 ABS 0 text17 dist/default/production\smart_lamp.X.production.obj
-__ptext26 1FF0 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
+__ptext26 27DC 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
 __Htext27 0 0 ABS 0 text27 dist/default/production\smart_lamp.X.production.obj
 __Ltext27 0 0 ABS 0 text27 dist/default/production\smart_lamp.X.production.obj
-___llmod@divisor 13 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__ptext17 1522 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
-__ptext36 2C52 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
+___llmod@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__ptext17 1D9E 0 CODE 0 text17 dist/default/production\smart_lamp.X.production.obj
+__ptext36 2AA2 0 CODE 0 text36 dist/default/production\smart_lamp.X.production.obj
 ___awmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext37 0 0 ABS 0 text37 dist/default/production\smart_lamp.X.production.obj
 __Htext18 0 0 ABS 0 text18 dist/default/production\smart_lamp.X.production.obj
-__end_of___lwmod 2A06 0 CODE 0 text2 dist/default/production\smart_lamp.X.production.obj
+__end_of___lwmod 27DC 0 CODE 0 text7 dist/default/production\smart_lamp.X.production.obj
 __Ltext37 0 0 ABS 0 text37 dist/default/production\smart_lamp.X.production.obj
 __Ltext18 0 0 ABS 0 text18 dist/default/production\smart_lamp.X.production.obj
-__ptext27 274C 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
+__ptext27 1B90 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
 ___lwmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext28 0 0 ABS 0 text28 dist/default/production\smart_lamp.X.production.obj
 __Ltext28 0 0 ABS 0 text28 dist/default/production\smart_lamp.X.production.obj
-__ptext18 2AFE 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
-__ptext37 2BDE 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
+__ptext18 1A6E 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
+__ptext37 2AC8 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
+__Htext38 0 0 ABS 0 text38 dist/default/production\smart_lamp.X.production.obj
 __Htext19 0 0 ABS 0 text19 dist/default/production\smart_lamp.X.production.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/production\smart_lamp.X.production.obj
 __Ltext19 0 0 ABS 0 text19 dist/default/production\smart_lamp.X.production.obj
-__ptext28 2914 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
+__ptext28 2522 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
 ___fttol@sign1 20 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Htext29 0 0 ABS 0 text29 dist/default/production\smart_lamp.X.production.obj
 __Ltext29 0 0 ABS 0 text29 dist/default/production\smart_lamp.X.production.obj
-__ptext19 27CA 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
+__ptext19 2A34 0 CODE 0 text19 dist/default/production\smart_lamp.X.production.obj
+__ptext38 21BA 0 CODE 0 text38 dist/default/production\smart_lamp.X.production.obj
 __CFG_BORV$3 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__ptext29 2C88 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
+__Htext39 0 0 ABS 0 text39 dist/default/production\smart_lamp.X.production.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/production\smart_lamp.X.production.obj
+__ptext29 2740 0 CODE 0 text29 dist/default/production\smart_lamp.X.production.obj
+__ptext39 2A58 0 CODE 0 text39 dist/default/production\smart_lamp.X.production.obj
 ?___asftmul 37 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_sprintf$1131 60 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __size_of_Read_LDR 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __Hend_init 4 0 CODE 0 end_init dist/default/production\smart_lamp.X.production.obj
 __Lend_init 0 0 CODE 0 end_init dist/default/production\smart_lamp.X.production.obj
-__end_of___asftsub 2A86 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
-__end_of_fround 1BF2 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
+__end_of___asftsub 285C 0 CODE 0 text13 dist/default/production\smart_lamp.X.production.obj
+__end_of_fround 18A2 0 CODE 0 text21 dist/default/production\smart_lamp.X.production.obj
 ___lldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___ftpack@exp 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___lldiv 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___awdiv@divisor A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of___ftmul 1FF0 0 CODE 0 text24 dist/default/production\smart_lamp.X.production.obj
-__end_of___llmod 28B0 0 CODE 0 text4 dist/default/production\smart_lamp.X.production.obj
+__size_of_states_LED 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+_sprintf$1212 72 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__end_of___ftmul 1CA0 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
+__end_of___llmod 2686 0 CODE 0 text9 dist/default/production\smart_lamp.X.production.obj
 __CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
 __tdiv_to_l_@cntr 10 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-_isdigit$793 3 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_CP1$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of___wmul 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 Read_LDR@analog_reading 4F 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\smart_lamp.X.production.obj
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\smart_lamp.X.production.obj
-_sprintf$518 63 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __CFG_CP2$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __CFG_CP3$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __stringdata 876 0 SMALLCONST 0 smallconst dist/default/production\smart_lamp.X.production.obj
 __size_of_Init_AD 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
+__accesstop 60 0 ABS 0 - C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
 __tdiv_to_l_@exp1 11 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __div_to_l_@cntr C 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\smart_lamp.X.production.obj
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\smart_lamp.X.production.obj
 __CFG_PBADEN$ON 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-intlevel0 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
-intlevel1 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
+intlevel0 0 0 CODE 0 text C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
+intlevel1 0 0 CODE 0 text C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of__tdiv_to_l_ 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-intlevel2 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
-__end_of___awtoft 2A4A 0 CODE 0 text23 dist/default/production\smart_lamp.X.production.obj
+_sprintf$595 75 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+___altoft@exp 11 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+intlevel2 0 0 CODE 0 text C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
+__end_of___awtoft 2820 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
 ___lltoft@exp 11 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-intlevel3 0 0 CODE 0 text C:\Users\DAVICO~1\AppData\Local\Temp\s13bo.obj
+intlevel3 0 0 CODE 0 text C:\Users\MARIAA~1\AppData\Local\Temp\sg18.obj
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-_Read_LDR 237C 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
-__end_of_Lcd_Port 2C08 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
+sprintf@vd_597 7B 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+_Read_LDR 2048 0 CODE 0 text25 dist/default/production\smart_lamp.X.production.obj
+__end_of_Lcd_Port 2A0E 0 CODE 0 text40 dist/default/production\smart_lamp.X.production.obj
 __tdiv_to_l_@f2 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of_Lcd_Port 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 Obtener_Distancia@Timer_1 B 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ?_lcd_write_char 2 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 lcd_gotoxy@temp 8 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+_USART_ReceiveChar 2AB6 0 CODE 0 text5 dist/default/production\smart_lamp.X.production.obj
 __size_of___lwmod 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __CFG_CPB$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of_Configuracion_Registros 2CC2 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
+__end_of_Configuracion_Registros 2ADA 0 CODE 0 text37 dist/default/production\smart_lamp.X.production.obj
 __div_to_l_@quot 8 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of___wmul 2B38 0 CODE 0 text18 dist/default/production\smart_lamp.X.production.obj
+__end_of___wmul 2948 0 CODE 0 text22 dist/default/production\smart_lamp.X.production.obj
 __CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-start_initialization 2C72 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-sprintf@integ 6D 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+start_initialization 2A78 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+__end_of___altoft 2522 0 CODE 0 text33 dist/default/production\smart_lamp.X.production.obj
+sprintf@integ 81 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 ___lldiv@quotient A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___awdiv@quotient F 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___lwdiv@quotient 6 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __size_of___ftge 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+states_LED@data 9 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of___fttol 22C2 0 CODE 0 text6 dist/default/production\smart_lamp.X.production.obj
+__end_of___fttol 1F72 0 CODE 0 text41 dist/default/production\smart_lamp.X.production.obj
 __size_of_sprintf 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of___awmod 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-__end_of___ftsub 2BA8 0 CODE 0 text10 dist/default/production\smart_lamp.X.production.obj
-__end_of_Obtener_Distancia 27CA 0 CODE 0 text27 dist/default/production\smart_lamp.X.production.obj
-__initialization 2C72 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
-__end_of___ftge 2636 0 CODE 0 text8 dist/default/production\smart_lamp.X.production.obj
+__end_of___ftsub 29B4 0 CODE 0 text14 dist/default/production\smart_lamp.X.production.obj
+__end_of_Obtener_Distancia 25A0 0 CODE 0 text28 dist/default/production\smart_lamp.X.production.obj
+__initialization 2A78 0 CODE 0 cinit dist/default/production\smart_lamp.X.production.obj
+__end_of___ftge 2302 0 CODE 0 text12 dist/default/production\smart_lamp.X.production.obj
 Lcd_Cmd@a 2 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 lcd_putc@a 5 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-___llmod@dividend F 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-__end_of_lcd_init 25A6 0 CODE 0 text34 dist/default/production\smart_lamp.X.production.obj
+___llmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of_lcd_init 2272 0 CODE 0 text38 dist/default/production\smart_lamp.X.production.obj
 __CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___awmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___lwmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
-sprintf@_val 70 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+sprintf@_val 86 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
 __CFG_ICPRT$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __CFG_BOR$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __activetblptr 2 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-___llmod@counter 18 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+___llmod@counter A 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___awmod@counter 6 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___wmul@product 15 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___lwmod@counter 6 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
+__end_of_USART_Init 249E 0 CODE 0 text30 dist/default/production\smart_lamp.X.production.obj
 lcd_write_char@y 4 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 __size_of___ftmul 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 Lcd_Port@a 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
-sprintf@c 80 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
-__end_of___ftdiv 20EE 0 CODE 0 text26 dist/default/production\smart_lamp.X.production.obj
+sprintf@c 8F 0 BANK0 1 cstackBANK0 dist/default/production\smart_lamp.X.production.obj
+__end_of___ftdiv 1D9E 0 CODE 0 text31 dist/default/production\smart_lamp.X.production.obj
 __size_of___llmod 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
+__size_of_USART_ReceiveChar 0 0 ABS 0 - dist/default/production\smart_lamp.X.production.obj
 ___lldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 isdigit@c 1 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
 ___awdiv@dividend 8 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X.production.obj
@@ -1319,9 +1355,9 @@ ___awdiv@dividend 8 0 COMRAM 1 cstackCOMRAM dist/default/production\smart_lamp.X
 # All other numeric quantities are in decimal.
 %SEGMENTS
 reset_vec 0 0 0 4 1 CODE
-smallconst 0 800 800 94 1 SMALLCONST
+smallconst 0 800 800 8C 1 SMALLCONST
 config 0 300000 300000 E 1 CONFIG
 idloc 0 200000 200000 8 1 IDLOC
 cstackCOMRAM 1 1 1 5E 1 COMRAM
-cstackBANK0 1 60 60 41 1 BANK0
-text1 0 894 894 242E 1 CODE
+cstackBANK0 1 60 60 56 1 BANK0
+text6 0 88C 88C 224E 1 CODE

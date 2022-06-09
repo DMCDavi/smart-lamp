@@ -25,12 +25,16 @@
 #include <string.h>                   // Incluimos esta librería para trabajar con cadenas de caracteres.
 #include "bits_Configuration.h"       // Incluimos el archivo de cabecera para los fusibles.
 #include "lcd.h"         // Incluimos la librería LCD 16x2.
+#include <pic18f4550.h>
 
 #define Pin_Trig    LATAbits.LATA1    // Asignamos el nombre "Pin_Trig" al pin RA0 (salida).
 #define Pin_Echo    PORTAbits.RA2     // Asignamos el nombre "Pin_Echo" al pin RA1 (entrada).
 
 #define LED RB0
 #define RESOLUTION 5/1023 // (Vref)/(2^N - 1), PIC's Vref maximum = 5 VOLTS, N=10 bits
+
+#define F_CPU 200000/64
+#define Baud_value (((float)(F_CPU)/(float)baud_rate)-1)
 
 /*==========================================================================================================
  ===========================================================================================================*/
@@ -43,6 +47,10 @@ void Timer1_Init (void);              // Función para inicializar el Timer 1.
 uint16_t Obtener_Distancia (void);    // Función para obtener la distancia.
 void Init_AD();
 float Read_LDR();
+void USART_Init();
+void USART_TransmitChar(char);
+char USART_ReceiveChar();
+void states_LED(char);
 
 /*==========================================================================================================
  ===========================================================================================================*/
@@ -56,21 +64,70 @@ void main(void)                       // Función Principal.
     lcd_init();                       // Inicializamos la pantalla LCD 2x16.
     Init_AD();
     
+    USART_Init();
+    char esp_server_data = 'a';
+    
     while(1)
-    {
+    {   
         Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.
         LDR_value=Read_LDR();
         lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
         sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
         lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
-        sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
-        lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
-        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
-//        __delay_ms(200);  
+        //sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
+        //lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
+        //lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
+//        __delay_ms(200);
         
-        
+        esp_server_data=USART_ReceiveChar();
+        sprintf(LCD_Buffer,"maria: %c", esp_server_data);
+        states_LED(esp_server_data);
     }
     return;
+}
+
+void states_LED(char data){
+    if(data){
+        LATB = 0x01;
+        lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
+        lcd_putc(LCD_Buffer); 
+    }
+}
+
+/*==========================================================================================================
+ ===========================================================================================================*/
+// Transmitindo os dados do ESP para o PIC
+
+void USART_Init(){
+    long int baud_rate = 115200;
+    float temp;
+    TRISC6=0;		/* Make Tx pin as output*/
+    TRISC7=1;  		/* Make Rx pin as input*/
+
+    /* Baud rate=9600, SPBRG = (F_CPU /(64*9600))-1*/
+    temp= (( (float) (F_CPU) / (float) baud_rate ) - 1);     ;
+    SPBRG = (int) temp;	
+
+    //TXSTA = 0x20;  	/* Enable Transmit(TX) */ 
+    RCSTA = 0x90;  	/* Enable Receive(RX) & Serial */
+}
+
+void USART_TransmitChar(char out)
+{
+   while (TXIF == 0);	/* Wait for transmit interrupt flag*/
+   TXREG = out;  	/* Write char data to transmit register */    
+}
+
+char USART_ReceiveChar()
+{
+    while(RCIF==0);      /*wait for receive interrupt flag*/
+        if(RCSTAbits.OERR)
+        {           
+            CREN = 0;
+            NOP();
+            CREN=1;
+        }
+        return(RCREG);       /*received in RCREG register and return to main program */
 }
 
 /*==========================================================================================================
