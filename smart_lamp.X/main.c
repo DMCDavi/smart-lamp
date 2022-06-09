@@ -71,26 +71,33 @@ void main(void)                       // Función Principal.
     {   
         Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.
         LDR_value=Read_LDR();
-        lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
-        sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
-        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
+        //lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
+        //sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
+        //lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
         //sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
         //lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
         //lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
 //        __delay_ms(200);
         
         esp_server_data=USART_ReceiveChar();
-        sprintf(LCD_Buffer,"maria: %c", esp_server_data);
+        //sprintf(LCD_Buffer,"maria: %c", esp_server_data);
         states_LED(esp_server_data);
     }
     return;
 }
 
 void states_LED(char data){
+    
     if(data){
-        LATB = 0x01;
-        lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
+        lcd_gotoxy(2,1);
+        sprintf(LCD_Buffer,"maria: %d", data);
         lcd_putc(LCD_Buffer); 
+    }
+    
+    if(data == 170){
+        LATB = 0x01;
+    }else if(data == 174){
+        LATB = 0x00;
     }
 }
 

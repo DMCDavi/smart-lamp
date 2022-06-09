@@ -6591,27 +6591,31 @@ while(1)
 {
 Distancia=Obtener_Distancia();
 LDR_value=Read_LDR();
-lcd_gotoxy(1,1);
-sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
-lcd_putc(LCD_Buffer);
 
 # 82
 esp_server_data=USART_ReceiveChar();
-sprintf(LCD_Buffer,"maria: %c", esp_server_data);
+
 states_LED(esp_server_data);
 }
 return;
 }
 
 void states_LED(char data){
+
 if(data){
-LATB = 0x01;
 lcd_gotoxy(2,1);
+sprintf(LCD_Buffer,"maria: %d", data);
 lcd_putc(LCD_Buffer);
+}
+
+if(data == 170){
+LATB = 0x01;
+}else if(data == 174){
+LATB = 0x00;
 }
 }
 
-# 101
+# 108
 void USART_Init(){
 long int baud_rate = 115200;
 float temp;
@@ -6644,7 +6648,7 @@ CREN=1;
 return(RCREG);
 }
 
-# 135
+# 142
 void Configuracion_Registros (void)
 {
 ADCON1bits.PCFG=0b1111;
@@ -6654,7 +6658,7 @@ TRISA|=(1<<2);
 TRISB = 0;
 }
 
-# 146
+# 153
 void Timer1_Init (void)
 {
 T1CONbits.RD16=1;
@@ -6664,7 +6668,7 @@ TMR1=0;
 TMR1ON=0;
 }
 
-# 157
+# 164
 uint16_t Obtener_Distancia (void)
 {
 uint16_t Duracion;

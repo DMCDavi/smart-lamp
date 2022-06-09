@@ -276,54 +276,10 @@ extern double round(double);
 #pragma warning disable 350
 
 # 354
-const static unsigned long dpowers[] = {1, 10, 100, 1000, 10000,
+const static unsigned int dpowers[] = {1, 10, 100, 1000, 10000,
 
-100000, 1000000, 10000000, 100000000,
-1000000000
-
+# 359
 };
-
-# 388
-extern const double _powers_[], _npowers_[];
-
-
-
-extern unsigned long _div_to_l_(double, double);
-
-extern unsigned long _tdiv_to_l_(float, float);
-
-# 408
-static double
-fround(unsigned char prec)
-{
-
-
-if(prec>=110)
-return 0.5 * _npowers_[prec/100+18] * _npowers_[(prec%100)/10+9] * _npowers_[prec%10];
-else if(prec > 10)
-return 0.5 * _npowers_[prec/10+9] * _npowers_[prec%10];
-return 0.5 * _npowers_[prec];
-}
-
-# 424
-static double
-scale(signed char scl)
-{
-
-if(scl < 0) {
-scl = -scl;
-if(scl>=110)
-return _npowers_[scl/100+18] * _npowers_[(scl%100)/10+9] * _npowers_[scl%10];
-else if(scl > 10)
-return _npowers_[scl/10+9] * _npowers_[scl%10];
-return _npowers_[scl];
-}
-if(scl>=110)
-return _powers_[scl/100+18] * _powers_[(scl%100)/10+9] * _powers_[scl%10];
-else if(scl > 10)
-return _powers_[scl/10+9] * _powers_[scl%10];
-return _powers_[scl];
-}
 
 # 455
 int
@@ -338,21 +294,14 @@ va_list ap;
 
 signed char c;
 
-int width;
+# 506
+signed char prec;
 
+unsigned char flag;
 
-int prec;
-
-# 508
-unsigned short flag;
-
-# 515
-char d;
-double fval, integ;
-int exp;
-double ival;
+# 527
 union {
-unsigned long _val;
+unsigned int _val;
 struct {
 const char * _cp;
 unsigned _len;
@@ -375,189 +324,43 @@ continue;
 # 557
 flag = 0;
 
-# 620
-if(*f == '.') {
-flag |= 0x4000;
-f++;
-
-# 629
-{
-prec = 0;
-while(isdigit((unsigned)*f))
-prec = prec*10 + *f++ - '0';
-}
-} else {
-prec = 0;
-
-flag |= 0x1000;
-
-}
-
 # 644
 switch(c = *f++) {
 
 case 0:
 goto alldone;
 
-# 671
-case 'f':
-flag |= 0x400;
+# 706
+case 'd':
+case 'i':
 break;
 
-# 759
-dostring:
-
-
-if(prec && prec < _val._str._len)
-_val._str._len = prec;
-
-# 776
-while(_val._str._len--)
-((*sp++ = (*_val._str._cp++)));
-
-# 783
-continue;
-
-# 793
-case 'c':
-
-# 808
-c = (*(int *)__va_arg((*(int **)ap), (int)0));
-
-
+# 811
 default:
 
-
-_val._str._cp = (char *)&c;
-_val._str._len = 1;
-goto dostring;
+# 822
+continue;
 
 # 831
 }
 
+# 1260
+{
 
-if(flag & (0x700)) {
+# 1266
+_val._val = (int)(*(int *)__va_arg((*(int **)ap), (int)0));
 
-if(flag & 0x1000)
-
-prec = 6;
-fval = (*(double *)__va_arg((*(double **)ap), (double)0));
-if(fval < 0.0) {
-fval = -fval;
+if((int)_val._val < 0) {
 flag |= 0x03;
-}
-exp = 0;
-if( fval!=0) {
-(void)(*(&exp) = ((*(unsigned long *)&fval >> 15) & 255) - 126);
-exp--;
-exp *= 3;
-exp /= 10;
-if(exp < 0)
-exp--;
-
-
-
-integ = scale(-exp);
-integ *= fval;
-if(integ < 1.0)
-exp--;
-else if(integ >= 10.0)
-exp++;
+_val._val = -_val._val;
 }
 
-# 1121
-if(prec <= 12)
-fval += fround(prec);
-
-
-if((exp > 9)||(fval != 0 && (unsigned long)fval == 0 && exp > 1)) {
-
-
-
-if(integ < 4.294967296){
-exp -= (sizeof dpowers/sizeof dpowers[0])-1;
-}else{
-exp -= (sizeof dpowers/sizeof dpowers[0])-2;
-}
-integ = scale(exp);
-_val._val = ((sizeof(double)== 3) ? _tdiv_to_l_(fval,integ) : _div_to_l_(fval,integ));
-
-
-fval = 0.0;
-} else {
-_val._val = (unsigned long)fval;
-fval -= (double)_val._val;
-exp = 0;
 }
 
-for(c = 1 ; c != (sizeof dpowers/sizeof dpowers[0]) ; c++)
+# 1312
+for(c = 1 ; c != sizeof dpowers/sizeof dpowers[0] ; c++)
 if(_val._val < dpowers[c])
 break;
-
-# 1182
-{
-
-# 1195
-if(flag & 0x03)
-
-((*sp++ = ('-')));
-
-# 1202
-}
-while(c--) {
-
-
-
-{
-unsigned vd = _val._val/dpowers[c];
-vd %= 10;
-((*sp++ = ('0' + vd)));
-}
-
-}
-while(exp > 0) {
-((*sp++ = ('0')));
-exp--;
-}
-if(prec > (int)((sizeof dpowers/sizeof dpowers[0])-2))
-c = (sizeof dpowers/sizeof dpowers[0])-2;
-else
-c = prec;
-prec -= c;
-
-
-
-if(c)
-
-((*sp++ = ('.')));
-
-# 1234
-_val._val = (long)(fval * scale(c));
-while(c--) {
-unsigned vd = _val._val/dpowers[c];
-vd %= 10;
-((*sp++ = ('0' + vd)));
-_val._val %= dpowers[c];
-}
-
-while(prec) {
-((*sp++ = ('0')));
-prec--;
-}
-
-# 1252
-continue;
-}
-
-# 1297
-if(prec == 0 && _val._val == 0)
-prec++;
-
-# 1346
-if(c < prec)
-c = prec;
-else if(prec < c)
-prec = c;
 
 # 1429
 {
@@ -567,6 +370,22 @@ if(flag & 0x03)
 ((*sp++ = ('-')));
 
 # 1476
+}
+
+
+prec = c;
+
+while(prec--) {
+
+# 1485
+{
+
+# 1496
+c = (_val._val / dpowers[prec]) % 10 + '0';
+
+# 1530
+}
+((*sp++ = (c)));
 }
 
 # 1540
