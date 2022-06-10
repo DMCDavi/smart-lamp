@@ -246,8 +246,8 @@ void interrupt high_priority interrupcaoHIGH(void) //ok
 void Configuracion_Registros (void)   //função para configurar registradores de inicio. 
 {
     ADCON1bits.PCFG=0b1111;           // desabilita as entrada analógicas da PORTA A e B
-    TRISA&=~(1<<1);                   // configura pin RA0 como saída .
-    TRISA|=(1<<2);                    // Configuramos pin RA1 como entrada .
+    TRISA&=~(1<<1);                   // configura pin RA1 como saída .
+    TRISA|=(1<<2);                    // Configuramos pin RA2 como entrada .
 //    TRISA|=(1<<2);                    // Configuramos  pin RA2 como entrada .
     TRISB = 0; //Port D is output LED -- it controls B section
 }

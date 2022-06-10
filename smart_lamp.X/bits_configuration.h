@@ -14,18 +14,18 @@
 #pragma config CPUDIV = OSC1_PLL2// System Clock Postscaler Selection bits ([Primary Oscillator Src: /1][96 MHz PLL Src: /2])
 #pragma config USBDIV = 1       // USB Clock Selection bit (used in Full-Speed USB mode only; UCFG:FSEN = 1) (USB clock source comes directly from the primary oscillator block with no postscale)
 
-// CONFIG1H
+// CONFIG1H DEFININDO A UTILIZAÇÃO DO CRYSTAL OSCILADOR EXTERNO
 #pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator (HS))
 #pragma config FCMEN = OFF      // Fail-Safe Clock Monitor Enable bit (Fail-Safe Clock Monitor disabled)
 #pragma config IESO = OFF       // Internal/External Oscillator Switchover bit (Oscillator Switchover mode disabled)
 
-// CONFIG2L
+// CONFIG2L desativa power up timer e desabilita programação a baixa voltagem.
 #pragma config PWRT = OFF       // Power-up Timer Enable bit (PWRT disabled)
 #pragma config BOR = OFF        // Brown-out Reset Enable bits (Brown-out Reset disabled in hardware and software)
 #pragma config BORV = 3         // Brown-out Reset Voltage bits (Minimum setting 2.05V)
 #pragma config VREGEN = OFF     // USB Voltage Regulator Enable bit (USB voltage regulator disabled)
 
-// CONFIG2H
+// CONFIG2H DESATIVA O WATCHDOG TIMER
 #pragma config WDT = OFF        // Watchdog Timer Enable bit (WDT disabled (control is placed on the SWDTEN bit))
 #pragma config WDTPS = 32768    // Watchdog Timer Postscale Select bits (1:32768)
 
