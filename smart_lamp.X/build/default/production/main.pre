@@ -6583,8 +6583,9 @@ void check_movement();
 void led_off();
 void led_on();
 void FSM();
+void mainLoop();
 
-# 70
+# 71
 uint16_t Distancia;
 float LDR_value;
 
@@ -6600,6 +6601,13 @@ USART_Init();
 inicioInterrupcoes();
 
 while(1){
+mainLoop();
+}
+
+return;
+}
+
+void mainLoop(){
 Distancia=Obtener_Distancia();
 LDR_value=Read_LDR();
 lcd_gotoxy(1,1);
@@ -6609,9 +6617,8 @@ sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);
 lcd_gotoxy(2,1);
 lcd_putc(LCD_Buffer);
 
-}
 
-return;
+
 }
 
 
@@ -6656,7 +6663,7 @@ led_off();
 
 }
 
-# 145
+# 152
 void USART_Init(){
 long int baud_rate = 115200;
 float temp;
@@ -6667,11 +6674,9 @@ TRISC7=1;
 temp= (( (float) (200000/64) / (float) baud_rate ) - 1); ;
 SPBRG = (int) temp;
 
-
 RCSTA = 0x90;
 }
 
-# 172
 void inicioInterrupcoes()
 {
 IPEN = 1;
@@ -6687,17 +6692,7 @@ RCIP = 1;
 
 void interrupt low_priority interrupcaoLOW(void)
 {
-
-Distancia=Obtener_Distancia();
-LDR_value=Read_LDR();
-lcd_gotoxy(1,1);
-sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
-lcd_putc(LCD_Buffer);
-sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);
-lcd_gotoxy(2,1);
-lcd_putc(LCD_Buffer);
-
-# 202
+mainLoop();
 }
 
 void interrupt high_priority interrupcaoHIGH(void)
@@ -6708,11 +6703,10 @@ if (RCIF == 1)
 esp_server_data = RCREG;
 control_LED(esp_server_data);
 RCIF =0 ;
-
 }
 }
 
-# 218
+# 196
 void Configuracion_Registros (void)
 {
 ADCON1bits.PCFG=0b1111;
@@ -6722,7 +6716,7 @@ TRISA|=(1<<2);
 TRISB = 0;
 }
 
-# 229
+# 207
 void Timer1_Init (void)
 {
 T1CONbits.RD16=1;
@@ -6732,7 +6726,7 @@ TMR1=0;
 TMR1ON=0;
 }
 
-# 240
+# 218
 uint16_t Obtener_Distancia (void)
 {
 uint16_t Duracion;

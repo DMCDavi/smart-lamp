@@ -65,6 +65,7 @@ void check_movement();
 void led_off();
 void led_on();
 void FSM();
+void mainLoop();
 /*==========================================================================================================
  ===========================================================================================================*/
 uint16_t Distancia;               // Variable Distancia.
@@ -82,6 +83,13 @@ void main(void)                       // Función Principal.
     inicioInterrupcoes();
  
     while(1){
+        mainLoop();
+    }
+   
+    return;
+}
+
+void mainLoop(){
         Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.;;
         LDR_value=Read_LDR();
         lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
@@ -90,10 +98,9 @@ void main(void)                       // Función Principal.
         sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
         lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
         lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd;
-        //RCIE = 1;
-    }
-   
-    return;
+//        check_light();;;
+//        check_movement();
+//        FSM();
 }
 
 // verificando as variáveis da máquina de estados
@@ -151,23 +158,9 @@ void USART_Init(){
     /* Baud rate=9600, SPBRG = (F_CPU /(64*9600))-1*/
     temp= (( (float) (F_CPU) / (float) baud_rate ) - 1);     ;
     SPBRG = (int) temp;	
-
-    //TXSTA = 0x20;  	/* Enable Transmit(TX) */ 
+ 
     RCSTA = 0x90;  	/* Enable Receive(RX) & Serial */
 }
-
-//char USART_ReceiveChar();
-//{
-//    while(RCIF==0);      /*wait for receive interrupt flag*/
-//        if(RCSTAbits.OERR)
-//        {           
-//            CREN = 0;
-//            NOP();
-//            CREN=1;
-//        }
-//        return(RCREG);       /*received in RCREG register and return to main program */
-//    
-//}
 
 void inicioInterrupcoes()
 {
@@ -184,21 +177,7 @@ void inicioInterrupcoes()
 
 void interrupt low_priority interrupcaoLOW(void)
 {
-
-        Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.;;
-        LDR_value=Read_LDR();
-        lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
-        sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
-        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
-        sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
-        lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
-        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd;
-//        __delay_ms(200);;
-    
-//        check_light();
-//        check_movement();
-//        FSM();
-                
+   mainLoop();         
 }
 
 void interrupt high_priority interrupcaoHIGH(void) //ok
@@ -209,7 +188,6 @@ void interrupt high_priority interrupcaoHIGH(void) //ok
         esp_server_data = RCREG;
         control_LED(esp_server_data);
         RCIF =0 ;
-//        RCIE = 0;
     }
 }
 
