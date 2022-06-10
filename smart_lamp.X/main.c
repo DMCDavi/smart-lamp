@@ -35,6 +35,13 @@
 
 #define F_CPU 200000/64
 #define Baud_value (((float)(F_CPU)/(float)baud_rate)-1)
+#define waitingControlTime 10 //durante esse tempo a FSM não funciona
+
+//Variáveis da máquina de estados
+unsigned int isBright = 0; // sensor de luminosidade
+unsigned int theresMovement = 0; // sensor de movimento
+unsigned int controlOn = 0;
+
 
 /*==========================================================================================================
  ===========================================================================================================*/
@@ -44,54 +51,168 @@ uint16_t LCD_Buffer [16];              // Arreglo para mostrar las variabes en l
  ===========================================================================================================*/
 void Configuracion_Registros (void);  // Función para configurar registros de inicio.
 void Timer1_Init (void);              // Función para inicializar el Timer 1.
+void Timer0_Init (void);
 uint16_t Obtener_Distancia (void);    // Función para obtener la distancia.
 void Init_AD();
 float Read_LDR();
 void USART_Init();
-void USART_TransmitChar(char);
-char USART_ReceiveChar();
-void states_LED(char);
+void inicioInterrupcoes();
+void Time_Bases();
 
+void control_LED(char);
+void check_light();
+void check_movement();
+void led_off();
+void led_on();
+void FSM();
+void mainLoop();
 /*==========================================================================================================
  ===========================================================================================================*/
+uint16_t Distancia;               // Variable Distancia.
+float LDR_value;
+
+unsigned baseT1 = 0x00, //auxiliar para base de tempo 1
+  baseT2 = 0x00, //auxiliar para base de tempo 2
+  buttonClicked = 0,
+  cycles[2] = {
+    10,
+    5
+  },
+  numBase = 0;
+
 void main(void)                       // Función Principal.
 {
-    uint16_t Distancia;               // Variable Distancia.
-    float LDR_value;
-  
+    
     Configuracion_Registros();        // Llamamos a la función de configuración de registros.
     Timer1_Init();                    // Inicializamos la configuración del Timer1.
+    Timer0_Init();
     lcd_init();                       // Inicializamos la pantalla LCD 2x16.
     Init_AD();
+    Timer0_Init();
     
     USART_Init();
-    char esp_server_data = 'a';
-    
-    while(1)
-    {   
-        Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.
-        LDR_value=Read_LDR();
-        lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
-        sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
-        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
-        //sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
-        //lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
-        //lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
-//        __delay_ms(200);
-        
-        esp_server_data=USART_ReceiveChar();
-        sprintf(LCD_Buffer,"maria: %c", esp_server_data);
-        states_LED(esp_server_data);
+    inicioInterrupcoes();
+ 
+    while(1){
+        mainLoop();
     }
+   
     return;
 }
 
-void states_LED(char data){
-    if(data){
-        LATB = 0x01;
-        lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
+void mainLoop(){
+    
+        if (INTCONbits.TMR0IF) //Houve estouro do TMR0?;;;
+        { //Sim...
+            INTCONbits.TMR0IF = 0x00; //Limpa flag
+            TMR0H = 0xD8; //Reinicializa TMR0H 3c
+            TMR0L = 0xF0; //Reinicializa TMR0L
+            baseT1 += 1; //Incrementa baseT1
+            baseT2 += 1; //Incrementa baseT2
+            Time_Bases(); //Chama função timeBase
+        }
+    
+//        Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.;;
+//        LDR_value=Read_LDR();
+//        lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
+//        sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
+//        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
+//        sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
+//        lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
+//        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd;
+        
+        check_light(LDR_value);;
+        check_movement(Distancia);
+        FSM();
+}
+
+void Time_Bases(){
+    if (baseT1 >= cycles[0]) //baseT1 igual a 2?
+    { //sim...
+        baseT1 = 0x00; //reinicia;
+        LDR_value=Read_LDR();
+        lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
+        sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
         lcd_putc(LCD_Buffer); 
+    } //end if baseT1
+    if (baseT2 >= cycles[1]) //baseT1 igual a 2?
+    { //sim...
+        baseT2 = 0x00; //reinicia
+        Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.
+        sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
+        lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
+        lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd
+        //__delay_ms(200);
+    } //end if baseT1
+
+    //base de tempo de 125ms  (5 x 25ms)
+}
+
+void Timer0_Init (void)               // Función de configuración del Timer 2.
+{
+    TMR0H = 0xD8; //Inicializa o TMR0H em 9Eh
+    TMR0L = 0xF0; //Inicializa o TMR0L em 58h
+    T0CONbits.T08BIT=0;
+    T0CONbits.T0PS0=1;
+    T0CONbits.T0PS1=1;
+    T0CONbits.T0PS2=0;
+    // Timer1  Pre-escaler=8.
+    //T0CONbits.T0SE=1;
+    T0CONbits.T0CS=0;               // Internal clock (Fosc/4).// Cargamos el registro TMR1 con el valor de 0.// Temporizador Timer1 detenido.
+    T0CONbits.TMR0ON=1;
+}
+
+// verificando as variáveis da máquina de estados
+void check_light(){
+    if (LDR_value > 4.0) {
+        isBright = 0;
+    } else {
+        isBright = 1;
     }
+}
+void check_movement(){
+    if(Distancia > 110) {
+        theresMovement = 0;
+    } else {
+        theresMovement = 1;
+    }
+}
+// controle do led
+void led_off(){
+    LATB = 0x00;
+}
+void led_on(){
+    LATB = 0x01;
+}
+// implementação da máquina de estados
+
+void FSM(){
+   
+    if(controlOn){
+        if(theresMovement && isBright){
+            led_off();
+        }else if(!theresMovement && !isBright){
+            led_off();
+         }else if(!theresMovement && isBright){
+            led_off();
+        }else if(theresMovement && !isBright){
+            led_on();
+        }
+    }
+}
+
+//controle do LED  pelo celular
+
+void control_LED(char data){    
+    if(data == 174){
+        led_on();
+        controlOn = 1;
+        //FSM();
+    }else if(data == 170){
+        led_off();
+        controlOn = 0;
+    }
+    //timer para desconsiderar a máquina de estados
 }
 
 /*==========================================================================================================
@@ -107,27 +228,37 @@ void USART_Init(){
     /* Baud rate=9600, SPBRG = (F_CPU /(64*9600))-1*/
     temp= (( (float) (F_CPU) / (float) baud_rate ) - 1);     ;
     SPBRG = (int) temp;	
-
-    //TXSTA = 0x20;  	/* Enable Transmit(TX) */ 
+ 
     RCSTA = 0x90;  	/* Enable Receive(RX) & Serial */
 }
 
-void USART_TransmitChar(char out)
+void inicioInterrupcoes()
 {
-   while (TXIF == 0);	/* Wait for transmit interrupt flag*/
-   TXREG = out;  	/* Write char data to transmit register */    
+ IPEN = 1; //por prioridade
+ ADIE = 1; // habilitação do fim de conversão A/D (interrupção analógica habilitada)
+ RCIE = 1; // controle de habilitação da recepção usart
+ //TMR0IE = 1; // controle de habilitação do OVERFLOW do TMR0
+ GIEH = 1; //habilita interrupções globais de alta prioridade, bit do registrado INTCON.
+ GIEL = 1; //habilita interrupções globais de baixa prioridade, bit do registrador INTCON.
+ ADIP = 0; // seleção da prioridade da interrupção de fim de conversão A/D (BAIXA prioridade)
+ //TMR0IP = 0; // seleção da prioridade da interrupção do timer0 (BAIXA prioridade)
+ RCIP = 1; //seleção da prioridade da interrupção do recebimento da USART (ALTA prioridade)
 }
 
-char USART_ReceiveChar()
+void interrupt low_priority interrupcaoLOW(void)
 {
-    while(RCIF==0);      /*wait for receive interrupt flag*/
-        if(RCSTAbits.OERR)
-        {           
-            CREN = 0;
-            NOP();
-            CREN=1;
-        }
-        return(RCREG);       /*received in RCREG register and return to main program */
+   mainLoop();         
+}
+
+void interrupt high_priority interrupcaoHIGH(void) //ok
+{
+    char esp_server_data;
+    if (RCIF == 1)
+    {
+        esp_server_data = RCREG;
+        control_LED(esp_server_data);
+        RCIF =0 ;
+    }
 }
 
 /*==========================================================================================================
