@@ -82,7 +82,6 @@ void main(void)                       // Función Principal.
     inicioInterrupcoes();
  
     while(1){
-        LATB = 0x0;
         Distancia=Obtener_Distancia();// Cargamos la variable "Distancia" con el valor de distancia capturado por el sensor HC-SR04.;;
         LDR_value=Read_LDR();
         lcd_gotoxy(1,1);              // Posicionamos el cursor en fila 1, columna 1.
@@ -131,9 +130,9 @@ void FSM(){
 //controle do LED  pelo celular
 
 void control_LED(char data){    
-    if(data == 170){
+    if(data == 174){
         led_on();
-    }else if(data == 174){
+    }else if(data == 170){
         led_off();
     }
     //timer para desconsiderar a máquina de estados
