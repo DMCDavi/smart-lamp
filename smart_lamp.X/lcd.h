@@ -1,20 +1,13 @@
-/* 
- * File:   libreria lcd.h
- * Author: Jorge APC
- * Comments: Libreria LCD para xc8
- * Canal de Youtube: Jorge APC
- */
-/*==========================================================================================================
- ===========================================================================================================*/
+
 #ifndef LCD_16x2_H
 #define	LCD_16x2_H
 
 /*==========================================================================================================
  ===========================================================================================================*/
 #include <xc.h> // include processor files - each processor file is guarded.  
-//LCD Functions Developed by electroSome
+
 #define _XTAL_FREQ 8000000
-#define TRIS_LCD    TRISD           // Asignamos el nombre "TRIS_LCD" al registro TRISD
+#define TRIS_LCD    TRISD           // define "TRIS_LCD" ao registrador TRISD
 #define RS RD2
 #define EN RD3
 #define D4 RD4
@@ -93,7 +86,7 @@ void lcd_gotoxy(char a, char b)
  ===========================================================================================================*/
 void lcd_init()
 {
-  TRIS_LCD=0x00;                      // Configuramos el registro TRISX asignamos a la pantalla LCD como salida.
+  TRIS_LCD=0x00;                      // Configuramos o registrador TRISX e atribuimos  LCD como saida.
   Lcd_Port(0x00);
    __delay_ms(20);
   Lcd_Cmd(0x03);
