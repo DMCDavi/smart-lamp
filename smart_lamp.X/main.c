@@ -73,7 +73,6 @@ float LDR_value;
 void main(void)                       // Función Principal.
 {
     
-  
     Configuracion_Registros();        // Llamamos a la función de configuración de registros.
     Timer1_Init();                    // Inicializamos la configuración del Timer1.
     lcd_init();                       // Inicializamos la pantalla LCD 2x16.
@@ -92,7 +91,7 @@ void main(void)                       // Función Principal.
         sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);//Cargamos variable "Distancia" con formato en "LCD_Buffer".
         lcd_gotoxy(2,1);              //Ubicamos el cursor en fila 2, columna 1
         lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd;
-        RCIE = 1;
+        //RCIE = 1;
     }
    
     return;
@@ -197,12 +196,8 @@ void interrupt low_priority interrupcaoLOW(void)
         lcd_putc(LCD_Buffer);         //Mostramos el valor de buffer_lcd;
 //        __delay_ms(200);;
     
-        
-        //esp_server_data=USART_ReceiveChar();
-        
 //        check_light();
 //        check_movement();
-//        
 //        FSM();
                 
 }
@@ -215,7 +210,7 @@ void interrupt high_priority interrupcaoHIGH(void) //ok
         esp_server_data = RCREG;
         control_LED(esp_server_data);
         RCIF =0 ;
-        RCIE = 0;
+//        RCIE = 0;
     }
 }
 
