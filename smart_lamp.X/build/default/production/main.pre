@@ -6562,20 +6562,21 @@ Lcd_Cmd(0x08);
 # 41 "main.c"
 unsigned int isBright = 0;
 unsigned int theresMovement = 0;
-unsigned int contControl = 0;
+unsigned int controlOn = 0;
 
-# 49
+# 48
 uint16_t LCD_Buffer [16];
 
-# 53
+# 52
 void Configuracion_Registros (void);
 void Timer1_Init (void);
+void Timer0_Init (void);
 uint16_t Obtener_Distancia (void);
 void Init_AD();
 float Read_LDR();
 void USART_Init();
 void inicioInterrupcoes();
-
+void Time_Bases();
 
 void control_LED(char);
 void check_light();
@@ -6589,13 +6590,24 @@ void mainLoop();
 uint16_t Distancia;
 float LDR_value;
 
+unsigned baseT1 = 0x00,
+baseT2 = 0x00,
+buttonClicked = 0,
+cycles[2] = {
+10,
+5
+},
+numBase = 0;
+
 void main(void)
 {
 
 Configuracion_Registros();
 Timer1_Init();
+Timer0_Init();
 lcd_init();
 Init_AD();
+Timer0_Init();
 
 USART_Init();
 inicioInterrupcoes();
@@ -6608,26 +6620,73 @@ return;
 }
 
 void mainLoop(){
-Distancia=Obtener_Distancia();
+
+if (INTCONbits.TMR0IF)
+{
+INTCONbits.TMR0IF = 0x00;
+TMR0H = 0xD8;
+TMR0L = 0xF0;
+baseT1 += 1;
+baseT2 += 1;
+Time_Bases();
+}
+
+# 124
+check_light(LDR_value);;
+check_movement(Distancia);
+FSM();
+}
+
+void Time_Bases(){
+if (baseT1 >= cycles[0])
+{
+baseT1 = 0x00;
 LDR_value=Read_LDR();
 lcd_gotoxy(1,1);
 sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
 lcd_putc(LCD_Buffer);
+}
+if (baseT2 >= cycles[1])
+{
+baseT2 = 0x00;
+Distancia=Obtener_Distancia();
 sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);
 lcd_gotoxy(2,1);
 lcd_putc(LCD_Buffer);
 
+}
 
 
+}
+
+void Timer0_Init (void)
+{
+TMR0H = 0xD8;
+TMR0L = 0xF0;
+T0CONbits.T08BIT=0;
+T0CONbits.T0PS0=1;
+T0CONbits.T0PS1=1;
+T0CONbits.T0PS2=0;
+
+
+T0CONbits.T0CS=0;
+T0CONbits.TMR0ON=1;
 }
 
 
 void check_light(){
-
+if (LDR_value > 4.0) {
+isBright = 0;
+} else {
+isBright = 1;
 }
-
+}
 void check_movement(){
-
+if(Distancia > 110) {
+theresMovement = 0;
+} else {
+theresMovement = 1;
+}
 }
 
 void led_off(){
@@ -6640,6 +6699,7 @@ LATB = 0x01;
 
 void FSM(){
 
+if(controlOn){
 if(theresMovement && isBright){
 led_off();
 }else if(!theresMovement && !isBright){
@@ -6649,7 +6709,7 @@ led_off();
 }else if(theresMovement && !isBright){
 led_on();
 }
-
+}
 }
 
 
@@ -6657,13 +6717,16 @@ led_on();
 void control_LED(char data){
 if(data == 174){
 led_on();
+controlOn = 1;
+
 }else if(data == 170){
 led_off();
+controlOn = 0;
 }
 
 }
 
-# 152
+# 222
 void USART_Init(){
 long int baud_rate = 115200;
 float temp;
@@ -6682,11 +6745,11 @@ void inicioInterrupcoes()
 IPEN = 1;
 ADIE = 1;
 RCIE = 1;
-TMR0IE = 1;
+
 GIEH = 1;
 GIEL = 1;
 ADIP = 0;
-TMR0IP = 0;
+
 RCIP = 1;
 }
 
@@ -6706,7 +6769,7 @@ RCIF =0 ;
 }
 }
 
-# 196
+# 266
 void Configuracion_Registros (void)
 {
 ADCON1bits.PCFG=0b1111;
@@ -6716,7 +6779,7 @@ TRISA|=(1<<2);
 TRISB = 0;
 }
 
-# 207
+# 277
 void Timer1_Init (void)
 {
 T1CONbits.RD16=1;
@@ -6726,7 +6789,7 @@ TMR1=0;
 TMR1ON=0;
 }
 
-# 218
+# 288
 uint16_t Obtener_Distancia (void)
 {
 uint16_t Duracion;

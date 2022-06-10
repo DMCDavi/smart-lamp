@@ -216,47 +216,67 @@
 [v _lcd_shift_right lcd_shift_right `(v  1 e 0 0 ]
 "152
 [v _lcd_shift_left lcd_shift_left `(v  1 e 0 0 ]
-"75 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"84 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v _main main `(v  1 e 0 0 ]
-"92
+"103
 [v _mainLoop mainLoop `(v  1 e 0 0 ]
 [v i1_mainLoop mainLoop `(v  1 e 0 0 ]
 [v i1_mainLoop mainLoop `(v  1 e 0 0 ]
-"107
-[v _check_light check_light `(v  1 e 0 0 ]
-"111
-[v _check_movement check_movement `(v  1 e 0 0 ]
-"115
-[v _led_off led_off `(v  1 e 0 0 ]
-"118
-[v _led_on led_on `(v  1 e 0 0 ]
-"123
-[v _FSM FSM `(v  1 e 0 0 ]
-"139
-[v _control_LED control_LED `(v  1 e 0 0 ]
+"129
+[v _Time_Bases Time_Bases `(v  1 e 0 0 ]
+[v i1_Time_Bases Time_Bases `(v  1 e 0 0 ]
+[v i1_Time_Bases Time_Bases `(v  1 e 0 0 ]
 "152
-[v _USART_Init USART_Init `(v  1 e 0 0 ]
+[v _Timer0_Init Timer0_Init `(v  1 e 0 0 ]
 "166
-[v _inicioInterrupcoes inicioInterrupcoes `(v  1 e 0 0 ]
-"179
-[v _interrupcaoLOW interrupcaoLOW `IIL(v  1 e 0 0 ]
+[v _check_light check_light `(v  1 e 0 0 ]
+[v i1_check_light check_light `(v  1 e 0 0 ]
+[v i1_check_light check_light `(v  1 e 0 0 ]
+"173
+[v _check_movement check_movement `(v  1 e 0 0 ]
+[v i1_check_movement check_movement `(v  1 e 0 0 ]
+[v i1_check_movement check_movement `(v  1 e 0 0 ]
+"181
+[v _led_off led_off `(v  1 e 0 0 ]
+[v i1_led_off led_off `(v  1 e 0 0 ]
+[v i1_led_off led_off `(v  1 e 0 0 ]
+[v i2_led_off led_off `(v  1 e 0 0 ]
+[v i2_led_off led_off `(v  1 e 0 0 ]
 "184
+[v _led_on led_on `(v  1 e 0 0 ]
+[v i1_led_on led_on `(v  1 e 0 0 ]
+[v i1_led_on led_on `(v  1 e 0 0 ]
+[v i2_led_on led_on `(v  1 e 0 0 ]
+[v i2_led_on led_on `(v  1 e 0 0 ]
+"189
+[v _FSM FSM `(v  1 e 0 0 ]
+[v i1_FSM FSM `(v  1 e 0 0 ]
+[v i1_FSM FSM `(v  1 e 0 0 ]
+"206
+[v _control_LED control_LED `(v  1 e 0 0 ]
+"222
+[v _USART_Init USART_Init `(v  1 e 0 0 ]
+"236
+[v _inicioInterrupcoes inicioInterrupcoes `(v  1 e 0 0 ]
+"249
+[v _interrupcaoLOW interrupcaoLOW `IIL(v  1 e 0 0 ]
+"254
 [v _interrupcaoHIGH interrupcaoHIGH `IIH(v  1 e 0 0 ]
-"197
+"267
 [v _Configuracion_Registros Configuracion_Registros `(v  1 e 0 0 ]
-"208
+"278
 [v _Timer1_Init Timer1_Init `(v  1 e 0 0 ]
-"219
+"289
 [v _Obtener_Distancia Obtener_Distancia `(ui  1 e 2 0 ]
 [v i1_Obtener_Distancia Obtener_Distancia `(ui  1 e 2 0 ]
 [v i1_Obtener_Distancia Obtener_Distancia `(ui  1 e 2 0 ]
-"251
+"321
 [v _Init_AD Init_AD `(v  1 e 0 0 ]
-"259
+"329
 [v _Read_LDR Read_LDR `(f  1 e 3 0 ]
 [v i1_Read_LDR Read_LDR `(f  1 e 3 0 ]
 [v i1_Read_LDR Read_LDR `(f  1 e 3 0 ]
-[s S269 . 1 `uc 1 RA0 1 0 :1:0 
+[s S402 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -265,7 +285,7 @@
 `uc 1 RA6 1 0 :1:6 
 ]
 "2613 C:\Program Files (x86)\Microchip\xc8\v1.20\include\pic18f4550.h
-[s S277 . 1 `uc 1 AN0 1 0 :1:0 
+[s S410 . 1 `uc 1 AN0 1 0 :1:0 
 `uc 1 AN1 1 0 :1:1 
 `uc 1 AN2 1 0 :1:2 
 `uc 1 AN3 1 0 :1:3 
@@ -273,26 +293,26 @@
 `uc 1 AN4 1 0 :1:5 
 `uc 1 OSC2 1 0 :1:6 
 ]
-[s S285 . 1 `uc 1 . 1 0 :2:0 
+[s S418 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 VREFM 1 0 :1:2 
 `uc 1 VREFP 1 0 :1:3 
 `uc 1 . 1 0 :1:4 
 `uc 1 LVDIN 1 0 :1:5 
 ]
-[s S291 . 1 `uc 1 . 1 0 :5:0 
+[s S424 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 HLVDIN 1 0 :1:5 
 ]
-[s S294 . 1 `uc 1 . 1 0 :7:0 
+[s S427 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RA7 1 0 :1:7 
 ]
-[s S297 . 1 `uc 1 . 1 0 :7:0 
+[s S430 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RJPU 1 0 :1:7 
 ]
-[s S300 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+[s S433 . 1 `uc 1 ULPWUIN 1 0 :1:0 
 ]
-[u S302 . 1 `S269 1 . 1 0 `S277 1 . 1 0 `S285 1 . 1 0 `S291 1 . 1 0 `S294 1 . 1 0 `S297 1 . 1 0 `S300 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES302  1 e 1 @3968 ]
-[s S189 . 1 `uc 1 LATA0 1 0 :1:0 
+[u S435 . 1 `S402 1 . 1 0 `S410 1 . 1 0 `S418 1 . 1 0 `S424 1 . 1 0 `S427 1 . 1 0 `S430 1 . 1 0 `S433 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES435  1 e 1 @3968 ]
+[s S322 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 LATA3 1 0 :1:3 
@@ -301,34 +321,34 @@
 `uc 1 LATA6 1 0 :1:6 
 ]
 "3406
-[s S197 . 1 `uc 1 LA0 1 0 :1:0 
+[s S330 . 1 `uc 1 LA0 1 0 :1:0 
 ]
-[s S199 . 1 `uc 1 . 1 0 :1:0 
+[s S332 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LA1 1 0 :1:1 
 ]
-[s S202 . 1 `uc 1 . 1 0 :2:0 
+[s S335 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LA2 1 0 :1:2 
 ]
-[s S205 . 1 `uc 1 . 1 0 :3:0 
+[s S338 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 LA3 1 0 :1:3 
 ]
-[s S208 . 1 `uc 1 . 1 0 :4:0 
+[s S341 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LA4 1 0 :1:4 
 ]
-[s S211 . 1 `uc 1 . 1 0 :5:0 
+[s S344 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 LA5 1 0 :1:5 
 ]
-[s S214 . 1 `uc 1 . 1 0 :6:0 
+[s S347 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 LA6 1 0 :1:6 
 ]
-[s S217 . 1 `uc 1 . 1 0 :7:0 
+[s S350 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LA7 1 0 :1:7 
 ]
-[s S220 . 1 `uc 1 . 1 0 :7:0 
+[s S353 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LATA7 1 0 :1:7 
 ]
-[u S223 . 1 `S189 1 . 1 0 `S197 1 . 1 0 `S199 1 . 1 0 `S202 1 . 1 0 `S205 1 . 1 0 `S208 1 . 1 0 `S211 1 . 1 0 `S214 1 . 1 0 `S217 1 . 1 0 `S220 1 . 1 0 ]
-[v _LATAbits LATAbits `VES223  1 e 1 @3977 ]
+[u S356 . 1 `S322 1 . 1 0 `S330 1 . 1 0 `S332 1 . 1 0 `S335 1 . 1 0 `S338 1 . 1 0 `S341 1 . 1 0 `S344 1 . 1 0 `S347 1 . 1 0 `S350 1 . 1 0 `S353 1 . 1 0 ]
+[v _LATAbits LATAbits `VES356  1 e 1 @3977 ]
 "3490
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
 "3971
@@ -347,71 +367,71 @@
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
 "7082
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
-[s S87 . 1 `uc 1 PCFG 1 0 :4:0 
+[s S220 . 1 `uc 1 PCFG 1 0 :4:0 
 `uc 1 VCFG 1 0 :2:4 
 ]
 "7113
-[s S90 . 1 `uc 1 PCFG0 1 0 :1:0 
+[s S223 . 1 `uc 1 PCFG0 1 0 :1:0 
 `uc 1 PCFG1 1 0 :1:1 
 `uc 1 PCFG2 1 0 :1:2 
 `uc 1 PCFG3 1 0 :1:3 
 `uc 1 VCFG0 1 0 :1:4 
 `uc 1 VCFG1 1 0 :1:5 
 ]
-[s S97 . 1 `uc 1 . 1 0 :3:0 
+[s S230 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 CHSN3 1 0 :1:3 
 ]
-[s S100 . 1 `uc 1 . 1 0 :4:0 
+[s S233 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 VCFG01 1 0 :1:4 
 ]
-[s S103 . 1 `uc 1 . 1 0 :5:0 
+[s S236 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 VCFG11 1 0 :1:5 
 ]
-[u S106 . 1 `S87 1 . 1 0 `S90 1 . 1 0 `S97 1 . 1 0 `S100 1 . 1 0 `S103 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES106  1 e 1 @4033 ]
+[u S239 . 1 `S220 1 . 1 0 `S223 1 . 1 0 `S230 1 . 1 0 `S233 1 . 1 0 `S236 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES239  1 e 1 @4033 ]
 "7172
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
-[s S352 . 1 `uc 1 . 1 0 :1:0 
+[s S485 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_NOT_DONE 1 0 :1:1 
 ]
 "7220
-[s S355 . 1 `uc 1 ADON 1 0 :1:0 
+[s S488 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :4:2 
 ]
-[s S362 . 1 `uc 1 . 1 0 :1:0 
+[s S495 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_DONE 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
 `uc 1 CHS2 1 0 :1:4 
 `uc 1 CHS3 1 0 :1:5 
 ]
-[s S369 . 1 `uc 1 . 1 0 :1:0 
+[s S502 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 DONE 1 0 :1:1 
 ]
-[s S372 . 1 `uc 1 . 1 0 :1:0 
+[s S505 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 ]
-[s S375 . 1 `uc 1 . 1 0 :1:0 
+[s S508 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_DONE 1 0 :1:1 
 ]
-[s S378 . 1 `uc 1 . 1 0 :1:0 
+[s S511 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 nDONE 1 0 :1:1 
 ]
-[s S381 . 1 `uc 1 . 1 0 :1:0 
+[s S514 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GODONE 1 0 :1:1 
 ]
-[u S384 . 1 `S352 1 . 1 0 `S355 1 . 1 0 `S352 1 . 1 0 `S362 1 . 1 0 `S369 1 . 1 0 `S372 1 . 1 0 `S375 1 . 1 0 `S378 1 . 1 0 `S381 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES384  1 e 1 @4034 ]
+[u S517 . 1 `S485 1 . 1 0 `S488 1 . 1 0 `S485 1 . 1 0 `S495 1 . 1 0 `S502 1 . 1 0 `S505 1 . 1 0 `S508 1 . 1 0 `S511 1 . 1 0 `S514 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES517  1 e 1 @4034 ]
 "7300
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
 "7306
 [v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
-[s S134 . 1 `uc 1 . 1 0 :2:0 
+[s S267 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_T1SYNC 1 0 :1:2 
 ]
 "7869
-[s S137 . 1 `uc 1 TMR1ON 1 0 :1:0 
+[s S270 . 1 `uc 1 TMR1ON 1 0 :1:0 
 `uc 1 TMR1CS 1 0 :1:1 
 `uc 1 nT1SYNC 1 0 :1:2 
 `uc 1 T1OSCEN 1 0 :1:3 
@@ -419,22 +439,83 @@
 `uc 1 T1RUN 1 0 :1:6 
 `uc 1 RD16 1 0 :1:7 
 ]
-[s S145 . 1 `uc 1 . 1 0 :2:0 
+[s S278 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T1SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T1CKPS0 1 0 :1:4 
 `uc 1 T1CKPS1 1 0 :1:5 
 ]
-[s S151 . 1 `uc 1 . 1 0 :3:0 
+[s S284 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 SOSCEN 1 0 :1:3 
 ]
-[s S154 . 1 `uc 1 . 1 0 :7:0 
+[s S287 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 T1RD16 1 0 :1:7 
 ]
-[u S157 . 1 `S134 1 . 1 0 `S137 1 . 1 0 `S145 1 . 1 0 `S151 1 . 1 0 `S154 1 . 1 0 ]
-[v _T1CONbits T1CONbits `VES157  1 e 1 @4045 ]
+[u S290 . 1 `S267 1 . 1 0 `S270 1 . 1 0 `S278 1 . 1 0 `S284 1 . 1 0 `S287 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES290  1 e 1 @4045 ]
 "7938
 [v _TMR1 TMR1 `VEus  1 e 2 @4046 ]
+[s S180 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"8502
+[s S187 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S191 . 1 `S180 1 . 1 0 `S187 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES191  1 e 1 @4053 ]
+"8557
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"8563
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S61 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"9022
+[s S70 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S79 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S88 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S97 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S101 . 1 `S61 1 . 1 0 `S70 1 . 1 0 `S79 1 . 1 0 `S88 1 . 1 0 `S97 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES101  1 e 1 @4082 ]
 "9340
 [v _ADIE ADIE `VEb  1 e 0 @31982 ]
 "9344
@@ -467,10 +548,6 @@
 [v _RD6 RD6 `VEb  1 e 0 @31774 ]
 "10372
 [v _RD7 RD7 `VEb  1 e 0 @31775 ]
-"10602
-[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
-"10606
-[v _TMR0IP TMR0IP `VEb  1 e 0 @32650 ]
 "10618
 [v _TMR1ON TMR1ON `VEb  1 e 0 @32360 ]
 "10648
@@ -490,22 +567,85 @@
 "42
 [v _theresMovement theresMovement `ui  1 e 2 0 ]
 "43
-[v _contControl contControl `ui  1 e 2 0 ]
-"49
+[v _controlOn controlOn `ui  1 e 2 0 ]
+"48
 [v _LCD_Buffer LCD_Buffer `[16]ui  1 e 32 0 ]
 "71
 [v _Distancia Distancia `ui  1 e 2 0 ]
 "72
 [v _LDR_value LDR_value `f  1 e 3 0 ]
+"74
+[v _baseT1 baseT1 `ui  1 e 2 0 ]
 "75
+[v _baseT2 baseT2 `ui  1 e 2 0 ]
+"76
+[v _buttonClicked buttonClicked `ui  1 e 2 0 ]
+"77
+[v _cycles cycles `[2]ui  1 e 4 0 ]
+"81
+[v _numBase numBase `ui  1 e 2 0 ]
+"84
 [v _main main `(v  1 e 0 0 ]
 {
-"90
+"101
 } 0
-"92
+"103
 [v _mainLoop mainLoop `(v  1 e 0 0 ]
 {
-"104
+"127
+} 0
+"189
+[v _FSM FSM `(v  1 e 0 0 ]
+{
+"202
+} 0
+"184
+[v _led_on led_on `(v  1 e 0 0 ]
+{
+"186
+} 0
+"181
+[v _led_off led_off `(v  1 e 0 0 ]
+{
+"183
+} 0
+"173
+[v _check_movement check_movement `(v  1 e 0 0 ]
+{
+"179
+} 0
+"166
+[v _check_light check_light `(v  1 e 0 0 ]
+{
+"172
+} 0
+"129
+[v _Time_Bases Time_Bases `(v  1 e 0 0 ]
+{
+"149
+} 0
+"289
+[v _Obtener_Distancia Obtener_Distancia `(ui  1 e 2 0 ]
+{
+"290
+[v Obtener_Distancia@Duracion Duracion `ui  1 a 2 14 ]
+"291
+[v Obtener_Distancia@Distancia Distancia `ui  1 a 2 12 ]
+"292
+[v Obtener_Distancia@Timer_1 Timer_1 `ui  1 a 2 10 ]
+"319
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 6 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 5 ]
+"10
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
 } 0
 "493 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
@@ -513,11 +653,11 @@
 "1208
 [v sprintf@vd vd `ui  1 a 2 101 ]
 "1236
-[v sprintf@vd_568 vd `ui  1 a 2 103 ]
-[s S555 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[v sprintf@vd_725 vd `ui  1 a 2 103 ]
+[s S712 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
 "525
-[u S558 . 5 `ul 1 _val 4 0 `S555 1 _str 5 0 ]
-[v sprintf@_val _val `S558  1 a 5 110 ]
+[u S715 . 5 `ul 1 _val 4 0 `S712 1 _str 5 0 ]
+[v sprintf@_val _val `S715  1 a 5 110 ]
 "516
 [v sprintf@fval fval `d  1 a 3 121 ]
 [v sprintf@integ integ `d  1 a 3 107 ]
@@ -698,12 +838,12 @@
 [v ___awdiv@divisor divisor `i  1 p 2 9 ]
 "42
 } 0
-"259 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"329 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v _Read_LDR Read_LDR `(f  1 e 3 0 ]
 {
-"260
+"330
 [v Read_LDR@analog_reading analog_reading `f  1 a 3 63 ]
-"266
+"336
 } 0
 "33 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\awtoft.c
 [v ___awtoft __awtoft `(f  1 e 3 0 ]
@@ -727,29 +867,6 @@
 [v ___ftmul@f1 f1 `f  1 p 3 22 ]
 [v ___ftmul@f2 f2 `f  1 p 3 25 ]
 "84
-} 0
-"219 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
-[v _Obtener_Distancia Obtener_Distancia `(ui  1 e 2 0 ]
-{
-"220
-[v Obtener_Distancia@Duracion Duracion `ui  1 a 2 14 ]
-"221
-[v Obtener_Distancia@Distancia Distancia `ui  1 a 2 12 ]
-"222
-[v Obtener_Distancia@Timer_1 Timer_1 `ui  1 a 2 10 ]
-"249
-} 0
-"10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c
-[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
-{
-"11
-[v ___lwdiv@quotient quotient `ui  1 a 2 6 ]
-"12
-[v ___lwdiv@counter counter `uc  1 a 1 5 ]
-"10
-[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
-[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
-"31
 } 0
 "135 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h
 [v _lcd_putc lcd_putc `(v  1 e 0 0 ]
@@ -782,19 +899,19 @@
 [v lcd_gotoxy@b b `uc  1 p 1 4 ]
 "90
 } 0
-"166 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"236 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v _inicioInterrupcoes inicioInterrupcoes `(v  1 e 0 0 ]
 {
-"176
+"246
 } 0
-"152
+"222
 [v _USART_Init USART_Init `(v  1 e 0 0 ]
 {
-"153
+"223
 [v USART_Init@baud_rate baud_rate `l  1 a 4 70 ]
-"154
+"224
 [v USART_Init@temp temp `f  1 a 3 74 ]
-"163
+"233
 } 0
 "45 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\fttol.c
 [v ___fttol __fttol `(l  1 e 4 0 ]
@@ -852,20 +969,25 @@
 [v ___ftpack@sign sign `uc  1 p 1 4 ]
 "86
 } 0
-"251 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"321 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v _Init_AD Init_AD `(v  1 e 0 0 ]
 {
-"257
+"327
 } 0
-"208
+"152
+[v _Timer0_Init Timer0_Init `(v  1 e 0 0 ]
+{
+"163
+} 0
+"278
 [v _Timer1_Init Timer1_Init `(v  1 e 0 0 ]
 {
-"214
+"284
 } 0
-"197
+"267
 [v _Configuracion_Registros Configuracion_Registros `(v  1 e 0 0 ]
 {
-"203
+"273
 } 0
 "95 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\lcd.h
 [v _lcd_init lcd_init `(v  1 e 0 0 ]
@@ -884,23 +1006,53 @@
 [v Lcd_Port@a a `uc  1 p 1 0 ]
 "48
 } 0
-"179 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"249 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v _interrupcaoLOW interrupcaoLOW `IIL(v  1 e 0 0 ]
 {
-"181
+"251
 } 0
-"92
+"103
 [v i1_mainLoop mainLoop `(v  1 e 0 0 ]
 {
-"104
+"127
+} 0
+"189
+[v i1_FSM FSM `(v  1 e 0 0 ]
+{
+"202
+} 0
+"184
+[v i1_led_on led_on `(v  1 e 0 0 ]
+{
+"186
+} 0
+"181
+[v i1_led_off led_off `(v  1 e 0 0 ]
+{
+"183
+} 0
+"173
+[v i1_check_movement check_movement `(v  1 e 0 0 ]
+{
+"179
+} 0
+"166
+[v i1_check_light check_light `(v  1 e 0 0 ]
+{
+"172
+} 0
+"129
+[v i1_Time_Bases Time_Bases `(v  1 e 0 0 ]
+{
+"149
 } 0
 "493 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\doprnt.c
 [v i1_sprintf sprintf `(i  1 e 2 0 ]
 {
-[s S555 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
-[u S558 . 5 `ul 1 _val 4 0 `S555 1 _str 5 0 ]
-[v i1sprintf@_val sprintf `S558  1 a 5 46 ]
-[v i1_sprintf$566 sprintf `ul  1 a 4 33 ]
+[s S712 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[u S715 . 5 `ul 1 _val 4 0 `S712 1 _str 5 0 ]
+[v i1sprintf@_val sprintf `S715  1 a 5 46 ]
+[v i1_sprintf$723 sprintf `ul  1 a 4 33 ]
 [v i1sprintf@fval sprintf `d  1 a 3 57 ]
 [v i1sprintf@integ sprintf `d  1 a 3 43 ]
 [v i1sprintf@prec sprintf `i  1 a 2 60 ]
@@ -908,7 +1060,7 @@
 [v i1sprintf@exp sprintf `i  1 a 2 53 ]
 [v i1sprintf@flag sprintf `us  1 a 2 51 ]
 [v i1sprintf@ap sprintf `[1]*.39v  1 a 2 41 ]
-[v i1sprintf@vd_568 sprintf `ui  1 a 2 39 ]
+[v i1sprintf@vd_725 sprintf `ui  1 a 2 39 ]
 [v i1sprintf@vd sprintf `ui  1 a 2 37 ]
 [v i1sprintf@c sprintf `c  1 a 1 62 ]
 [v i1sprintf@sp sprintf `*.39uc  1 p 2 17 ]
@@ -950,7 +1102,7 @@
 "13 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\isdigit.c
 [v i1_isdigit isdigit `(b  1 e 0 0 ]
 {
-[v i1_isdigit$841 isdigit `uc  1 a 1 18 ]
+[v i1_isdigit$998 isdigit `uc  1 a 1 18 ]
 [v i1isdigit@c isdigit `uc  1 p 1 16 ]
 "15
 } 0
@@ -1073,11 +1225,11 @@
 [v i1fround@prec fround `uc  1 p 1 70 ]
 "418
 } 0
-"259 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"329 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v i1_Read_LDR Read_LDR `(f  1 e 3 0 ]
 {
 [v i1Read_LDR@analog_reading Read_LDR `f  1 a 3 21 ]
-"266
+"336
 } 0
 "52 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\ftmul.c
 [v i1___ftmul __ftmul `(f  1 e 3 0 ]
@@ -1116,13 +1268,13 @@
 [v i1___awtoft@c __awtoft `i  1 p 2 24 ]
 "42
 } 0
-"219 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"289 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v i1_Obtener_Distancia Obtener_Distancia `(ui  1 e 2 0 ]
 {
 [v i1Obtener_Distancia@Duracion Obtener_Distancia `ui  1 a 2 30 ]
 [v i1Obtener_Distancia@Distancia Obtener_Distancia `ui  1 a 2 28 ]
 [v i1Obtener_Distancia@Timer_1 Obtener_Distancia `ui  1 a 2 26 ]
-"249
+"319
 } 0
 "10 C:\Program Files (x86)\Microchip\xc8\v1.20\sources\common\lwdiv.c
 [v i1___lwdiv __lwdiv `(ui  1 e 2 0 ]
@@ -1170,26 +1322,26 @@
 [v i1Lcd_Port@a Lcd_Port `uc  1 p 1 16 ]
 "48
 } 0
-"184 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
+"254 D:\Users\maria\Documents\SENAI\7º semestre\Micro II\Projeto\smart-lamp\smart_lamp.X\main.c
 [v _interrupcaoHIGH interrupcaoHIGH `IIH(v  1 e 0 0 ]
 {
-"185
+"255
 [v interrupcaoHIGH@esp_server_data esp_server_data `uc  1 a 1 15 ]
-"192
+"262
 } 0
-"139
+"206
 [v _control_LED control_LED `(v  1 e 0 0 ]
 {
 [v control_LED@data data `uc  1 p 1 0 ]
-"146
+"216
 } 0
-"118
-[v _led_on led_on `(v  1 e 0 0 ]
+"184
+[v i2_led_on led_on `(v  1 e 0 0 ]
 {
-"120
+"186
 } 0
-"115
-[v _led_off led_off `(v  1 e 0 0 ]
+"181
+[v i2_led_off led_off `(v  1 e 0 0 ]
 {
-"117
+"183
 } 0
