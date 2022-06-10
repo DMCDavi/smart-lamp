@@ -6560,24 +6560,37 @@ Lcd_Cmd(0x08);
 }
 
 # 41 "main.c"
+unsigned int isBright = 0;
+unsigned int theresMovement = 0;
+unsigned int contControl = 0;
+
+# 49
 uint16_t LCD_Buffer [16];
 
-# 45
+# 53
 void Configuracion_Registros (void);
 void Timer1_Init (void);
 uint16_t Obtener_Distancia (void);
 void Init_AD();
 float Read_LDR();
 void USART_Init();
-void USART_TransmitChar(char);
-char USART_ReceiveChar();
-void states_LED(char);
+void inicioInterrupcoes();
 
-# 57
-void main(void)
-{
+
+void control_LED(char);
+void check_light();
+void check_movement();
+void led_off();
+void led_on();
+void FSM();
+
+# 70
 uint16_t Distancia;
 float LDR_value;
+
+void main(void)
+{
+
 
 Configuracion_Registros();
 Timer1_Init();
@@ -6585,37 +6598,67 @@ lcd_init();
 Init_AD();
 
 USART_Init();
-char esp_server_data = 'a';
+inicioInterrupcoes();
 
-while(1)
-{
+while(1){
+LATB = 0x0;
 Distancia=Obtener_Distancia();
 LDR_value=Read_LDR();
-
-# 82
-esp_server_data=USART_ReceiveChar();
-
-states_LED(esp_server_data);
+lcd_gotoxy(1,1);
+sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
+lcd_putc(LCD_Buffer);
+sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);
+lcd_gotoxy(2,1);
+lcd_putc(LCD_Buffer);
+RCIE = 1;
 }
+
 return;
 }
 
-void states_LED(char data){
 
-if(data){
-lcd_gotoxy(2,1);
-sprintf(LCD_Buffer,"maria: %d", data);
-lcd_putc(LCD_Buffer);
+void check_light(){
+
 }
 
-if(data == 170){
-LATB = 0x01;
-}else if(data == 174){
+void check_movement(){
+
+}
+
+void led_off(){
 LATB = 0x00;
 }
+void led_on(){
+LATB = 0x01;
 }
 
-# 108
+
+void FSM(){
+
+if(theresMovement && isBright){
+led_off();
+}else if(!theresMovement && !isBright){
+led_off();
+}else if(!theresMovement && isBright){
+led_off();
+}else if(theresMovement && !isBright){
+led_on();
+}
+
+}
+
+
+
+void control_LED(char data){
+if(data == 170){
+led_on();
+}else if(data == 174){
+led_off();
+}
+
+}
+
+# 147
 void USART_Init(){
 long int baud_rate = 115200;
 float temp;
@@ -6630,25 +6673,48 @@ SPBRG = (int) temp;
 RCSTA = 0x90;
 }
 
-void USART_TransmitChar(char out)
+# 174
+void inicioInterrupcoes()
 {
-while (TXIF == 0);
-TXREG = out;
+IPEN = 1;
+ADIE = 1;
+RCIE = 1;
+TMR0IE = 1;
+GIEH = 1;
+GIEL = 1;
+ADIP = 0;
+TMR0IP = 0;
+RCIP = 1;
 }
 
-char USART_ReceiveChar()
+void interrupt low_priority interrupcaoLOW(void)
 {
-while(RCIF==0);
-if(RCSTAbits.OERR)
-{
-CREN = 0;
-asm(" nop");
-CREN=1;
-}
-return(RCREG);
+
+Distancia=Obtener_Distancia();
+LDR_value=Read_LDR();
+lcd_gotoxy(1,1);
+sprintf(LCD_Buffer,"LDR: %.2f", LDR_value);
+lcd_putc(LCD_Buffer);
+sprintf(LCD_Buffer,"Distancia: %03dcm", Distancia);
+lcd_gotoxy(2,1);
+lcd_putc(LCD_Buffer);
+
+# 208
 }
 
-# 142
+void interrupt high_priority interrupcaoHIGH(void)
+{
+char esp_server_data;
+if (RCIF == 1)
+{
+esp_server_data = RCREG;
+control_LED(esp_server_data);
+RCIF =0 ;
+RCIE = 0;
+}
+}
+
+# 224
 void Configuracion_Registros (void)
 {
 ADCON1bits.PCFG=0b1111;
@@ -6658,7 +6724,7 @@ TRISA|=(1<<2);
 TRISB = 0;
 }
 
-# 153
+# 235
 void Timer1_Init (void)
 {
 T1CONbits.RD16=1;
@@ -6668,7 +6734,7 @@ TMR1=0;
 TMR1ON=0;
 }
 
-# 164
+# 246
 uint16_t Obtener_Distancia (void)
 {
 uint16_t Duracion;
